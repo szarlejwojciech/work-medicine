@@ -1,0 +1,532 @@
+{
+  "id": 44,
+  "order": 42,
+  "title": "Czynniki szkodliwe i uciążliwe dla zdrowia występujące w miejscu pracy / odbywania praktycznej nauki zawodu, studiów lub studiów doktoranckich",
+  "type": 8,
+  "arrayValues": [
+    {
+      "id": 104,
+      "text": "Brak czynników szkodliwych"
+    },
+    {
+      "id": 1,
+      "text": "Hałas"
+    },
+    {
+      "id": 2,
+      "text": "Ultradźwięki małej częstotliwości"
+    },
+    {
+      "id": 3,
+      "text": "Drgania na kończyny górne"
+    },
+    {
+      "id": 4,
+      "text": "Drgania na całe ciało"
+    },
+    {
+      "id": 5,
+      "text": "Promieniowanie jonizujące"
+    },
+    {
+      "id": 6,
+      "text": "Promieniowanie i pola elektromagnetyczne"
+    },
+    {
+      "id": 7,
+      "text": "Promieniowanie nadfioletowe"
+    },
+    {
+      "id": 8,
+      "text": "Promieniowanie podczerwone"
+    },
+    {
+      "id": 9,
+      "text": "Promieniowanie laserowe"
+    },
+    {
+      "id": 110,
+      "text": "Promieniowanie widzialne (światło)"
+    },
+    {
+      "id": 10,
+      "text": "Obsługa monitorów ekranowych"
+    },
+    {
+      "id": 11,
+      "text": "Niedostateczne naświetlenie"
+    },
+    {
+      "id": 12,
+      "text": "Nadmierne naświetlenie"
+    },
+    {
+      "id": 13,
+      "text": "Mikroklimat gorący"
+    },
+    {
+      "id": 14,
+      "text": "Mikroklimat zimny "
+    },
+    {
+      "id": 15,
+      "text": "Zwiększone lub obniżone ciśnienie atmosferyczne"
+    },
+    {
+      "id": 16,
+      "text": "Pyły i włókna (PW): Pyły nieorganiczne zawierające krzemionkę"
+    },
+    {
+      "id": 111,
+      "text": "PW:Pyły węgla kamiennego, brunatnego"
+    },
+    {
+      "id": 112,
+      "text": "PW:Pyły grafitu"
+    },
+    {
+      "id": 113,
+      "text": "PW:Pyły nieorganiczne zawieające włókna azbestu"
+    },
+    {
+      "id": 114,
+      "text": "PW:Pył talku "
+    },
+    {
+      "id": 115,
+      "text": "PW:Pył zawierający metale twarde"
+    },
+    {
+      "id": 116,
+      "text": "PW:Pył zawierający tworzywa sztuczne w tym sztuczne włókna mineralne"
+    },
+    {
+      "id": 117,
+      "text": "PW:Pył organiczny pochodzenia roślinnego i zwierzęcego, z wyjątkiem pyłów drewna i mąki"
+    },
+    {
+      "id": 118,
+      "text": "PW:Pył drewna"
+    },
+    {
+      "id": 119,
+      "text": "PW:Pył mąki"
+    },
+    {
+      "id": 17,
+      "text": "Czynniki toksyczne (CT): Związki akrylowe - akrylonitryl"
+    },
+    {
+      "id": 18,
+      "text": "CT:Związki akrylowe - akrylany"
+    },
+    {
+      "id": 19,
+      "text": "CT:Aldehydy - akrylowy"
+    },
+    {
+      "id": 120,
+      "text": "CT:Aldehydy - formaldehyd"
+    },
+    {
+      "id": 21,
+      "text": "CT:Amoniak"
+    },
+    {
+      "id": 22,
+      "text": "CT:Arsen i jego związki"
+    },
+    {
+      "id": 23,
+      "text": "CT:Arsenowodór"
+    },
+    {
+      "id": 24,
+      "text": "CT:Tlenki azotu"
+    },
+    {
+      "id": 25,
+      "text": "CT:Bar i jego związki nierozpuszczalne w wodzie"
+    },
+    {
+      "id": 121,
+      "text": "CT:Bar i jego związki rozpuszczalne w wodzie"
+    },
+    {
+      "id": 26,
+      "text": "CT:Benzen"
+    },
+    {
+      "id": 27,
+      "text": "CT:Benzoapiren"
+    },
+    {
+      "id": 28,
+      "text": "CT:Beryl i jego związki"
+    },
+    {
+      "id": 29,
+      "text": "CT:Brom i jego związki"
+    },
+    {
+      "id": 30,
+      "text": "CT:Chlor, chlorowodór i tlenki chloru"
+    },
+    {
+      "id": 31,
+      "text": "CT:Chrom i chromiany"
+    },
+    {
+      "id": 34,
+      "text": "CT:Czteroetylek ołowiu"
+    },
+    {
+      "id": 35,
+      "text": "CT:Dwumetyloformamid"
+    },
+    {
+      "id": 36,
+      "text": "CT:Epichlorhydryna"
+    },
+    {
+      "id": 37,
+      "text": "CT:Fenol i polifenole"
+    },
+    {
+      "id": 38,
+      "text": "CT:Fluor i fluorki"
+    },
+    {
+      "id": 39,
+      "text": "CT:Fosfor biały"
+    },
+    {
+      "id": 40,
+      "text": "CT:Fosforu związki chlorowe "
+    },
+    {
+      "id": 41,
+      "text": "CT:Ftalowy bezwodnik"
+    },
+    {
+      "id": 42,
+      "text": "CT:Furfurol"
+    },
+    {
+      "id": 43,
+      "text": "CT:Glinu tlenek"
+    },
+    {
+      "id": 122,
+      "text": "CT:Glikole - etylenowy, dietylenowy, butano 1,4-diol, glicerol"
+    },
+    {
+      "id": 123,
+      "text": "CT:Glikole - nitrylowe pochodne glikoli lub gliceryny, nitrogliceryna, nirtoglikol"
+    },
+    {
+      "id": 44,
+      "text": "CT:Izocyjanianowe związki"
+    },
+    {
+      "id": 45,
+      "text": "CT:Ketony - aceton"
+    },
+    {
+      "id": 46,
+      "text": "CT:Ketony - metyloetyloketon, metyloizobutyloketon"
+    },
+    {
+      "id": 47,
+      "text": "CT:Ketony - diaceton, tlenek mezytylu"
+    },
+    {
+      "id": 124,
+      "text": "CT:Ketony - keton etylowo-butylowy"
+    },
+    {
+      "id": 125,
+      "text": "CT:Ketony - keton dipropylowy"
+    },
+    {
+      "id": 48,
+      "text": "CT:Kobalt"
+    },
+    {
+      "id": 50,
+      "text": "CT:Mangan i jego związki"
+    },
+    {
+      "id": 126,
+      "text": "CT:Nafta i jej produkty - benzyna ekstrakcyjna, nafta"
+    },
+    {
+      "id": 127,
+      "text": "CT:Nafta i jej produkty - mieszaniny zawierające wielopierścieniowe węglowodory aromatyczne np. Smoła, asfalty"
+    },
+    {
+      "id": 128,
+      "text": "CT:Naftalen i pochodne"
+    },
+    {
+      "id": 129,
+      "text": "CT:Nikiel i jego związki"
+    },
+    {
+      "id": 130,
+      "text": "CT:Ołów i jego związki"
+    },
+    {
+      "id": 57,
+      "text": "Pestycydy (P):Hamujące aktywność cholinesterazy"
+    },
+    {
+      "id": 59,
+      "text": "P:Węglowodory chlorowane "
+    },
+    {
+      "id": 60,
+      "text": "P:Związki kwasu dwuchlorofenoksyoctowego"
+    },
+    {
+      "id": 61,
+      "text": "P:Pestycydy dwutiokarbaminianowe"
+    },
+    {
+      "id": 62,
+      "text": "P:Związki dipirydylowe"
+    },
+    {
+      "id": 63,
+      "text": "P:Dinitroalkilofenole"
+    },
+    {
+      "id": 64,
+      "text": "P:Pyretroidy"
+    },
+    {
+      "id": 65,
+      "text": "P:Pirydyna"
+    },
+    {
+      "id": 66,
+      "text": "P:Rtęć - metaliczna i jej związki nieorganiczne"
+    },
+    {
+      "id": 67,
+      "text": "P:Rtęć - związki organiczne"
+    },
+    {
+      "id": 68,
+      "text": "P:Siarkowodór"
+    },
+    {
+      "id": 69,
+      "text": "P:Siarki tlenki"
+    },
+    {
+      "id": 70,
+      "text": "P:Terpentyna"
+    },
+    {
+      "id": 131,
+      "text": "P:Wanad i jego zwiazki"
+    },
+    {
+      "id": 132,
+      "text": "P:Węgla disiarczek"
+    },
+    {
+      "id": 74,
+      "text": "P:Węgla tlenek (II)"
+    },
+    {
+      "id": 133,
+      "text": "P:Węgla tlenek (IV)"
+    },
+    {
+      "id": 75,
+      "text": "P:Węglowodorów alifatycznych związki - związki aminowe"
+    },
+    {
+      "id": 76,
+      "text": "P:Węglowodorów alifatycznych związki - związki nitrowe"
+    },
+    {
+      "id": 134,
+      "text": "P:Węglowodorów alifatycznych związki - chlorowcopodobne węglowodorów alifatycznych lub alicyklicznych"
+    },
+    {
+      "id": 135,
+      "text": "P:Chlorek metylu"
+    },
+    {
+      "id": 136,
+      "text": "P:Bromek metylu"
+    },
+    {
+      "id": 137,
+      "text": "P:Chlorek metylenu"
+    },
+    {
+      "id": 138,
+      "text": "P:Chloroform"
+    },
+    {
+      "id": 139,
+      "text": "P:Dichloroetan"
+    },
+    {
+      "id": 140,
+      "text": "P:Czterochlorek węgla"
+    },
+    {
+      "id": 141,
+      "text": "P:Dibromek etylenu, trichloroetylen, tetrachloroetylen"
+    },
+    {
+      "id": 77,
+      "text": "P:Węglowodorów aromatycznych związki nitrowe"
+    },
+    {
+      "id": 78,
+      "text": "P:Węglowodorów aromatycznych związki aminowe"
+    },
+    {
+      "id": 142,
+      "text": "P:Węglowodorów aromatycznych związki chlorowcopodobne - pochodne benzenu"
+    },
+    {
+      "id": 143,
+      "text": "P:Węglowodorów aromatycznych związki chlorowcopodobne - pochodne bifenyli"
+    },
+    {
+      "id": 144,
+      "text": "P:Węglowodorów aromatycznych związki chlorowcopodobne - pochodne naftalenu"
+    },
+    {
+      "id": 79,
+      "text": "P:Winylobenzen"
+    },
+    {
+      "id": 80,
+      "text": "P:Winylu chlorek"
+    },
+    {
+      "id": 81,
+      "text": "P:Żywice epoksydowe"
+    },
+    {
+      "id": 82,
+      "text": "P:Mieszaniny rozpuszczalników organicznych"
+    },
+    {
+      "id": 83,
+      "text": "P:Cytostatyki"
+    },
+    {
+      "id": 84,
+      "text": "Czynniki biologiczne (CB): Wirus zapalenia wątroby - typ B"
+    },
+    {
+      "id": 85,
+      "text": "CB:Wirus zapalenia wątroby - typ C"
+    },
+    {
+      "id": 86,
+      "text": "CB:Ludzki wirus niedoboru odporności nabytej (HIV)"
+    },
+    {
+      "id": 87,
+      "text": "CB:Pąłeczki Brucella abortus bovis"
+    },
+    {
+      "id": 88,
+      "text": "CB:Promieniowanie termofilne, grzyby pleśniowe i inne"
+    },
+    {
+      "id": 89,
+      "text": "CB:Prątek gróźlicy, wirus kleszczowego zapalenia mózgu, Borrelia"
+    },
+    {
+      "id": 145,
+      "text": "CB:Wirus kleszczowego zapalenia mózgu"
+    },
+    {
+      "id": 146,
+      "text": "CB:Borrelia burgdorferi"
+    },
+    {
+      "id": 90,
+      "text": "Niekorzystne czynniki psychospołeczne (CPS) - Stały duży dopływ informacji i gotowość do odpowiedzi"
+    },
+    {
+      "id": 91,
+      "text": "CPS:Stanowiska decyzyjne i odpowiedzialność"
+    },
+    {
+      "id": 92,
+      "text": "CPS:Zagrożenia wynikające z narażenia życia"
+    },
+    {
+      "id": 93,
+      "text": "CPS:Zagrożenia wynikające z monotonii pracy"
+    },
+    {
+      "id": 147,
+      "text": "CPS:Zagrożenia wynikające z organizacji pracy (praca pod presją czasu, nierównomierne obłożenie pracą, inne)"
+    },
+    {
+      "id": 148,
+      "text": "Praca związana z obsługą narzędzi, maszyn, urządzeń i poruszających się poza drogami publicznymi pojazdów (wózki widłowe, koparki, itd.)"
+    },
+    {
+      "id": 94,
+      "text": "Prace wymagające pełnej sprawnosci psychoruchowej"
+    },
+    {
+      "id": 149,
+      "text": "Praca na wysokości"
+    },
+    {
+      "id": 97,
+      "text": "Praca zmianowa"
+    },
+    {
+      "id": 150,
+      "text": "Praca fizyczna z wydatkiem energetycznym na pracę powyżej (…)"
+    },
+    {
+      "id": 99,
+      "text": "Praca w wymuszonej pozycji"
+    },
+    {
+      "id": 100,
+      "text": "Praca wymagająca ruchów monotypowych kończyn"
+    },
+    {
+      "id": 101,
+      "text": "Praca wymagająca stałego i długotrwałego wysiłku głosowego"
+    },
+    {
+      "id": 102,
+      "text": "Praca na stanowiskach związanych z kierowanie pojazdami, szkoleniem i egzaminowaniem kierowców"
+    },
+    {
+      "id": 107,
+      "text": "Praca związana z posługiwaniem się bronią palną"
+    },
+    {
+      "id": 108,
+      "text": "Inne prace związane z narażaniem na czynnik niebezpieczny"
+    },
+    {
+      "id": 109,
+      "text": "Praca w narażeniu na inny czynnik szkodliwy lub uciążliwy"
+    }
+  ],
+  "multiple": true,
+  "visibleReception": true,
+  "isCalculated": true,
+  "calculatedText": "104"
+}

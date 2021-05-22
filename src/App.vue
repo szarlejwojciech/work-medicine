@@ -1,29 +1,24 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
-  </div>
+  <v-app>
+    <v-main class="ma-2 pb-12" style="padding: 48px 0px 0px 250px">
+      <MedicineWork />
+    </v-main>
+  </v-app>
 </template>
 
 <script lang="ts">
-import { Component, Vue } from 'vue-property-decorator';
-import HelloWorld from './components/HelloWorld.vue';
+import Vue from "vue";
+import MedicineWork from "./components/MedicineWork.vue";
 
-@Component({
+export default Vue.extend({
+  name: "App",
   components: {
-    HelloWorld,
+    MedicineWork,
   },
-})
-export default class App extends Vue {}
+});
 </script>
-
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+<style scoped>
+body {
+  background-image: url(./assets/mock.png) !important;
 }
 </style>
