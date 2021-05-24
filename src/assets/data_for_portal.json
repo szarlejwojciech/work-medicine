@@ -1209,7 +1209,7 @@
       "options": []
     }
   ],
-  "multiple": `true`,
+  "multiple": true,
   "visibleReception": true,
   "isCalculated": true,
   "calculatedText": "104"
