@@ -1,0 +1,75 @@
+{
+  "id": 44,
+  "order": 42,
+  "title": "Prawo jazdy",
+  "type": 8,
+  "arrayValues": [
+    {
+      "id": 0,
+      "text": "Kategoria B",
+      "options": [
+        "Glukoza"
+      ]
+    },
+    {
+      "id": 1,
+      "text": "Kategoria C",
+      "options": [
+        "Okulista",
+        "Neurolog",
+        "Psychotesty",
+        "Glukoza"
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Kategoria C+E",
+      "options": [
+        "Okulista",
+        "Neurolog",
+        "Psychotesty",
+        "Glukoza"
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Kategoria D",
+      "options": [
+        "Okulista",
+        "Neurolog",
+        "Psychotesty",
+        "Glukoza"
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Kategoria D+E",
+      "options": [
+        "Okulista",
+        "Neurolog",
+        "Psychotesty",
+        "Glukoza"
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Kategoria T",
+      "options": [
+        "Okulista"
+      ]
+    },
+    {
+      "id": 1,
+      "text": "Pojazdy uprzywilejowane",
+      "options": [
+        "Okulista",
+        "Psychotesty",
+        "Glukoza"
+      ]
+    }
+  ],
+  "multiple": true,
+  "visibleReception": true,
+  "isCalculated": true,
+  "calculatedText": "104"
+}

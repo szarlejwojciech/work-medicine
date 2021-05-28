@@ -1,24 +1,26 @@
 <template>
-  <v-app>
+  <v-app class="app-root">
     <v-main class="ma-2 pb-12" style="padding: 48px 0px 0px 250px">
-      <MedicineWork />
+      <MedicineWorkTemplate />
     </v-main>
   </v-app>
 </template>
 
 <script lang="ts">
 import Vue from "vue";
-import MedicineWork from "./components/MedicineWork.vue";
+import MedicineWorkTemplate from "./components/MedicineWorkTemplate.vue";
 
 export default Vue.extend({
   name: "App",
   components: {
-    MedicineWork,
+    MedicineWorkTemplate,
   },
 });
 </script>
-<style scoped>
-body {
-  background-image: url(./assets/mock.png) !important;
+<style lang="scss" scoped>
+.app-root {
+  background-image: linear-gradient(white, white), url(/img/mock.0e640248.png) !important;
+  background-repeat: no-repeat, no-repeat !important;
+  background-position: 255px 50px, 0px -33px !important;
 }
 </style>
