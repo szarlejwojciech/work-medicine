@@ -89,7 +89,7 @@ interface orgDataItemInterface {
 }
 
 export default defineComponent({
-  name: "MedicineWorkBasic",
+  name: "MedicineWorkPolice",
   components: { TestsList },
   setup() {
     const selectedHarmfulFactors: orgDataItemInterface[] = reactive([]);

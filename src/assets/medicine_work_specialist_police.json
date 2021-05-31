@@ -1,0 +1,38 @@
+{
+  "id": 44,
+  "order": 42,
+  "title": "Czynniki szkodliwe i uciążliwe dla zdrowia występujące w miejscu pracy / odbywania praktycznej nauki zawodu, studiów lub studiów doktoranckich",
+  "type": 8,
+  "arrayValues": [
+    {
+      "id": 0,
+      "text": "Kierowcy pojazdów uprzywilejowanych policji",
+      "options": [
+        "Neurolog",
+        "Okulista"
+      ]
+    },
+    {
+      "id": 1,
+      "text": "Stermotorniczy",
+      "options": [
+        "Laryngolog",
+        "Neurolog",
+        "Okulista",
+        "Audiometria",
+        "Badanie poziomu cukru we krwi"
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Sanitarno-epidemiologiczne",
+      "options": [
+        "Badanie kłau na pasożyty"
+      ]
+    }
+  ],
+  "multiple": true,
+  "visibleReception": true,
+  "isCalculated": true,
+  "calculatedText": "104"
+}

@@ -14,6 +14,7 @@
           hide-default-footer
           single-select
         >
+          <!-- eslint-disable-next-line -->
           <template v-slot:item.text="{ item }">
             {{ item.text }}
             <v-icon
@@ -49,7 +50,7 @@ interface displayDataItemInterface {
 }
 
 export default defineComponent({
-  name: "MedicineWorkTemplate",
+  name: "MedicineWorkDrivingLicence",
   components: { TestsList },
   setup() {
     const singleSelect = ref(false);
@@ -66,7 +67,7 @@ export default defineComponent({
         "Kategoria C+E": ["mdi-truck-trailer", "mdi-truck"],
         "Kategoria D": ["mdi-bus-side"],
         "Kategoria D+E": ["mdi-truck-trailer", "mdi-bus-side"],
-        "Kategoria T": ["mdi-car"],
+        "Kategoria T": ["mdi-tram"],
         "Pojazdy uprzywilejowane": ["mdi-ambulance"],
       };
       return icons[text];
