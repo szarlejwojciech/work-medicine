@@ -19,7 +19,7 @@ export default Vue.extend({
 </script>
 <style lang="scss" scoped>
 .app-root {
-  background-image: linear-gradient(white, white), url(/img/mock.0e640248.png) !important;
+  background-image: linear-gradient(white, white), url(./assets/mock.png) !important;
   background-repeat: no-repeat, no-repeat !important;
   background-position: 255px 50px, 0px -33px !important;
 }

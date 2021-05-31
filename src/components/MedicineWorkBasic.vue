@@ -39,6 +39,7 @@
           disable-pagination
           disable-sort
           hide-default-footer
+          checkbox-color="primary"
         >
         </v-data-table>
         <v-data-table
@@ -52,13 +53,35 @@
           item-key="id"
           show-select
           group-by="category"
-          :show-group-by="false"
           disable-pagination
           disable-sort
-          group-desc
           hide-default-footer
           :hide-default-header="!!selectedHarmfulFactors.length"
         >
+          <!-- eslint-disable-next-line -->
+          <template v-slot:group.header="{ items, isOpen, toggle }">
+            <th colspan="2">
+              <v-icon @click="toggle"
+                >{{ isOpen ? "mdi-minus" : "mdi-plus" }}
+              </v-icon>
+              {{ items[0].category }}
+            </th>
+          </template>
+          <template v-slot:item="{ item, isSelected, select }">
+            <tr>
+              <td class="text-start">
+                <v-simple-checkbox
+                  :ripple="false"
+                  color="primary"
+                  :value="isSelected"
+                  @input="select($event)"
+                ></v-simple-checkbox>
+              </td>
+              <td class="text-start">
+                {{ item.text }}
+              </td>
+            </tr>
+          </template>
         </v-data-table>
       </v-col>
       <!-- <div v-for="item in selected" :key="item.id">{{ item.text }}</div> -->
