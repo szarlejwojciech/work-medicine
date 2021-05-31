@@ -88,29 +88,10 @@ interface orgDataItemInterface {
   options?: string[];
 }
 
-// interface orgDataInterface {
-//   id: number;
-//   order: number;
-//   title: string;
-//   type: number;
-//   arrayValues: orgDataItemInterface[];
-//   multiple: boolean;
-//   visibleReception: boolean;
-//   isCalculated: boolean;
-//   calculatedText: string;
-// }
-
 export default defineComponent({
   name: "MedicineWorkTemplate",
   components: { TestsList },
   setup() {
-    const tab = ref(null);
-    const tabsLabels = [
-      "Medycyna pracy",
-      "Prawo jazdy",
-      "Medycyna pracy policja",
-      "Pozwolenie na broń",
-    ];
     const singleSelect = ref(false);
     const selectedHarmfulFactors: orgDataItemInterface[] = reactive([]);
     const headers = [{ text: "Czynnik szkodliwy", value: "text" }];
@@ -152,8 +133,6 @@ export default defineComponent({
       search,
       selectTypeWorkMedicine,
       workMedicineTypes,
-      tab,
-      tabsLabels,
     };
   },
   watch: {

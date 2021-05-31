@@ -17,6 +17,11 @@
             <MedicineWorkBasic />
           </v-card>
         </v-tab-item>
+        <v-tab-item>
+          <v-card>
+            <MedicineWorkDrivingLicence />
+          </v-card>
+        </v-tab-item>
         <v-tab-item v-for="i in 3" :key="i"> w budowie </v-tab-item>
       </v-tabs-items>
     </v-card>
@@ -26,10 +31,11 @@
 <script lang="ts">
 import { ref, defineComponent } from "@vue/composition-api";
 import MedicineWorkBasic from "./MedicineWorkBasic.vue";
+import MedicineWorkDrivingLicence from "./MedicineWorkDrivingLicence.vue";
 
 export default defineComponent({
   name: "MedicineWorkTemplate",
-  components: { MedicineWorkBasic },
+  components: { MedicineWorkBasic, MedicineWorkDrivingLicence },
   setup() {
     const tab = ref(null);
     const tabsLabels = [
