@@ -1050,6 +1050,122 @@
         "Badanie poziomu cukru we krwi"
       ],
       "disabled": true
+    },
+    {
+      "id": 161,
+      "type": "specyfic",
+      "category": "Policjant (skierowanie wg załącznika nr 1)",
+      "text": "Poniżej 40 roku życia",
+      "options": [
+        "Laryngolog",
+        "Audiometria",
+        "Neurolog",
+        "Okulista",
+        "EKG",
+        "RTG klatki piersiowej",
+        "Kardiolog",
+        "Morfologia z rozmazem",
+        "Spirometria",
+        "Bilirubina",
+        "Alat",
+        "ASPAT",
+        "HCV",
+        "Anty-HIV",
+        "Stężenie kreatyniny",
+        "Badanie ogólne moczu",
+        "Badanie poziomu cukru we krwi"
+      ],
+      "disabled": false
+    },
+    {
+      "id": 162,
+      "type": "specyfic",
+      "category": "Policjant (skierowanie wg załącznika nr 1)",
+      "text": "Powyżej 40 roku życia",
+      "options": [
+        "Laryngolog",
+        "Audiometria",
+        "Neurolog",
+        "Okulista",
+        "Ortopeda",
+        "EKG",
+        "RTG klatki piersiowej",
+        "Kardiolog",
+        "Morfologia z rozmazem",
+        "Spirometria",
+        "Bilirubina",
+        "Alat",
+        "ASPAT",
+        "HCV",
+        "Anty-HIV",
+        "Stężenie kreatyniny",
+        "Badanie ogólne moczu",
+        "Badanie poziomu cukru we krwi"
+      ],
+      "disabled": false
+    },
+    {
+      "id": 163,
+      "type": "specyfic",
+      "category": "Policjant służby wspomagającej działalność Policji (skierowanie wg załącznika nr 3)",
+      "text": "Poniżej 40 roku życia",
+      "options": [
+        "Okulista",
+        "EKG",
+        "RTG klatki piersiowej",
+        "Morfologia z rozmazem",
+        "Bilirubina",
+        "Stężenie kreatyniny",
+        "Badanie ogólne moczu",
+        "Badanie poziomu cukru we krwi"
+      ],
+      "disabled": false
+    },
+    {
+      "id": 164,
+      "type": "specyfic",
+      "category": "Policjant służby wspomagającej działalność Policji (skierowanie wg załącznika nr 3)",
+      "text": "Powyżej 40 roku życia",
+      "options": [
+        "Okulista",
+        "EKG",
+        "RTG klatki piersiowej",
+        "Morfologia z rozmazem",
+        "Spirometria",
+        "Bilirubina",
+        "Stężenie kreatyniny",
+        "Badanie ogólne moczu",
+        "Badanie poziomu cukru we krwi"
+      ],
+      "disabled": false
+    },
+    {
+      "id": 165,
+      "type": "specyfic",
+      "category": "Pracownik cywilny",
+      "text": "Poniżej 50 roku życia",
+      "options": [
+        "RTG klatki piersiowej",
+        "Morfologia z rozmazem",
+        "Badanie ogólne moczu",
+        "Badanie poziomu cukru we krwi"
+      ],
+      "disabled": false
+    },
+    {
+      "id": 166,
+      "type": "specyfic",
+      "category": "Pracownik cywilny",
+      "text": "Powyżej 50 roku życia",
+      "options": [
+        "EKG",
+        "RTG klatki piersiowej",
+        "Morfologia z rozmazem",
+        "Cholesterol",
+        "Badanie ogólne moczu",
+        "Badanie poziomu cukru we krwi"
+      ],
+      "disabled": false
     }
   ],
   "multiple": true,
