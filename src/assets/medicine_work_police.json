@@ -1,0 +1,1954 @@
+{
+  "id": 44,
+  "order": 42,
+  "title": "Czynniki szkodliwe i uciążliwe dla zdrowia występujące w miejscu pracy / odbywania praktycznej nauki zawodu, studiów lub studiów doktoranckich",
+  "type": 8,
+  "arrayValues": [
+    {
+      "id": 104,
+      "text": "Brak czynników szkodliwych",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      }
+    },
+    {
+      "id": 1,
+      "text": "Hałas",
+      "examinations": {
+        "preliminary": [
+          "Laryngolog",
+          "Audiometria"
+        ],
+        "periodic": [],
+        "specjalist": []
+      }
+    },
+    {
+      "id": 2,
+      "text": "Ultradźwięki małej częstotliwości",
+      "examinations": {
+        "preliminary": [
+          "Laryngolog",
+          "Audiometria"
+        ],
+        "periodic": [],
+        "specjalist": []
+      }
+    },
+    {
+      "id": 3,
+      "text": "Drgania na kończyny górne",
+      "examinations": {
+        "preliminary": [
+          "RTG rąk i stawów łokciowych",
+          "Próba oziębiania z termometrią skórną i próbą uciskową",
+          "Ocena czucia wibracji"
+        ],
+        "periodic": [],
+        "specjalist": []
+      }
+    },
+    {
+      "id": 4,
+      "text": "Drgania na całe ciało",
+      "examinations": {
+        "preliminary": [
+          "Neurolog"
+        ],
+        "periodic": [],
+        "specjalist": []
+      }
+    },
+    {
+      "id": 5,
+      "text": "Promieniowanie jonizujące",
+      "examinations": {
+        "preliminary": [
+          "Okulista",
+          "Morfologia z rozmazem",
+          "Płytki krwi"
+        ],
+        "periodic": [],
+        "specjalist": []
+      }
+    },
+    {
+      "id": 6,
+      "text": "Promieniowanie i pola elektromagnetyczne",
+      "examinations": {
+        "preliminary": [
+          "Neurolog",
+          "Okulista",
+          "EKG"
+        ],
+        "periodic": [],
+        "specjalist": []
+      }
+    },
+    {
+      "id": 7,
+      "text": "Promieniowanie nadfioletowe",
+      "examinations": {
+        "preliminary": [
+          "Okulista",
+          "Dermatolog"
+        ],
+        "periodic": [],
+        "specjalist": []
+      }
+    },
+    {
+      "id": 8,
+      "text": "Promieniowanie podczerwone",
+      "examinations": {
+        "preliminary": [
+          "Okulista"
+        ],
+        "periodic": [],
+        "specjalist": []
+      }
+    },
+    {
+      "id": 9,
+      "text": "Promieniowanie laserowe",
+      "examinations": {
+        "preliminary": [
+          "Okulista"
+        ],
+        "periodic": [],
+        "specjalist": []
+      }
+    },
+    {
+      "id": 110,
+      "text": "Promieniowanie widzialne (światło)",
+      "disabled": true,
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      }
+    },
+    {
+      "id": 10,
+      "text": "Obsługa monitorów ekranowych",
+      "examinations": {
+        "preliminary": [
+          "Okulista"
+        ],
+        "periodic": [],
+        "specjalist": []
+      }
+    },
+    {
+      "id": 11,
+      "text": "Niedostateczne naświetlenie",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      }
+    },
+    {
+      "id": 12,
+      "text": "Nadmierne naświetlenie",
+      "examinations": {
+        "preliminary": [
+          "Okulista"
+        ],
+        "periodic": [],
+        "specjalist": []
+      }
+    },
+    {
+      "id": 13,
+      "text": "Mikroklimat gorący",
+      "examinations": {
+        "preliminary": [
+          "EKG"
+        ],
+        "periodic": [],
+        "specjalist": []
+      }
+    },
+    {
+      "id": 14,
+      "text": "Mikroklimat zimny ",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      }
+    },
+    {
+      "id": 15,
+      "text": "Zwiększone lub obniżone ciśnienie atmosferyczne",
+      "examinations": {
+        "preliminary": [
+          "Laryngolog",
+          "Neurolog",
+          "EKG"
+        ],
+        "periodic": [],
+        "specjalist": []
+      }
+    },
+    {
+      "id": 16,
+      "text": "Pyły i włókna (PW): Pyły nieorganiczne zawierające krzemionkę",
+      "disabled": true,
+      "examinations": {
+        "preliminary": [
+          "RTG klatki piersiowej",
+          "Spirometria"
+        ],
+        "periodic": [],
+        "specjalist": []
+      }
+    },
+    {
+      "id": 151,
+      "text": "PW:Pyły i włókna - dowolne",
+      "disabled": true,
+      "examinations": {
+        "preliminary": [
+          "RTG klatki piersiowej",
+          "Spirometria"
+        ],
+        "periodic": [],
+        "specjalist": []
+      }
+    },
+    {
+      "id": 111,
+      "text": "PW:Pyły węgla kamiennego, brunatnego",
+      "disabled": true,
+      "examinations": {
+        "preliminary": [
+          "RTG klatki piersiowej",
+          "Spirometria"
+        ],
+        "periodic": [],
+        "specjalist": []
+      }
+    },
+    {
+      "id": 112,
+      "text": "PW:Pyły grafitu",
+      "disabled": true,
+      "examinations": {
+        "preliminary": [
+          "RTG klatki piersiowej",
+          "Spirometria"
+        ],
+        "periodic": [],
+        "specjalist": []
+      }
+    },
+    {
+      "id": 113,
+      "text": "PW:Pyły nieorganiczne zawieające włókna azbestu",
+      "disabled": true,
+      "examinations": {
+        "preliminary": [
+          "RTG klatki piersiowej",
+          "Spirometria"
+        ],
+        "periodic": [],
+        "specjalist": []
+      }
+    },
+    {
+      "id": 114,
+      "text": "PW:Pył talku ",
+      "disabled": true,
+      "examinations": {
+        "preliminary": [
+          "RTG klatki piersiowej",
+          "Spirometria"
+        ],
+        "periodic": [],
+        "specjalist": []
+      }
+    },
+    {
+      "id": 115,
+      "text": "PW:Pył zawierający metale twarde",
+      "disabled": true,
+      "examinations": {
+        "preliminary": [
+          "RTG klatki piersiowej",
+          "Spirometria"
+        ],
+        "periodic": [],
+        "specjalist": []
+      }
+    },
+    {
+      "id": 116,
+      "text": "PW:Pył zawierający tworzywa sztuczne w tym sztuczne włókna mineralne",
+      "disabled": true,
+      "examinations": {
+        "preliminary": [
+          "RTG klatki piersiowej",
+          "Spirometria"
+        ],
+        "periodic": [],
+        "specjalist": []
+      }
+    },
+    {
+      "id": 117,
+      "text": "PW:Pył organiczny pochodzenia roślinnego i zwierzęcego, z wyjątkiem pyłów drewna i mąki",
+      "disabled": true,
+      "examinations": {
+        "preliminary": [
+          "Spirometria"
+        ],
+        "periodic": [],
+        "specjalist": []
+      }
+    },
+    {
+      "id": 118,
+      "text": "PW:Pył drewna",
+      "disabled": true,
+      "examinations": {
+        "preliminary": [
+          "Spirometria"
+        ],
+        "periodic": [],
+        "specjalist": []
+      }
+    },
+    {
+      "id": 119,
+      "text": "PW:Pył mąki",
+      "disabled": true,
+      "examinations": {
+        "preliminary": [
+          "Spirometria"
+        ],
+        "periodic": [],
+        "specjalist": []
+      }
+    },
+    {
+      "id": 17,
+      "text": "Czynniki toksyczne (CT): Związki akrylowe - akrylonitryl",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      }
+    },
+    {
+      "id": 18,
+      "text": "CT:Związki akrylowe - akrylany",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": false
+    },
+    {
+      "id": 19,
+      "text": "CT:Aldehydy - akrylowy",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": false
+    },
+    {
+      "id": 120,
+      "text": "CT:Aldehydy - formaldehyd",
+      "examinations": {
+        "preliminary": [
+          "Spirometria"
+        ],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": true
+    },
+    {
+      "id": 20,
+      "text": "CT:Aldehydy - mrówkowy",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": false
+    },
+    {
+      "id": 21,
+      "text": "CT:Amoniak",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": false
+    },
+    {
+      "id": 22,
+      "text": "CT:Arsen i jego związki",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": false
+    },
+    {
+      "id": 23,
+      "text": "CT:Arsenowodór",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": false
+    },
+    {
+      "id": 24,
+      "text": "CT:Tlenki azotu",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": false
+    },
+    {
+      "id": 25,
+      "text": "CT:Bar i jego związki nierozpuszczalne w wodzie",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": true
+    },
+    {
+      "id": 121,
+      "text": "CT:Bar i jego związki rozpuszczalne w wodzie",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": true
+    },
+    {
+      "id": 153,
+      "text": "CT:Bar i jego związki",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": false
+    },
+    {
+      "id": 26,
+      "text": "CT:Benzen",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": false
+    },
+    {
+      "id": 27,
+      "text": "CT:Benzoapiren",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": false
+    },
+    {
+      "id": 28,
+      "text": "CT:Beryl i jego związki",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": false
+    },
+    {
+      "id": 29,
+      "text": "CT:Brom i jego związki",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": false
+    },
+    {
+      "id": 30,
+      "text": "CT:Chlor, chlorowodór i tlenki chloru",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": false
+    },
+    {
+      "id": 31,
+      "text": "CT:Chrom i chromiany",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": false
+    },
+    {
+      "id": 32,
+      "text": "CT:Czterochlorek węgla",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": false
+    },
+    {
+      "id": 33,
+      "text": "CT:Czterochloroetylen (PER)",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": false
+    },
+    {
+      "id": 34,
+      "text": "CT:Czteroetylek ołowiu",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": false
+    },
+    {
+      "id": 35,
+      "text": "CT:Dwumetyloformamid",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": false
+    },
+    {
+      "id": 36,
+      "text": "CT:Epichlorhydryna",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": false
+    },
+    {
+      "id": 37,
+      "text": "CT:Fenol i polifenole",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": false
+    },
+    {
+      "id": 38,
+      "text": "CT:Fluor i fluorki",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": false
+    },
+    {
+      "id": 39,
+      "text": "CT:Fosfor biały",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": false
+    },
+    {
+      "id": 40,
+      "text": "CT:Fosforu związki chlorowe ",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": false
+    },
+    {
+      "id": 41,
+      "text": "CT:Ftalowy bezwodnik",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": false
+    },
+    {
+      "id": 42,
+      "text": "CT:Furfurol",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": false
+    },
+    {
+      "id": 43,
+      "text": "CT:Glinu tlenek",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": false
+    },
+    {
+      "id": 122,
+      "text": "CT:Glikole - etylenowy, dietylenowy, butano 1,4-diol, glicerol",
+      "examinations": {
+        "preliminary": [
+          "Stężenie kreatyniny"
+        ],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": true
+    },
+    {
+      "id": 123,
+      "text": "CT:Glikole - nitrylowe pochodne glikoli lub gliceryny, nitrogliceryna, nirtoglikol",
+      "examinations": {
+        "preliminary": [
+          "EKG",
+          "Morfologia z rozmazem"
+        ],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": true
+    },
+    {
+      "id": 44,
+      "text": "CT:Izocyjanianowe związki",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": false
+    },
+    {
+      "id": 45,
+      "text": "CT:Ketony - aceton",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": false
+    },
+    {
+      "id": 46,
+      "text": "CT:Ketony - metyloetyloketon, metyloizobutyloketon",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": false
+    },
+    {
+      "id": 47,
+      "text": "CT:Ketony - diaceton, tlenek mezytylu",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": false
+    },
+    {
+      "id": 124,
+      "text": "CT:Ketony - keton etylowo-butylowy",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": true
+    },
+    {
+      "id": 125,
+      "text": "CT:Ketony - keton dipropylowy",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": true
+    },
+    {
+      "id": 48,
+      "text": "CT:Kobalt",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": false
+    },
+    {
+      "id": 49,
+      "text": "CT:Ksylen",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": false
+    },
+    {
+      "id": 50,
+      "text": "CT:Mangan i jego związki",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": false
+    },
+    {
+      "id": 126,
+      "text": "CT:Nafta i jej produkty - benzyna ekstrakcyjna, nafta",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      }
+    },
+    {
+      "id": 127,
+      "text": "CT:Nafta i jej produkty - mieszaniny zawierające wielopierścieniowe węglowodory aromatyczne np. Smoła, asfalty",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      }
+    },
+    {
+      "id": 128,
+      "text": "CT:Naftalen i pochodne",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      }
+    },
+    {
+      "id": 129,
+      "text": "CT:Nikiel i jego związki",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      }
+    },
+    {
+      "id": 153,
+      "text": "CT:Nitrogliceryna i nitroglikol",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      }
+    },
+    {
+      "id": 130,
+      "text": "CT:Ołów i jego związki",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      }
+    },
+    {
+      "id": 57,
+      "category": "Pestycydy",
+      "text": "Pestycydy (P):Hamujące aktywność cholinesterazy - związki fosforoorganiczne",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      }
+    },
+    {
+      "id": 58,
+      "category": "Pestycydy",
+      "text": "P:Hamujące aktywność cholinesterazy - karbaminiany",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": false
+    },
+    {
+      "id": 59,
+      "category": "Pestycydy",
+      "text": "P:Węglowodory chlorowane ",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": false
+    },
+    {
+      "id": 60,
+      "category": "Pestycydy",
+      "text": "P:Związki kwasu dwuchlorofenoksyoctowego",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": false
+    },
+    {
+      "id": 61,
+      "category": "Pestycydy",
+      "text": "P:Pestycydy dwutiokarbaminianowe",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": false
+    },
+    {
+      "id": 62,
+      "category": "Pestycydy",
+      "text": "P:Związki dipirydylowe",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": false
+    },
+    {
+      "id": 154,
+      "category": "Pestycydy",
+      "text": "P:Dwunitroalkilofenole",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": false
+    },
+    {
+      "id": 63,
+      "category": "Pestycydy",
+      "text": "P:Dinitroalkilofenole",
+      "examinations": {
+        "preliminary": [
+          "Morfologia z rozmazem",
+          "Aspat",
+          "Alat",
+          "Stężenie kreatyniny",
+          "Badanie ogólne moczu",
+          "Badanie poziomu cukru we krwi",
+          "stężenie methemogloiny we krwi",
+          "GGTP"
+        ],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": true
+    },
+    {
+      "id": 155,
+      "category": "Pestycydy",
+      "text": "P:Piretroidy",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": false
+    },
+    {
+      "id": 64,
+      "category": "Pestycydy",
+      "text": "P:Pyretroidy",
+      "examinations": {
+        "preliminary": [
+          "Spirometria"
+        ],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": true
+    },
+    {
+      "id": 65,
+      "category": "Pestycydy",
+      "text": "P:Pirydyna",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": false
+    },
+    {
+      "id": 66,
+      "category": "Pestycydy",
+      "text": "P:Rtęć - metaliczna i jej związki nieorganiczne",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": false
+    },
+    {
+      "id": 67,
+      "category": "Pestycydy",
+      "text": "P:Rtęć - związki organiczne",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": false
+    },
+    {
+      "id": 68,
+      "category": "Pestycydy",
+      "text": "P:Siarkowodór",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": false
+    },
+    {
+      "id": 69,
+      "category": "Pestycydy",
+      "text": "P:Siarki tlenki",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": false
+    },
+    {
+      "id": 70,
+      "category": "Pestycydy",
+      "text": "P:Terpentyna",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": false
+    },
+    {
+      "id": 131,
+      "category": "Pestycydy",
+      "text": "P:Wanad i jego zwiazki",
+      "examinations": {
+        "preliminary": [
+          "RTG klatki piersiowej",
+          "Spirometria"
+        ],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": true
+    },
+    {
+      "id": 71,
+      "category": "Pestycydy",
+      "text": "P:Toluen",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": false
+    },
+    {
+      "id": 72,
+      "category": "Pestycydy",
+      "text": "P:Trójchloroetylen",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": false
+    },
+    {
+      "id": 73,
+      "category": "Pestycydy",
+      "text": "P:Wanadu pięciotlenek",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": false
+    },
+    {
+      "id": 132,
+      "category": "Pestycydy",
+      "text": "P:Węgla disiarczek",
+      "examinations": {
+        "preliminary": [
+          "EKG",
+          "Aspat",
+          "Alat",
+          "Lipidogram",
+          "Badanie poziomu cukru we krwi",
+          "GGTP"
+        ],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": true
+    },
+    {
+      "id": 74,
+      "category": "Pestycydy",
+      "text": "P:Węgla tlenek (II)",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": true
+    },
+    {
+      "id": 133,
+      "category": "Pestycydy",
+      "text": "P:Węgla tlenek (IV)",
+      "examinations": {
+        "preliminary": [
+          "EKG"
+        ],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": true
+    },
+    {
+      "id": 156,
+      "category": "Pestycydy",
+      "text": "P:Węgla tlenek",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": false
+    },
+    {
+      "id": 75,
+      "category": "Pestycydy",
+      "text": "P:Węglowodorów alifatycznych związki - związki aminowe",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": false
+    },
+    {
+      "id": 76,
+      "category": "Pestycydy",
+      "text": "P:Węglowodorów alifatycznych związki - związki nitrowe",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": false
+    },
+    {
+      "id": 134,
+      "category": "Pestycydy",
+      "text": "P:Węglowodorów alifatycznych związki - chlorowcopodobne węglowodorów alifatycznych lub alicyklicznych",
+      "examinations": {
+        "preliminary": [
+          "Aspat",
+          "Alat",
+          "GGTP"
+        ],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": true
+    },
+    {
+      "id": 135,
+      "category": "Pestycydy",
+      "text": "P:Chlorek metylu",
+      "examinations": {
+        "preliminary": [
+          "Aspat",
+          "Alat",
+          "GGTP"
+        ],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": true
+    },
+    {
+      "id": 136,
+      "category": "Pestycydy",
+      "text": "P:Bromek metylu",
+      "examinations": {
+        "preliminary": [
+          "Aspat",
+          "Alat",
+          "GGTP"
+        ],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": true
+    },
+    {
+      "id": 137,
+      "category": "Pestycydy",
+      "text": "P:Chlorek metylenu",
+      "examinations": {
+        "preliminary": [
+          "Aspat",
+          "Alat",
+          "Stężenie kreatyniny",
+          "Badanie ogólne moczu",
+          "GGTP"
+        ],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": true
+    },
+    {
+      "id": 138,
+      "category": "Pestycydy",
+      "text": "P:Chloroform",
+      "examinations": {
+        "preliminary": [
+          "Aspat",
+          "Alat",
+          "Stężenie kreatyniny",
+          "Badanie ogólne moczu",
+          "GGTP"
+        ],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": true
+    },
+    {
+      "id": 139,
+      "category": "Pestycydy",
+      "text": "P:Dichloroetan",
+      "examinations": {
+        "preliminary": [
+          "Aspat",
+          "Alat",
+          "GGTP"
+        ],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": true
+    },
+    {
+      "id": 140,
+      "category": "Pestycydy",
+      "text": "P:Czterochlorek węgla",
+      "examinations": {
+        "preliminary": [
+          "Aspat",
+          "Alat",
+          "Badanie ogólne moczu",
+          "GGTP",
+          "Stężenie kreatyniny"
+        ],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": true
+    },
+    {
+      "id": 141,
+      "category": "Pestycydy",
+      "text": "P:Dibromek etylenu, trichloroetylen, tetrachloroetylen",
+      "examinations": {
+        "preliminary": [
+          "EKG",
+          "Morfologia z rozmazem",
+          "Aspat",
+          "Alat",
+          "Stężenie kreatyniny",
+          "Badanie ogólne moczu",
+          "GGTP"
+        ],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": true
+    },
+    {
+      "id": 77,
+      "category": "Pestycydy",
+      "text": "P:Węglowodorów aromatycznych związki nitrowe",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": false
+    },
+    {
+      "id": 78,
+      "category": "Pestycydy",
+      "text": "P:Węglowodorów aromatycznych związki aminowe",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": false
+    },
+    {
+      "id": 142,
+      "category": "Pestycydy",
+      "text": "P:Węglowodorów aromatycznych związki chlorowcopodobne - pochodne benzenu",
+      "examinations": {
+        "preliminary": [
+          "Morfologia z rozmazem",
+          "Aspat",
+          "Alat",
+          "GGTP"
+        ],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": true
+    },
+    {
+      "id": 143,
+      "category": "Pestycydy",
+      "text": "P:Węglowodorów aromatycznych związki chlorowcopodobne - pochodne bifenyli",
+      "examinations": {
+        "preliminary": [
+          "Aspat",
+          "Alat",
+          "Stężenie cholesterolu we krwi",
+          "Poziom trójglicerydów we krwi",
+          "GGTP"
+        ],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": true
+    },
+    {
+      "id": 144,
+      "category": "Pestycydy",
+      "text": "P:Węglowodorów aromatycznych związki chlorowcopodobne - pochodne naftalenu",
+      "examinations": {
+        "preliminary": [
+          "Morfologia z rozmazem",
+          "Aspat",
+          "Alat",
+          "Stężenie kreatyniny",
+          "Badanie ogólne moczu",
+          "Stężenie cholesterolu we krwi",
+          "Poziom trójglicerydów we krwi",
+          "GGTP",
+          "Bilirubina"
+        ],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": true
+    },
+    {
+      "id": 79,
+      "category": "Pestycydy",
+      "text": "P:Winylobenzen",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": false
+    },
+    {
+      "id": 80,
+      "category": "Pestycydy",
+      "text": "P:Winylu chlorek",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": false
+    },
+    {
+      "id": 81,
+      "category": "Pestycydy",
+      "text": "P:Żywice epoksydowe",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": false
+    },
+    {
+      "id": 82,
+      "category": "Pestycydy",
+      "text": "P:Mieszaniny rozpuszczalników organicznych",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": false
+    },
+    {
+      "id": 83,
+      "category": "Pestycydy",
+      "text": "P:Cytostatyki",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": false
+    },
+    {
+      "id": 84,
+      "category": "Czynniki biologiczne",
+      "text": "Czynniki biologiczne (CB): Wirus zapalenia wątroby - typ B",
+      "examinations": {
+        "preliminary": [
+          "Alat",
+          "Bilirubina"
+        ],
+        "periodic": [],
+        "specjalist": []
+      }
+    },
+    {
+      "id": 85,
+      "category": "Czynniki biologiczne",
+      "text": "CB:Wirus zapalenia wątroby - typ C",
+      "examinations": {
+        "preliminary": [
+          "Alat",
+          "Bilirubina"
+        ],
+        "periodic": [],
+        "specjalist": []
+      }
+    },
+    {
+      "id": 86,
+      "category": "Czynniki biologiczne",
+      "text": "CB:Ludzki wirus niedoboru odporności nabytej (HIV)",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      }
+    },
+    {
+      "id": 87,
+      "category": "Czynniki biologiczne",
+      "text": "CB:Pąłeczki Brucella abortus bovis",
+      "examinations": {
+        "preliminary": [
+          "Audiometria",
+          "Badania czynności wątroby"
+        ],
+        "periodic": [],
+        "specjalist": []
+      }
+    },
+    {
+      "id": 88,
+      "category": "Czynniki biologiczne",
+      "text": "CB:Promieniowanie termofilne, grzyby pleśniowe i inne",
+      "examinations": {
+        "preliminary": [
+          "RTG klatki piersiowej",
+          "Spirometria"
+        ],
+        "periodic": [
+          "Spirometria"
+        ],
+        "specjalist": []
+      }
+    },
+    {
+      "id": 89,
+      "category": "Czynniki biologiczne",
+      "text": "CB:Prątek gróźlicy, wirus kleszczowego zapalenia mózgu, Borrelia",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      }
+    },
+    {
+      "id": 145,
+      "category": "Czynniki biologiczne",
+      "text": "CB:Wirus kleszczowego zapalenia mózgu",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": true
+    },
+    {
+      "id": 146,
+      "category": "Czynniki biologiczne",
+      "text": "CB:Borrelia burgdorferi",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": true
+    },
+    {
+      "id": 90,
+      "category": "Niekorzystne czynniki psychospołeczne",
+      "text": "Niekorzystne czynniki psychospołeczne (CPS) - Stały duży dopływ informacji i gotowość do odpowiedzi",
+      "examinations": {
+        "preliminary": [
+          "EKG",
+          "Cholesterol"
+        ],
+        "periodic": [],
+        "specjalist": []
+      }
+    },
+    {
+      "id": 91,
+      "category": "Niekorzystne czynniki psychospołeczne",
+      "text": "CPS:Stanowiska decyzyjne i odpowiedzialność",
+      "examinations": {
+        "preliminary": [
+          "EKG",
+          "Cholesterol"
+        ],
+        "periodic": [],
+        "specjalist": []
+      }
+    },
+    {
+      "id": 92,
+      "category": "Niekorzystne czynniki psychospołeczne",
+      "text": "CPS:Zagrożenia wynikające z narażenia życia",
+      "examinations": {
+        "preliminary": [
+          "EKG",
+          "Cholesterol"
+        ],
+        "periodic": [],
+        "specjalist": []
+      }
+    },
+    {
+      "id": 93,
+      "category": "Niekorzystne czynniki psychospołeczne",
+      "text": "CPS:Zagrożenia wynikające z monotonii pracy",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      }
+    },
+    {
+      "id": 147,
+      "category": "Niekorzystne czynniki psychospołeczne",
+      "text": "CPS:Zagrożenia wynikające z organizacji pracy (praca pod presją czasu, nierównomierne obłożenie pracą, inne)",
+      "disabled": true,
+      "examinations": {
+        "preliminary": [
+          "EKG",
+          "Lipidogram"
+        ],
+        "periodic": [],
+        "specjalist": []
+      }
+    },
+    {
+      "id": 148,
+      "text": "Praca związana z obsługą narzędzi, maszyn, urządzeń i poruszających się poza drogami publicznymi pojazdów (wózki widłowe, koparki, itd.)",
+      "disabled": true,
+      "examinations": {
+        "preliminary": [
+          "Okulista"
+        ],
+        "periodic": [],
+        "specjalist": []
+      }
+    },
+    {
+      "id": 94,
+      "text": "Prace wymagające pełnej sprawnosci psychoruchowej",
+      "examinations": {
+        "preliminary": [
+          "Neurolog",
+          "Okulista"
+        ],
+        "periodic": [],
+        "specjalist": []
+      }
+    },
+    {
+      "id": 149,
+      "text": "Praca na wysokości",
+      "disabled": true,
+      "examinations": {
+        "preliminary": [
+          "Badanie poziomu cukru we krwi",
+          "Badanie poziomu cukru we krwi"
+        ],
+        "periodic": [],
+        "specjalist": []
+      }
+    },
+    {
+      "id": 157,
+      "text": "Praca na wysokości do 3 metrów",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      }
+    },
+    {
+      "id": 158,
+      "text": "Praca na wysokości powyżej 3 metrów",
+      "examinations": {
+        "preliminary": [
+          "Laryngolog",
+          "Neurolog",
+          "Okulista"
+        ],
+        "periodic": [],
+        "specjalist": []
+      }
+    },
+    {
+      "id": 97,
+      "text": "Praca zmianowa",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      }
+    },
+    {
+      "id": 159,
+      "text": "Praca fizyczna z wydatkiem energetycznym na pracę powyżej 15000 kcal",
+      "examinations": {
+        "preliminary": [
+          "EKG"
+        ],
+        "periodic": [],
+        "specjalist": []
+      }
+    },
+    {
+      "id": 99,
+      "text": "Praca w wymuszonej pozycji",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      }
+    },
+    {
+      "id": 100,
+      "text": "Praca wymagająca ruchów monotypowych kończyn",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [
+          "Laryngolog"
+        ],
+        "specjalist": []
+      }
+    },
+    {
+      "id": 101,
+      "text": "Praca wymagająca stałego i długotrwałego wysiłku głosowego",
+      "examinations": {
+        "preliminary": [
+          "Laryngolog"
+        ],
+        "periodic": [],
+        "specjalist": []
+      }
+    },
+    {
+      "id": 102,
+      "text": "Praca na stanowiskach związanych z kierowanie pojazdami, szkoleniem i egzaminowaniem kierowców",
+      "examinations": {
+        "preliminary": [
+          "Okulista",
+          "Badanie poziomu cukru we krwi"
+        ],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": true
+    },
+    {
+      "id": 107,
+      "text": "Praca związana z posługiwaniem się bronią palną",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": true
+    },
+    {
+      "id": 108,
+      "text": "Inne prace związane z narażaniem na czynnik niebezpieczny",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": true
+    },
+    {
+      "id": 109,
+      "text": "Praca w narażeniu na inny czynnik szkodliwy lub uciążliwy",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": true
+    },
+    {
+      "id": 160,
+      "text": "Kierowanie samochodem służbowym kat. B, C",
+      "examinations": {
+        "preliminary": [
+          "Neurolog",
+          "Okulista",
+          "Badanie poziomu cukru we krwi"
+        ],
+        "periodic": [],
+        "specjalist": []
+      },
+      "disabled": true
+    },
+    {
+      "id": 161,
+      "category": "specyfic",
+      "type": "Policjant (skierowanie wg załącznika nr 1)",
+      "text": "Poniżej 40 roku życia",
+      "examinations": {
+        "preliminary": [
+          "Laryngolog",
+          "Audiometria",
+          "Neurolog",
+          "Okulista",
+          "EKG",
+          "RTG klatki piersiowej",
+          "Kardiolog",
+          "Morfologia z rozmazem",
+          "Spirometria",
+          "Bilirubina",
+          "Alat",
+          "ASPAT",
+          "HCV",
+          "Anty-HIV",
+          "Stężenie kreatyniny",
+          "Badanie ogólne moczu",
+          "Badanie poziomu cukru we krwi"
+        ],
+        "periodic": [
+          "Laryngolog",
+          "Audiometria",
+          "Neurolog",
+          "Okulista",
+          "EKG",
+          "RTG klatki piersiowej",
+          "Kardiolog",
+          "Morfologia z rozmazem",
+          "Spirometria",
+          "Bilirubina",
+          "Alat",
+          "ASPAT",
+          "HCV",
+          "Anty-HIV",
+          "Stężenie kreatyniny",
+          "Badanie ogólne moczu",
+          "Badanie poziomu cukru we krwi"
+        ],
+        "specjalist": []
+      },
+      "disabled": false
+    },
+    {
+      "id": 162,
+      "category": "specyfic",
+      "type": "Policjant (skierowanie wg załącznika nr 1)",
+      "text": "Powyżej 40 roku życia",
+      "examinations": {
+        "preliminary": [
+          "Laryngolog",
+          "Audiometria",
+          "Neurolog",
+          "Okulista",
+          "Ortopeda",
+          "EKG",
+          "RTG klatki piersiowej",
+          "Kardiolog",
+          "Morfologia z rozmazem",
+          "Spirometria",
+          "Bilirubina",
+          "Alat",
+          "ASPAT",
+          "HCV",
+          "Anty-HIV",
+          "Stężenie kreatyniny",
+          "Badanie ogólne moczu",
+          "Badanie poziomu cukru we krwi"
+        ],
+        "periodic": [
+          "Laryngolog",
+          "Audiometria",
+          "Neurolog",
+          "Okulista",
+          "Ortopeda",
+          "EKG",
+          "RTG klatki piersiowej",
+          "Kardiolog",
+          "Morfologia z rozmazem",
+          "Spirometria",
+          "Bilirubina",
+          "Alat",
+          "ASPAT",
+          "HCV",
+          "Anty-HIV",
+          "Stężenie kreatyniny",
+          "Badanie ogólne moczu",
+          "Badanie poziomu cukru we krwi"
+        ],
+        "specjalist": []
+      },
+      "disabled": false
+    },
+    {
+      "id": 163,
+      "category": "specyfic",
+      "type": "Policjant służby wspomagającej działalność Policji (skierowanie wg załącznika nr 3)",
+      "text": "Poniżej 40 roku życia",
+      "examinations": {
+        "preliminary": [
+          "Okulista",
+          "EKG",
+          "RTG klatki piersiowej",
+          "Morfologia z rozmazem",
+          "Bilirubina",
+          "Stężenie kreatyniny",
+          "Badanie ogólne moczu",
+          "Badanie poziomu cukru we krwi"
+        ],
+        "periodic": [
+          "Okulista",
+          "EKG",
+          "RTG klatki piersiowej",
+          "Morfologia z rozmazem",
+          "Bilirubina",
+          "Stężenie kreatyniny",
+          "Badanie ogólne moczu",
+          "Badanie poziomu cukru we krwi"
+        ],
+        "specjalist": []
+      },
+      "disabled": false
+    },
+    {
+      "id": 164,
+      "category": "specyfic",
+      "type": "Policjant służby wspomagającej działalność Policji (skierowanie wg załącznika nr 3)",
+      "text": "Powyżej 40 roku życia",
+      "examinations": {
+        "preliminary": [
+          "Okulista",
+          "EKG",
+          "RTG klatki piersiowej",
+          "Morfologia z rozmazem",
+          "Bilirubina",
+          "Spirometria",
+          "Stężenie kreatyniny",
+          "Badanie ogólne moczu",
+          "Badanie poziomu cukru we krwi"
+        ],
+        "periodic": [
+          "Okulista",
+          "EKG",
+          "RTG klatki piersiowej",
+          "Morfologia z rozmazem",
+          "Bilirubina",
+          "Spirometria",
+          "Stężenie kreatyniny",
+          "Badanie ogólne moczu",
+          "Badanie poziomu cukru we krwi"
+        ],
+        "specjalist": []
+      },
+      "disabled": false
+    },
+    {
+      "id": 165,
+      "category": "specyfic",
+      "type": "Pracownik cywilny",
+      "text": "Poniżej 50 roku życia",
+      "examinations": {
+        "preliminary": [
+          "RTG klatki piersiowej",
+          "Morfologia z rozmazem",
+          "Badanie ogólne moczu",
+          "Badanie poziomu cukru we krwi"
+        ],
+        "periodic": [
+          "RTG klatki piersiowej",
+          "Morfologia z rozmazem",
+          "Badanie ogólne moczu",
+          "Badanie poziomu cukru we krwi"
+        ],
+        "specjalist": []
+      },
+      "disabled": false
+    },
+    {
+      "id": 166,
+      "category": "specyfic",
+      "type": "Pracownik cywilny",
+      "text": "Powyżej 50 roku życia",
+      "examinations": {
+        "preliminary": [
+          "EKG",
+          "RTG klatki piersiowej",
+          "Morfologia z rozmazem",
+          "Cholesterol",
+          "Badanie ogólne moczu",
+          "Badanie poziomu cukru we krwi"
+        ],
+        "periodic": [
+          "EKG",
+          "RTG klatki piersiowej",
+          "Morfologia z rozmazem",
+          "Cholesterol",
+          "Badanie ogólne moczu",
+          "Badanie poziomu cukru we krwi"
+        ],
+        "specjalist": []
+      },
+      "disabled": false
+    },
+    {
+      "id": 167,
+      "text": "Kierowcy pojazdów uprzywilejowanych policji",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": [
+          "Neurolog",
+          "Okulista"
+        ]
+      }
+    },
+    {
+      "id": 168,
+      "text": "Stermotorniczy",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": [
+          "Laryngolog",
+          "Neurolog",
+          "Okulista",
+          "Audiometria",
+          "Badanie poziomu cukru we krwi"
+        ]
+      }
+    },
+    {
+      "id": 169,
+      "text": "Sanitarno-epidemiologiczne",
+      "examinations": {
+        "preliminary": [],
+        "periodic": [],
+        "specjalist": [
+          "Badanie kłau na pasożyty"
+        ]
+      }
+    }
+  ],
+  "multiple": true,
+  "visibleReception": true,
+  "isCalculated": true,
+  "calculatedText": "104"
+}

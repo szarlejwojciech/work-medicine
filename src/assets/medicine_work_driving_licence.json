@@ -7,14 +7,14 @@
     {
       "id": 0,
       "text": "Kategoria B",
-      "options": [
+      "examinations": [
         "Glukoza"
       ]
     },
     {
       "id": 1,
       "text": "Kategoria C",
-      "options": [
+      "examinations": [
         "Okulista",
         "Neurolog",
         "Psychotesty",
@@ -24,7 +24,7 @@
     {
       "id": 2,
       "text": "Kategoria C+E",
-      "options": [
+      "examinations": [
         "Okulista",
         "Neurolog",
         "Psychotesty",
@@ -34,7 +34,7 @@
     {
       "id": 3,
       "text": "Kategoria D",
-      "options": [
+      "examinations": [
         "Okulista",
         "Neurolog",
         "Psychotesty",
@@ -44,7 +44,7 @@
     {
       "id": 4,
       "text": "Kategoria D+E",
-      "options": [
+      "examinations": [
         "Okulista",
         "Neurolog",
         "Psychotesty",
@@ -54,14 +54,14 @@
     {
       "id": 5,
       "text": "Kategoria T",
-      "options": [
+      "examinations": [
         "Okulista"
       ]
     },
     {
       "id": 6,
       "text": "Pojazdy uprzywilejowane",
-      "options": [
+      "examinations": [
         "Okulista",
         "Psychotesty",
         "Glukoza"

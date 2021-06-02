@@ -104,20 +104,20 @@
             ></v-select>
           </v-col>
         </v-row>
+        <v-row
+          ><v-col cols="12">
+            <TestsList
+              v-if="
+                selectedHarmfulFactors.length > 0 &&
+                selectTypeWorkMedicine.length > 0
+              "
+              :selectedHarmfulFactors="selectedHarmfulFactors"
+              :selectTypeWorkMedicine="selectTypeWorkMedicine"
+            /> </v-col
+        ></v-row>
       </v-col>
     </v-row>
-    <v-row>
-      <v-col cols="4">
-        <TestsList
-          v-if="
-            selectedHarmfulFactors.length > 0 &&
-            selectTypeWorkMedicine.length > 0
-          "
-          :selectedHarmfulFactors="selectedHarmfulFactors"
-          :selectTypeWorkMedicine="selectTypeWorkMedicine"
-        />
-      </v-col>
-    </v-row>
+    <v-row> </v-row>
   </v-container>
 </template>
 

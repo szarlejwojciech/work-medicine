@@ -1,0 +1,752 @@
+{
+  "id": 44,
+  "order": 42,
+  "title": "Czynniki szkodliwe i uciążliwe dla zdrowia występujące w miejscu pracy / odbywania praktycznej nauki zawodu, studiów lub studiów doktoranckich",
+  "type": 8,
+  "arrayValues": [
+    {
+      "id": 104,
+      "text": "Brak czynników szkodliwych"
+    },
+    {
+      "id": 1,
+      "text": "Hałas"
+    },
+    {
+      "id": 2,
+      "text": "Ultradźwięki małej częstotliwości"
+    },
+    {
+      "id": 3,
+      "text": "Drgania na kończyny górne"
+    },
+    {
+      "id": 4,
+      "text": "Drgania na całe ciało"
+    },
+    {
+      "id": 5,
+      "text": "Promieniowanie jonizujące"
+    },
+    {
+      "id": 6,
+      "text": "Promieniowanie i pola elektromagnetyczne"
+    },
+    {
+      "id": 7,
+      "text": "Promieniowanie nadfioletowe"
+    },
+    {
+      "id": 8,
+      "text": "Promieniowanie podczerwone"
+    },
+    {
+      "id": 9,
+      "text": "Promieniowanie laserowe"
+    },
+    {
+      "id": 110,
+      "text": "Promieniowanie widzialne (światło)"
+    },
+    {
+      "id": 10,
+      "text": "Obsługa monitorów ekranowych"
+    },
+    {
+      "id": 11,
+      "text": "Niedostateczne naświetlenie"
+    },
+    {
+      "id": 12,
+      "text": "Nadmierne naświetlenie"
+    },
+    {
+      "id": 13,
+      "text": "Mikroklimat gorący"
+    },
+    {
+      "id": 14,
+      "text": "Mikroklimat zimny "
+    },
+    {
+      "id": 15,
+      "text": "Zwiększone lub obniżone ciśnienie atmosferyczne"
+    },
+    {
+      "id": 16,
+      "category": "Pyły i włókna",
+      "text": "Pyły i włókna (PW): Pyły nieorganiczne zawierające krzemionkę"
+    },
+    {
+      "id": 111,
+      "category": "Pyły i włókna",
+      "text": "PW:Pyły węgla kamiennego, brunatnego"
+    },
+    {
+      "id": 112,
+      "category": "Pyły i włókna",
+      "text": "PW:Pyły grafitu"
+    },
+    {
+      "id": 113,
+      "category": "Pyły i włókna",
+      "text": "PW:Pyły nieorganiczne zawieające włókna azbestu"
+    },
+    {
+      "id": 114,
+      "category": "Pyły i włókna",
+      "text": "PW:Pył talku "
+    },
+    {
+      "id": 115,
+      "category": "Pyły i włókna",
+      "text": "PW:Pył zawierający metale twarde"
+    },
+    {
+      "id": 116,
+      "category": "Pyły i włókna",
+      "text": "PW:Pył zawierający tworzywa sztuczne w tym sztuczne włókna mineralne"
+    },
+    {
+      "id": 117,
+      "category": "Pyły i włókna",
+      "text": "PW:Pył organiczny pochodzenia roślinnego i zwierzęcego, z wyjątkiem pyłów drewna i mąki"
+    },
+    {
+      "id": 118,
+      "category": "Pyły i włókna",
+      "text": "PW:Pył drewna"
+    },
+    {
+      "id": 119,
+      "category": "Pyły i włókna",
+      "text": "PW:Pył mąki"
+    },
+    {
+      "id": 17,
+      "category": "Czynniki toksyczne",
+      "text": "Czynniki toksyczne (CT): Związki akrylowe - akrylonitryl"
+    },
+    {
+      "id": 18,
+      "category": "Czynniki toksyczne",
+      "text": "CT:Związki akrylowe - akrylany",
+      "disabled": false
+    },
+    {
+      "id": 19,
+      "category": "Czynniki toksyczne",
+      "text": "CT:Aldehydy - akrylowy",
+      "disabled": false
+    },
+    {
+      "id": 120,
+      "category": "Czynniki toksyczne",
+      "text": "CT:Aldehydy - formaldehyd",
+      "disabled": false
+    },
+    {
+      "id": 20,
+      "category": "Czynniki toksyczne",
+      "text": "CT:Aldehydy - mrówkowy",
+      "disabled": true
+    },
+    {
+      "id": 21,
+      "category": "Czynniki toksyczne",
+      "text": "CT:Amoniak",
+      "disabled": false
+    },
+    {
+      "id": 22,
+      "category": "Czynniki toksyczne",
+      "text": "CT:Arsen i jego związki",
+      "disabled": false
+    },
+    {
+      "id": 23,
+      "category": "Czynniki toksyczne",
+      "text": "CT:Arsenowodór",
+      "disabled": false
+    },
+    {
+      "id": 24,
+      "category": "Czynniki toksyczne",
+      "text": "CT:Tlenki azotu",
+      "disabled": false
+    },
+    {
+      "id": 25,
+      "category": "Czynniki toksyczne",
+      "text": "CT:Bar i jego związki nierozpuszczalne w wodzie",
+      "disabled": false
+    },
+    {
+      "id": 121,
+      "category": "Czynniki toksyczne",
+      "text": "CT:Bar i jego związki rozpuszczalne w wodzie",
+      "disabled": false
+    },
+    {
+      "id": 26,
+      "category": "Czynniki toksyczne",
+      "text": "CT:Benzen",
+      "disabled": false
+    },
+    {
+      "id": 27,
+      "category": "Czynniki toksyczne",
+      "text": "CT:Benzoapiren",
+      "disabled": false
+    },
+    {
+      "id": 28,
+      "category": "Czynniki toksyczne",
+      "text": "CT:Beryl i jego związki",
+      "disabled": false
+    },
+    {
+      "id": 29,
+      "category": "Czynniki toksyczne",
+      "text": "CT:Brom i jego związki",
+      "disabled": false
+    },
+    {
+      "id": 30,
+      "category": "Czynniki toksyczne",
+      "text": "CT:Chlor, chlorowodór i tlenki chloru",
+      "disabled": false
+    },
+    {
+      "id": 31,
+      "category": "Czynniki toksyczne",
+      "text": "CT:Chrom i chromiany",
+      "disabled": false
+    },
+    {
+      "id": 32,
+      "category": "Czynniki toksyczne",
+      "text": "CT:Czterochlorek węgla",
+      "disabled": true
+    },
+    {
+      "id": 33,
+      "category": "Czynniki toksyczne",
+      "text": "CT:Czterochloroetylen (PER)",
+      "disabled": true
+    },
+    {
+      "id": 34,
+      "category": "Czynniki toksyczne",
+      "text": "CT:Czteroetylek ołowiu",
+      "disabled": false
+    },
+    {
+      "id": 35,
+      "category": "Czynniki toksyczne",
+      "text": "CT:Dwumetyloformamid",
+      "disabled": false
+    },
+    {
+      "id": 36,
+      "category": "Czynniki toksyczne",
+      "text": "CT:Epichlorhydryna",
+      "disabled": false
+    },
+    {
+      "id": 37,
+      "category": "Czynniki toksyczne",
+      "text": "CT:Fenol i polifenole",
+      "disabled": false
+    },
+    {
+      "id": 38,
+      "category": "Czynniki toksyczne",
+      "text": "CT:Fluor i fluorki",
+      "disabled": false
+    },
+    {
+      "id": 39,
+      "category": "Czynniki toksyczne",
+      "text": "CT:Fosfor biały",
+      "disabled": false
+    },
+    {
+      "id": 40,
+      "category": "Czynniki toksyczne",
+      "text": "CT:Fosforu związki chlorowe ",
+      "disabled": false
+    },
+    {
+      "id": 41,
+      "category": "Czynniki toksyczne",
+      "text": "CT:Ftalowy bezwodnik",
+      "disabled": false
+    },
+    {
+      "id": 42,
+      "category": "Czynniki toksyczne",
+      "text": "CT:Furfurol",
+      "disabled": false
+    },
+    {
+      "id": 43,
+      "category": "Czynniki toksyczne",
+      "text": "CT:Glinu tlenek",
+      "disabled": false
+    },
+    {
+      "id": 122,
+      "category": "Czynniki toksyczne",
+      "text": "CT:Glikole - etylenowy, dietylenowy, butano 1,4-diol, glicerol",
+      "disabled": false
+    },
+    {
+      "id": 123,
+      "category": "Czynniki toksyczne",
+      "text": "CT:Glikole - nitrylowe pochodne glikoli lub gliceryny, nitrogliceryna, nirtoglikol",
+      "disabled": false
+    },
+    {
+      "id": 44,
+      "category": "Czynniki toksyczne",
+      "text": "CT:Izocyjanianowe związki",
+      "disabled": false
+    },
+    {
+      "id": 45,
+      "category": "Czynniki toksyczne",
+      "text": "CT:Ketony - aceton",
+      "disabled": false
+    },
+    {
+      "id": 46,
+      "category": "Czynniki toksyczne",
+      "text": "CT:Ketony - metyloetyloketon, metyloizobutyloketon",
+      "disabled": false
+    },
+    {
+      "id": 47,
+      "category": "Czynniki toksyczne",
+      "text": "CT:Ketony - diaceton, tlenek mezytylu",
+      "disabled": false
+    },
+    {
+      "id": 124,
+      "category": "Czynniki toksyczne",
+      "text": "CT:Ketony - keton etylowo-butylowy",
+      "disabled": false
+    },
+    {
+      "id": 125,
+      "category": "Czynniki toksyczne",
+      "text": "CT:Ketony - keton dipropylowy",
+      "disabled": false
+    },
+    {
+      "id": 48,
+      "category": "Czynniki toksyczne",
+      "text": "CT:Kobalt",
+      "disabled": false
+    },
+    {
+      "id": 49,
+      "category": "Czynniki toksyczne",
+      "text": "CT:Ksylen",
+      "disabled": true
+    },
+    {
+      "id": 50,
+      "category": "Czynniki toksyczne",
+      "text": "CT:Mangan i jego związki",
+      "disabled": false
+    },
+    {
+      "id": 126,
+      "category": "Czynniki toksyczne",
+      "text": "CT:Nafta i jej produkty - benzyna ekstrakcyjna, nafta"
+    },
+    {
+      "id": 127,
+      "category": "Czynniki toksyczne",
+      "text": "CT:Nafta i jej produkty - mieszaniny zawierające wielopierścieniowe węglowodory aromatyczne np. Smoła, asfalty"
+    },
+    {
+      "id": 128,
+      "category": "Czynniki toksyczne",
+      "text": "CT:Naftalen i pochodne"
+    },
+    {
+      "id": 129,
+      "category": "Czynniki toksyczne",
+      "text": "CT:Nikiel i jego związki"
+    },
+    {
+      "id": 130,
+      "category": "Czynniki toksyczne",
+      "text": "CT:Ołów i jego związki"
+    },
+    {
+      "id": 57,
+      "category": "Pestycydy",
+      "text": "Pestycydy (P):Hamujące aktywność cholinesterazy"
+    },
+    {
+      "id": 58,
+      "category": "Pestycydy",
+      "text": "P:Hamujące aktywność cholinesterazy - karbaminiany",
+      "disabled": true
+    },
+    {
+      "id": 59,
+      "category": "Pestycydy",
+      "text": "P:Węglowodory chlorowane ",
+      "disabled": false
+    },
+    {
+      "id": 60,
+      "category": "Pestycydy",
+      "text": "P:Związki kwasu dwuchlorofenoksyoctowego",
+      "disabled": false
+    },
+    {
+      "id": 61,
+      "category": "Pestycydy",
+      "text": "P:Pestycydy dwutiokarbaminianowe",
+      "disabled": false
+    },
+    {
+      "id": 62,
+      "category": "Pestycydy",
+      "text": "P:Związki dipirydylowe",
+      "disabled": false
+    },
+    {
+      "id": 63,
+      "category": "Pestycydy",
+      "text": "P:Dinitroalkilofenole",
+      "disabled": false
+    },
+    {
+      "id": 64,
+      "category": "Pestycydy",
+      "text": "P:Pyretroidy",
+      "disabled": false
+    },
+    {
+      "id": 65,
+      "category": "Pestycydy",
+      "text": "P:Pirydyna",
+      "disabled": false
+    },
+    {
+      "id": 66,
+      "category": "Pestycydy",
+      "text": "P:Rtęć - metaliczna i jej związki nieorganiczne",
+      "disabled": false
+    },
+    {
+      "id": 67,
+      "category": "Pestycydy",
+      "text": "P:Rtęć - związki organiczne",
+      "disabled": false
+    },
+    {
+      "id": 68,
+      "category": "Pestycydy",
+      "text": "P:Siarkowodór",
+      "disabled": false
+    },
+    {
+      "id": 69,
+      "category": "Pestycydy",
+      "text": "P:Siarki tlenki",
+      "disabled": false
+    },
+    {
+      "id": 70,
+      "category": "Pestycydy",
+      "text": "P:Terpentyna",
+      "disabled": false
+    },
+    {
+      "id": 131,
+      "category": "Pestycydy",
+      "text": "P:Wanad i jego zwiazki",
+      "disabled": false
+    },
+    {
+      "id": 71,
+      "category": "Pestycydy",
+      "text": "P:Toluen",
+      "disabled": true
+    },
+    {
+      "id": 72,
+      "category": "Pestycydy",
+      "text": "P:Trójchloroetylen",
+      "disabled": true
+    },
+    {
+      "id": 73,
+      "category": "Pestycydy",
+      "text": "P:Wanadu pięciotlenek",
+      "disabled": true
+    },
+    {
+      "id": 132,
+      "category": "Pestycydy",
+      "text": "P:Węgla disiarczek",
+      "disabled": false
+    },
+    {
+      "id": 74,
+      "category": "Pestycydy",
+      "text": "P:Węgla tlenek (II)",
+      "disabled": false
+    },
+    {
+      "id": 133,
+      "category": "Pestycydy",
+      "text": "P:Węgla tlenek (IV)",
+      "disabled": false
+    },
+    {
+      "id": 75,
+      "category": "Pestycydy",
+      "text": "P:Węglowodorów alifatycznych związki - związki aminowe",
+      "disabled": false
+    },
+    {
+      "id": 76,
+      "category": "Pestycydy",
+      "text": "P:Węglowodorów alifatycznych związki - związki nitrowe",
+      "disabled": false
+    },
+    {
+      "id": 134,
+      "category": "Pestycydy",
+      "text": "P:Węglowodorów alifatycznych związki - chlorowcopodobne węglowodorów alifatycznych lub alicyklicznych",
+      "disabled": false
+    },
+    {
+      "id": 135,
+      "category": "Pestycydy",
+      "text": "P:Chlorek metylu",
+      "disabled": false
+    },
+    {
+      "id": 136,
+      "category": "Pestycydy",
+      "text": "P:Bromek metylu",
+      "disabled": false
+    },
+    {
+      "id": 137,
+      "category": "Pestycydy",
+      "text": "P:Chlorek metylenu",
+      "disabled": false
+    },
+    {
+      "id": 138,
+      "category": "Pestycydy",
+      "text": "P:Chloroform",
+      "disabled": false
+    },
+    {
+      "id": 139,
+      "category": "Pestycydy",
+      "text": "P:Dichloroetan",
+      "disabled": false
+    },
+    {
+      "id": 140,
+      "category": "Pestycydy",
+      "text": "P:Czterochlorek węgla",
+      "disabled": false
+    },
+    {
+      "id": 141,
+      "category": "Pestycydy",
+      "text": "P:Dibromek etylenu, trichloroetylen, tetrachloroetylen",
+      "disabled": false
+    },
+    {
+      "id": 77,
+      "category": "Pestycydy",
+      "text": "P:Węglowodorów aromatycznych związki nitrowe",
+      "disabled": false
+    },
+    {
+      "id": 78,
+      "category": "Pestycydy",
+      "text": "P:Węglowodorów aromatycznych związki aminowe",
+      "disabled": false
+    },
+    {
+      "id": 142,
+      "category": "Pestycydy",
+      "text": "P:Węglowodorów aromatycznych związki chlorowcopodobne - pochodne benzenu",
+      "disabled": false
+    },
+    {
+      "id": 143,
+      "category": "Pestycydy",
+      "text": "P:Węglowodorów aromatycznych związki chlorowcopodobne - pochodne bifenyli",
+      "disabled": false
+    },
+    {
+      "id": 144,
+      "category": "Pestycydy",
+      "text": "P:Węglowodorów aromatycznych związki chlorowcopodobne - pochodne naftalenu",
+      "disabled": false
+    },
+    {
+      "id": 79,
+      "category": "Pestycydy",
+      "text": "P:Winylobenzen",
+      "disabled": false
+    },
+    {
+      "id": 80,
+      "category": "Pestycydy",
+      "text": "P:Winylu chlorek",
+      "disabled": false
+    },
+    {
+      "id": 81,
+      "category": "Pestycydy",
+      "text": "P:Żywice epoksydowe",
+      "disabled": false
+    },
+    {
+      "id": 82,
+      "category": "Pestycydy",
+      "text": "P:Mieszaniny rozpuszczalników organicznych",
+      "disabled": false
+    },
+    {
+      "id": 83,
+      "category": "Pestycydy",
+      "text": "P:Cytostatyki",
+      "disabled": false
+    },
+    {
+      "id": 84,
+      "category": "Czynniki biologiczne",
+      "text": "Czynniki biologiczne (CB): Wirus zapalenia wątroby - typ B"
+    },
+    {
+      "id": 85,
+      "category": "Czynniki biologiczne",
+      "text": "CB:Wirus zapalenia wątroby - typ C"
+    },
+    {
+      "id": 86,
+      "category": "Czynniki biologiczne",
+      "text": "CB:Ludzki wirus niedoboru odporności nabytej (HIV)"
+    },
+    {
+      "id": 87,
+      "category": "Czynniki biologiczne",
+      "text": "CB:Pąłeczki Brucella abortus bovis"
+    },
+    {
+      "id": 88,
+      "category": "Czynniki biologiczne",
+      "text": "CB:Promieniowanie termofilne, grzyby pleśniowe i inne"
+    },
+    {
+      "id": 89,
+      "category": "Czynniki biologiczne",
+      "text": "CB:Prątek gróźlicy, wirus kleszczowego zapalenia mózgu, Borrelia"
+    },
+    {
+      "id": 145,
+      "category": "Czynniki biologiczne",
+      "text": "CB:Wirus kleszczowego zapalenia mózgu"
+    },
+    {
+      "id": 146,
+      "category": "Czynniki biologiczne",
+      "text": "CB:Borrelia burgdorferi"
+    },
+    {
+      "id": 90,
+      "category": "Niekorzystne czynniki psychospołeczne",
+      "text": "Niekorzystne czynniki psychospołeczne (CPS) - Stały duży dopływ informacji i gotowość do odpowiedzi"
+    },
+    {
+      "id": 91,
+      "category": "Niekorzystne czynniki psychospołeczne",
+      "text": "CPS:Stanowiska decyzyjne i odpowiedzialność"
+    },
+    {
+      "id": 92,
+      "category": "Niekorzystne czynniki psychospołeczne",
+      "text": "CPS:Zagrożenia wynikające z narażenia życia"
+    },
+    {
+      "id": 93,
+      "category": "Niekorzystne czynniki psychospołeczne",
+      "text": "CPS:Zagrożenia wynikające z monotonii pracy"
+    },
+    {
+      "id": 147,
+      "category": "Niekorzystne czynniki psychospołeczne",
+      "text": "CPS:Zagrożenia wynikające z organizacji pracy (praca pod presją czasu, nierównomierne obłożenie pracą, inne)"
+    },
+    {
+      "id": 148,
+      "text": "Praca związana z obsługą narzędzi, maszyn, urządzeń i poruszających się poza drogami publicznymi pojazdów (wózki widłowe, koparki, itd.)"
+    },
+    {
+      "id": 94,
+      "text": "Prace wymagające pełnej sprawnosci psychoruchowej"
+    },
+    {
+      "id": 149,
+      "text": "Praca na wysokości"
+    },
+    {
+      "id": 97,
+      "text": "Praca zmianowa"
+    },
+    {
+      "id": 150,
+      "text": "Praca fizyczna z wydatkiem energetycznym na pracę powyżej (…)"
+    },
+    {
+      "id": 99,
+      "text": "Praca w wymuszonej pozycji"
+    },
+    {
+      "id": 100,
+      "text": "Praca wymagająca ruchów monotypowych kończyn"
+    },
+    {
+      "id": 101,
+      "text": "Praca wymagająca stałego i długotrwałego wysiłku głosowego"
+    },
+    {
+      "id": 102,
+      "text": "Praca na stanowiskach związanych z kierowanie pojazdami, szkoleniem i egzaminowaniem kierowców"
+    },
+    {
+      "id": 107,
+      "text": "Praca związana z posługiwaniem się bronią palną"
+    },
+    {
+      "id": 108,
+      "text": "Inne prace związane z narażaniem na czynnik niebezpieczny"
+    },
+    {
+      "id": 109,
+      "text": "Praca w narażeniu na inny czynnik szkodliwy lub uciążliwy"
+    }
+  ],
+  "multiple": true,
+  "visibleReception": true,
+  "isCalculated": true,
+  "calculatedText": "104"
+}
