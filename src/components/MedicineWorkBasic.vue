@@ -23,14 +23,32 @@
           hide-default-footer
           checkbox-color="primary"
         >
+          <template v-slot:item="{ item, isSelected, select }">
+            <tr>
+              <td class="text-start">
+                <v-simple-checkbox
+                  :ripple="false"
+                  color="primary"
+                  :value="isSelected"
+                  @input="select($event)"
+                ></v-simple-checkbox>
+              </td>
+              <td class="text-start">
+                {{ item.text.split(":")[1] || item.text.split(":")[0] }}
+              </td>
+            </tr>
+          </template>
         </v-data-table>
         <v-data-table
           class="elevation-1"
           v-model="selectedHarmfulFactors"
           :search="search"
           :headers="headers"
+          v-if="selectedTypeWorkMedicine.includes('specjalistyczne')"
           :items="
-            displayData.filter((item) => !selectedHarmfulFactors.includes(item))
+            displayData.police.specialist.filter(
+              (item) => !selectedHarmfulFactors.includes(item)
+            )
           "
           item-key="id"
           show-select
@@ -46,7 +64,7 @@
               <v-icon @click="toggle"
                 >{{ isOpen ? "mdi-minus" : "mdi-plus" }}
               </v-icon>
-              {{ items[0].category }}
+              {{ items[0].category || "ogólne" }}
             </th>
           </template>
           <template v-slot:item="{ item, isSelected, select }">
@@ -60,7 +78,62 @@
                 ></v-simple-checkbox>
               </td>
               <td class="text-start">
-                {{ item.text }}
+                {{ item.text.split(":")[1] || item.text.split(":")[0] }}
+              </td>
+            </tr>
+          </template>
+        </v-data-table>
+        <v-data-table
+          v-if="
+            !selectedTypeWorkMedicine.includes('specjalistyczne') ||
+            (selectedTypeWorkMedicine.includes('specjalistyczne') &&
+              selectedTypeWorkMedicine.length > 1)
+          "
+          class="elevation-1"
+          v-model="selectedHarmfulFactors"
+          :search="search"
+          :headers="headers"
+          :items="
+            police
+              ? displayData.police.basic.filter(
+                  (item) => !selectedHarmfulFactors.includes(item)
+                )
+              : displayData.basic.filter(
+                  (item) => !selectedHarmfulFactors.includes(item)
+                )
+          "
+          item-key="id"
+          show-select
+          group-by="category"
+          disable-pagination
+          disable-sort
+          hide-default-footer
+          :hide-default-header="
+            !!selectedHarmfulFactors.length ||
+            selectedTypeWorkMedicine.includes('specjalistyczne')
+          "
+        >
+          <!-- eslint-disable-next-line -->
+          <template v-slot:group.header="{ items, isOpen, toggle }">
+            <th colspan="2">
+              <v-icon @click="toggle"
+                >{{ isOpen ? "mdi-minus" : "mdi-plus" }}
+              </v-icon>
+              {{ items[0].category || "ogólne" }}
+            </th>
+          </template>
+          <template v-slot:item="{ item, isSelected, select }">
+            <tr>
+              <td class="text-start">
+                <v-simple-checkbox
+                  :ripple="false"
+                  color="primary"
+                  :value="isSelected"
+                  @input="select($event)"
+                ></v-simple-checkbox>
+              </td>
+              <td class="text-start">
+                {{ item.text.split(":")[1] || item.text.split(":")[0] }}
               </td>
             </tr>
           </template>
@@ -68,8 +141,8 @@
       </v-col>
       <v-col cols="4">
         <v-combobox
-          v-model="selectTypeWorkMedicine"
-          :items="workMedicineTypes"
+          v-model="selectedTypeWorkMedicine"
+          :items="workMedicineTypes[police ? 'police' : 'basic']"
           label="Rodzaj badania medycyny pracy"
           :rules="[(value) => !!value.length || 'Wybierz rodzaj badania!']"
           height="2rem"
@@ -104,17 +177,25 @@
             ></v-select>
           </v-col>
         </v-row>
-        <v-row
-          ><v-col cols="12">
-            <TestsList
+        <v-row>
+          <v-col cols="12">
+            <!-- <TestsList
               v-if="
                 selectedHarmfulFactors.length > 0 &&
-                selectTypeWorkMedicine.length > 0
+                selectedTypeWorkMedicine.length > 0
+              "
+              :tests="tests"
+            /> -->
+            <!-- <TestsList
+              v-if="
+                selectedHarmfulFactors.length > 0 &&
+                selectedTypeWorkMedicine.length > 0
               "
               :selectedHarmfulFactors="selectedHarmfulFactors"
-              :selectTypeWorkMedicine="selectTypeWorkMedicine"
-            /> </v-col
-        ></v-row>
+              :selectedTypeWorkMedicine="selectedTypeWorkMedicine"
+            /> -->
+          </v-col>
+        </v-row>
       </v-col>
     </v-row>
     <v-row> </v-row>
@@ -122,26 +203,29 @@
 </template>
 
 <script lang="ts">
-import orgData from "../assets/medicine_work_preliminary_police.json";
-import {
-  ref,
-  reactive,
-  defineComponent,
-  toRefs,
-  computed,
-} from "@vue/composition-api";
+import orgDataPolice from "../assets/medicine_work_police_org_data.json";
+import orgDataBasic from "../assets/medicine_work_basic_org_data.json";
+import getExaminationsList from "../helpers/getExaminationsList";
+
+import { ref, reactive, defineComponent, computed } from "@vue/composition-api";
 import TestsList from "./TestsList.vue";
+
+interface examinationInterface {
+  name: string;
+  list?: string[];
+}
 
 interface orgDataItemInterface {
   id: number;
   text: string;
   category?: string;
-  options?: string[];
+  examinations: examinationInterface[] | [];
   type?: string;
+  disabled?: boolean;
 }
 
 export default defineComponent({
-  name: "MedicineWorkPolice",
+  name: "MedicineWorkBasic",
   components: { TestsList },
   props: {
     police: {
@@ -150,83 +234,124 @@ export default defineComponent({
       default: false,
     },
   },
-  setup(props) {
-    const { police } = toRefs(props);
+  setup() {
     const selectedHarmfulFactors: orgDataItemInterface[] = reactive([]);
-    const selectedSpecyficHarmfulFactors = ref(null);
-    const selectTypeWorkMedicine = reactive<string[]>(["wstępne"]);
-    // const selectedWorkerType = reactive<string>("");
-    const headers = [{ text: "Czynniki ogólne", value: "text" }];
+    const selectedTypeWorkMedicine = reactive<string[]>(["wstępne"]);
+    const headers = [{ text: "Czynniki szkodliwe", value: "text" }];
     const search = ref("");
-    const workMedicineTypes = [
-      "wstępne",
-      "okresowe",
-      "kontrolne (profilaktyczne)",
-    ];
-    if (police) workMedicineTypes.push("specjalistyczne");
+    const workMedicineTypes = {
+      police: [
+        ...new Set(
+          orgDataPolice.arrayValues
+            .map(({ examinations }) => examinations.map(({ name }) => name))
+            .flat()
+        ),
+        "kontrolne (profilaktyczne)",
+      ],
+      basic: [
+        ...new Set(
+          orgDataBasic.arrayValues
+            .map(({ examinations }) => examinations.map(({ name }) => name))
+            .flat()
+        ),
+        "kontrolne (profilaktyczne)",
+      ],
+    };
+    // if (props.police) workMedicineTypes.push("specjalistyczne");
 
-    const displayData: orgDataItemInterface[] = reactive(orgData.arrayValues);
-    displayData.map((item) => {
-      const { text } = item;
-      if (text.includes("PW:") || text.includes("PW)"))
-        item.category = "Pyły i włókna";
-      else if (text.includes("CT:") || text.includes("CT)"))
-        item.category = "Czynniki toksyczne";
-      else if (text.includes("P:") || text.includes("P)"))
-        item.category = "Pestycydy";
-      else if (text.includes("CB:") || text.includes("CB)"))
-        item.category = "Czynniki biologiczne";
-      else if (text.includes("CPS:") || text.includes("CPS)"))
-        item.category = "Niekorzystne czynniki psychospołeczne";
-      else if (!item?.category) item.category = "Ogólne";
-
-      const newText = text.split(":")?.[1];
-      if (newText) item.text = newText;
-      return item;
+    const displayData = reactive({
+      basic: orgDataBasic.arrayValues
+        .filter(({ disabled }) => !disabled)
+        .sort((a, b) =>
+          a.category > b.category ? 1 : a.category < b.category ? -1 : 0
+        ),
+      police: {
+        basic: orgDataPolice.arrayValues
+          .filter(
+            ({ category, disabled }) =>
+              !disabled &&
+              category !== "specjalistyczne" &&
+              category !== "specyficzne"
+          )
+          .sort((a, b) =>
+            a.category > b.category ? 1 : a.category < b.category ? -1 : 0
+          ),
+        specialist: orgDataPolice.arrayValues.filter(
+          ({ category, disabled }) =>
+            !disabled && category === "specjalistyczne"
+        ),
+        specyfic: orgDataPolice.arrayValues.filter(
+          ({ category, disabled }) => !disabled && category === "specyficzne"
+        ),
+      },
     });
 
-    const specificHarmufuls = displayData.filter(
-      ({ type }) => type === "specyfic"
-    );
     const policeWorkerTypes: {
       list: (string | undefined)[];
       selectedType: string;
       ageRange: (string | undefined)[];
       selectedAge: string;
     } = reactive({
-      list: displayData
-        .filter(({ type }) => type === "specyfic")
-        .map(({ category }) => category),
+      list: displayData.police.specyfic.map(({ type }) => type),
       selectedType: ref(""),
       ageRange: computed(() =>
-        displayData
-          .filter(({ category }) => category === policeWorkerTypes.selectedType)
+        displayData.police.specyfic
+          .filter(({ type }) => type === policeWorkerTypes.selectedType)
           .map(({ text }) => text)
       ),
       selectedAge: ref(""),
     });
+    const selectedSpecyficHarmfulFactors = computed<orgDataItemInterface[]>(
+      () =>
+        orgDataPolice.arrayValues.filter(
+          ({ type, text }) =>
+            type === policeWorkerTypes.selectedType &&
+            text === policeWorkerTypes.selectedAge
+        )
+    );
+
+    const tests = reactive(selectedHarmfulFactors);
+
     return {
       selectedHarmfulFactors,
       headers,
       displayData,
       search,
-      selectTypeWorkMedicine,
-      selectedSpecyficHarmfulFactors,
+      selectedTypeWorkMedicine,
       workMedicineTypes,
-      specificHarmufuls,
       policeWorkerTypes,
+      tests,
+      selectedSpecyficHarmfulFactors,
     };
   },
   watch: {
-    selectTypeWorkMedicine: function (newValue: string[]) {
+    selectedTypeWorkMedicine: function (newValue: string[]) {
+      // console.log(this.selectedTypeWorkMedicine);
+      // this.selectedHarmfulFactors.length = 0;
       if (newValue.length > 1 && newValue.includes("wstępne")) {
         const index = newValue.indexOf("wstępne");
         newValue.splice(index, index + 1);
-      } else if (newValue.length > 1 && newValue.includes("specjalistyczne")) {
-        const index = newValue.indexOf("specjalistyczne");
-        console.log(newValue);
-        newValue.splice(index, index + 1);
       }
+      getExaminationsList(
+        [
+          ...this.selectedHarmfulFactors,
+          ...this.selectedSpecyficHarmfulFactors,
+        ],
+        this.police
+      );
+    },
+    selectedHarmfulFactors: function (newValue) {
+      // this.tests = getExaminationsList(newValue);
+      getExaminationsList(
+        [...newValue, ...this.selectedSpecyficHarmfulFactors],
+        this.police
+      );
+    },
+    selectedSpecyficHarmfulFactors: function (newValue) {
+      getExaminationsList(
+        [...this.selectedHarmfulFactors, ...newValue],
+        this.police
+      );
     },
   },
 });

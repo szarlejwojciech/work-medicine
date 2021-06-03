@@ -29,10 +29,7 @@
         </v-data-table>
       </v-col>
       <v-col cols="4">
-        <TestsList
-          v-if="selectedLicenceCategory.length > 0"
-          :selectedLicenceCategory="selectedLicenceCategory"
-        />
+        <TestsList v-if="selectedLicenceCategory.length > 0" />
       </v-col>
     </v-row>
   </v-container>
@@ -40,20 +37,19 @@
 
 <script lang="ts">
 import medicine_work_driving_licence from "../assets/medicine_work_driving_licence.json";
-import { ref, reactive, defineComponent } from "@vue/composition-api";
+import { reactive, defineComponent } from "@vue/composition-api";
 import TestsList from "./TestsList.vue";
 
 interface displayDataItemInterface {
   id: number;
   text: string;
-  options: string[];
+  examinations: string[];
 }
 
 export default defineComponent({
   name: "MedicineWorkDrivingLicence",
   components: { TestsList },
   setup() {
-    const singleSelect = ref(false);
     const selectedLicenceCategory: displayDataItemInterface[] = reactive([]);
     const headers = [{ text: "Wybierz kategorię prawa jazdy", value: "text" }];
 
@@ -74,7 +70,6 @@ export default defineComponent({
     }
 
     return {
-      singleSelect,
       selectedLicenceCategory,
       headers,
       displayData,

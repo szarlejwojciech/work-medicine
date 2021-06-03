@@ -6,743 +6,1876 @@
   "arrayValues": [
     {
       "id": 104,
-      "text": "Brak czynników szkodliwych"
+      "text": "Brak czynników szkodliwych",
+      "category": "ogólne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ]
     },
     {
       "id": 1,
-      "text": "Hałas"
+      "text": "Hałas",
+      "category": "ogólne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ]
     },
     {
       "id": 2,
-      "text": "Ultradźwięki małej częstotliwości"
+      "text": "Ultradźwięki małej częstotliwości",
+      "category": "ogólne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ]
     },
     {
       "id": 3,
-      "text": "Drgania na kończyny górne"
+      "text": "Drgania na kończyny górne",
+      "category": "ogólne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ]
     },
     {
       "id": 4,
-      "text": "Drgania na całe ciało"
+      "text": "Drgania na całe ciało",
+      "category": "ogólne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ]
     },
     {
       "id": 5,
-      "text": "Promieniowanie jonizujące"
+      "text": "Promieniowanie jonizujące",
+      "category": "ogólne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ]
     },
     {
       "id": 6,
-      "text": "Promieniowanie i pola elektromagnetyczne"
+      "text": "Promieniowanie i pola elektromagnetyczne",
+      "category": "ogólne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ]
     },
     {
       "id": 7,
-      "text": "Promieniowanie nadfioletowe"
+      "text": "Promieniowanie nadfioletowe",
+      "category": "ogólne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ]
     },
     {
       "id": 8,
-      "text": "Promieniowanie podczerwone"
+      "text": "Promieniowanie podczerwone",
+      "category": "ogólne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ]
     },
     {
       "id": 9,
-      "text": "Promieniowanie laserowe"
+      "text": "Promieniowanie laserowe",
+      "category": "ogólne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ]
     },
     {
       "id": 110,
-      "text": "Promieniowanie widzialne (światło)"
+      "text": "Promieniowanie widzialne (światło)",
+      "category": "ogólne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ]
     },
     {
       "id": 10,
-      "text": "Obsługa monitorów ekranowych"
+      "text": "Obsługa monitorów ekranowych",
+      "category": "ogólne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ]
     },
     {
       "id": 11,
-      "text": "Niedostateczne naświetlenie"
+      "text": "Niedostateczne naświetlenie",
+      "category": "ogólne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ]
     },
     {
       "id": 12,
-      "text": "Nadmierne naświetlenie"
+      "text": "Nadmierne naświetlenie",
+      "category": "ogólne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ]
     },
     {
       "id": 13,
-      "text": "Mikroklimat gorący"
+      "text": "Mikroklimat gorący",
+      "category": "ogólne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ]
     },
     {
       "id": 14,
-      "text": "Mikroklimat zimny "
+      "text": "Mikroklimat zimny ",
+      "category": "ogólne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ]
     },
     {
       "id": 15,
-      "text": "Zwiększone lub obniżone ciśnienie atmosferyczne"
+      "text": "Zwiększone lub obniżone ciśnienie atmosferyczne",
+      "category": "ogólne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ]
+    },
+    {
+      "id": 148,
+      "text": "Praca związana z obsługą narzędzi, maszyn, urządzeń i poruszających się poza drogami publicznymi pojazdów (wózki widłowe, koparki, itd.)",
+      "category": "ogólne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "text": "Prace wymagające pełnej sprawnosci psychoruchowej",
+      "category": "ogólne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ]
+    },
+    {
+      "id": 149,
+      "text": "Praca na wysokości",
+      "category": "ogólne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ]
+    },
+    {
+      "id": 97,
+      "text": "Praca zmianowa",
+      "category": "ogólne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ]
+    },
+    {
+      "id": 150,
+      "text": "Praca fizyczna z wydatkiem energetycznym na pracę powyżej (…)",
+      "category": "ogólne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "text": "Praca w wymuszonej pozycji",
+      "category": "ogólne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "text": "Praca wymagająca ruchów monotypowych kończyn",
+      "category": "ogólne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ]
+    },
+    {
+      "id": 101,
+      "text": "Praca wymagająca stałego i długotrwałego wysiłku głosowego",
+      "category": "ogólne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "text": "Praca na stanowiskach związanych z kierowanie pojazdami, szkoleniem i egzaminowaniem kierowców",
+      "category": "ogólne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ]
+    },
+    {
+      "id": 107,
+      "text": "Praca związana z posługiwaniem się bronią palną",
+      "category": "ogólne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ]
+    },
+    {
+      "id": 108,
+      "text": "Inne prace związane z narażaniem na czynnik niebezpieczny",
+      "category": "ogólne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ]
+    },
+    {
+      "id": 109,
+      "text": "Praca w narażeniu na inny czynnik szkodliwy lub uciążliwy",
+      "category": "ogólne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ]
     },
     {
       "id": 16,
-      "category": "Pyły i włókna",
-      "text": "Pyły i włókna (PW): Pyły nieorganiczne zawierające krzemionkę"
+      "text": "Pyły i włókna (PW): Pyły nieorganiczne zawierające krzemionkę",
+      "category": "pyły i włókna",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ]
     },
     {
       "id": 111,
-      "category": "Pyły i włókna",
-      "text": "PW:Pyły węgla kamiennego, brunatnego"
+      "text": "PW:Pyły węgla kamiennego, brunatnego",
+      "category": "pyły i włókna",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ]
     },
     {
       "id": 112,
-      "category": "Pyły i włókna",
-      "text": "PW:Pyły grafitu"
+      "text": "PW:Pyły grafitu",
+      "category": "pyły i włókna",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ]
     },
     {
       "id": 113,
-      "category": "Pyły i włókna",
-      "text": "PW:Pyły nieorganiczne zawieające włókna azbestu"
+      "text": "PW:Pyły nieorganiczne zawieające włókna azbestu",
+      "category": "pyły i włókna",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ]
     },
     {
       "id": 114,
-      "category": "Pyły i włókna",
-      "text": "PW:Pył talku "
+      "text": "PW:Pył talku ",
+      "category": "pyły i włókna",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ]
     },
     {
       "id": 115,
-      "category": "Pyły i włókna",
-      "text": "PW:Pył zawierający metale twarde"
+      "text": "PW:Pył zawierający metale twarde",
+      "category": "pyły i włókna",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ]
     },
     {
       "id": 116,
-      "category": "Pyły i włókna",
-      "text": "PW:Pył zawierający tworzywa sztuczne w tym sztuczne włókna mineralne"
+      "text": "PW:Pył zawierający tworzywa sztuczne w tym sztuczne włókna mineralne",
+      "category": "pyły i włókna",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ]
     },
     {
       "id": 117,
-      "category": "Pyły i włókna",
-      "text": "PW:Pył organiczny pochodzenia roślinnego i zwierzęcego, z wyjątkiem pyłów drewna i mąki"
+      "text": "PW:Pył organiczny pochodzenia roślinnego i zwierzęcego, z wyjątkiem pyłów drewna i mąki",
+      "category": "pyły i włókna",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ]
     },
     {
       "id": 118,
-      "category": "Pyły i włókna",
-      "text": "PW:Pył drewna"
+      "text": "PW:Pył drewna",
+      "category": "pyły i włókna",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ]
     },
     {
       "id": 119,
-      "category": "Pyły i włókna",
-      "text": "PW:Pył mąki"
+      "text": "PW:Pył mąki",
+      "category": "pyły i włókna",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ]
     },
     {
       "id": 17,
-      "category": "Czynniki toksyczne",
-      "text": "Czynniki toksyczne (CT): Związki akrylowe - akrylonitryl"
+      "text": "Czynniki toksyczne (CT): Związki akrylowe - akrylonitryl",
+      "category": "czynniki toksyczne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ]
     },
     {
       "id": 18,
-      "category": "Czynniki toksyczne",
       "text": "CT:Związki akrylowe - akrylany",
+      "category": "czynniki toksyczne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ],
       "disabled": false
     },
     {
       "id": 19,
-      "category": "Czynniki toksyczne",
       "text": "CT:Aldehydy - akrylowy",
+      "category": "czynniki toksyczne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ],
       "disabled": false
     },
     {
       "id": 120,
-      "category": "Czynniki toksyczne",
       "text": "CT:Aldehydy - formaldehyd",
+      "category": "czynniki toksyczne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ],
       "disabled": false
     },
     {
       "id": 20,
-      "category": "Czynniki toksyczne",
       "text": "CT:Aldehydy - mrówkowy",
+      "category": "czynniki toksyczne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ],
       "disabled": true
     },
     {
       "id": 21,
-      "category": "Czynniki toksyczne",
       "text": "CT:Amoniak",
+      "category": "czynniki toksyczne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ],
       "disabled": false
     },
     {
       "id": 22,
-      "category": "Czynniki toksyczne",
       "text": "CT:Arsen i jego związki",
+      "category": "czynniki toksyczne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ],
       "disabled": false
     },
     {
       "id": 23,
-      "category": "Czynniki toksyczne",
       "text": "CT:Arsenowodór",
+      "category": "czynniki toksyczne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ],
       "disabled": false
     },
     {
       "id": 24,
-      "category": "Czynniki toksyczne",
       "text": "CT:Tlenki azotu",
+      "category": "czynniki toksyczne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ],
       "disabled": false
     },
     {
       "id": 25,
-      "category": "Czynniki toksyczne",
       "text": "CT:Bar i jego związki nierozpuszczalne w wodzie",
+      "category": "czynniki toksyczne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ],
       "disabled": false
     },
     {
       "id": 121,
-      "category": "Czynniki toksyczne",
       "text": "CT:Bar i jego związki rozpuszczalne w wodzie",
+      "category": "czynniki toksyczne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ],
       "disabled": false
     },
     {
       "id": 26,
-      "category": "Czynniki toksyczne",
       "text": "CT:Benzen",
+      "category": "czynniki toksyczne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ],
       "disabled": false
     },
     {
       "id": 27,
-      "category": "Czynniki toksyczne",
       "text": "CT:Benzoapiren",
+      "category": "czynniki toksyczne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ],
       "disabled": false
     },
     {
       "id": 28,
-      "category": "Czynniki toksyczne",
       "text": "CT:Beryl i jego związki",
+      "category": "czynniki toksyczne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ],
       "disabled": false
     },
     {
       "id": 29,
-      "category": "Czynniki toksyczne",
       "text": "CT:Brom i jego związki",
+      "category": "czynniki toksyczne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ],
       "disabled": false
     },
     {
       "id": 30,
-      "category": "Czynniki toksyczne",
       "text": "CT:Chlor, chlorowodór i tlenki chloru",
+      "category": "czynniki toksyczne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ],
       "disabled": false
     },
     {
       "id": 31,
-      "category": "Czynniki toksyczne",
       "text": "CT:Chrom i chromiany",
+      "category": "czynniki toksyczne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ],
       "disabled": false
     },
     {
       "id": 32,
-      "category": "Czynniki toksyczne",
       "text": "CT:Czterochlorek węgla",
+      "category": "czynniki toksyczne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ],
       "disabled": true
     },
     {
       "id": 33,
-      "category": "Czynniki toksyczne",
       "text": "CT:Czterochloroetylen (PER)",
+      "category": "czynniki toksyczne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ],
       "disabled": true
     },
     {
       "id": 34,
-      "category": "Czynniki toksyczne",
       "text": "CT:Czteroetylek ołowiu",
+      "category": "czynniki toksyczne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ],
       "disabled": false
     },
     {
       "id": 35,
-      "category": "Czynniki toksyczne",
       "text": "CT:Dwumetyloformamid",
+      "category": "czynniki toksyczne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ],
       "disabled": false
     },
     {
       "id": 36,
-      "category": "Czynniki toksyczne",
       "text": "CT:Epichlorhydryna",
+      "category": "czynniki toksyczne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ],
       "disabled": false
     },
     {
       "id": 37,
-      "category": "Czynniki toksyczne",
       "text": "CT:Fenol i polifenole",
+      "category": "czynniki toksyczne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ],
       "disabled": false
     },
     {
       "id": 38,
-      "category": "Czynniki toksyczne",
       "text": "CT:Fluor i fluorki",
+      "category": "czynniki toksyczne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ],
       "disabled": false
     },
     {
       "id": 39,
-      "category": "Czynniki toksyczne",
       "text": "CT:Fosfor biały",
+      "category": "czynniki toksyczne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ],
       "disabled": false
     },
     {
       "id": 40,
-      "category": "Czynniki toksyczne",
       "text": "CT:Fosforu związki chlorowe ",
+      "category": "czynniki toksyczne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ],
       "disabled": false
     },
     {
       "id": 41,
-      "category": "Czynniki toksyczne",
       "text": "CT:Ftalowy bezwodnik",
+      "category": "czynniki toksyczne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ],
       "disabled": false
     },
     {
       "id": 42,
-      "category": "Czynniki toksyczne",
       "text": "CT:Furfurol",
+      "category": "czynniki toksyczne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ],
       "disabled": false
     },
     {
       "id": 43,
-      "category": "Czynniki toksyczne",
       "text": "CT:Glinu tlenek",
+      "category": "czynniki toksyczne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ],
       "disabled": false
     },
     {
       "id": 122,
-      "category": "Czynniki toksyczne",
       "text": "CT:Glikole - etylenowy, dietylenowy, butano 1,4-diol, glicerol",
+      "category": "czynniki toksyczne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ],
       "disabled": false
     },
     {
       "id": 123,
-      "category": "Czynniki toksyczne",
       "text": "CT:Glikole - nitrylowe pochodne glikoli lub gliceryny, nitrogliceryna, nirtoglikol",
+      "category": "czynniki toksyczne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ],
       "disabled": false
     },
     {
       "id": 44,
-      "category": "Czynniki toksyczne",
       "text": "CT:Izocyjanianowe związki",
+      "category": "czynniki toksyczne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ],
       "disabled": false
     },
     {
       "id": 45,
-      "category": "Czynniki toksyczne",
       "text": "CT:Ketony - aceton",
+      "category": "czynniki toksyczne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ],
       "disabled": false
     },
     {
       "id": 46,
-      "category": "Czynniki toksyczne",
       "text": "CT:Ketony - metyloetyloketon, metyloizobutyloketon",
+      "category": "czynniki toksyczne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ],
       "disabled": false
     },
     {
       "id": 47,
-      "category": "Czynniki toksyczne",
       "text": "CT:Ketony - diaceton, tlenek mezytylu",
+      "category": "czynniki toksyczne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ],
       "disabled": false
     },
     {
       "id": 124,
-      "category": "Czynniki toksyczne",
       "text": "CT:Ketony - keton etylowo-butylowy",
+      "category": "czynniki toksyczne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ],
       "disabled": false
     },
     {
       "id": 125,
-      "category": "Czynniki toksyczne",
       "text": "CT:Ketony - keton dipropylowy",
+      "category": "czynniki toksyczne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ],
       "disabled": false
     },
     {
       "id": 48,
-      "category": "Czynniki toksyczne",
       "text": "CT:Kobalt",
+      "category": "czynniki toksyczne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ],
       "disabled": false
     },
     {
       "id": 49,
-      "category": "Czynniki toksyczne",
       "text": "CT:Ksylen",
+      "category": "czynniki toksyczne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ],
       "disabled": true
     },
     {
       "id": 50,
-      "category": "Czynniki toksyczne",
       "text": "CT:Mangan i jego związki",
+      "category": "czynniki toksyczne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ],
       "disabled": false
     },
     {
       "id": 126,
-      "category": "Czynniki toksyczne",
-      "text": "CT:Nafta i jej produkty - benzyna ekstrakcyjna, nafta"
+      "text": "CT:Nafta i jej produkty - benzyna ekstrakcyjna, nafta",
+      "category": "czynniki toksyczne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ]
     },
     {
       "id": 127,
-      "category": "Czynniki toksyczne",
-      "text": "CT:Nafta i jej produkty - mieszaniny zawierające wielopierścieniowe węglowodory aromatyczne np. Smoła, asfalty"
+      "text": "CT:Nafta i jej produkty - mieszaniny zawierające wielopierścieniowe węglowodory aromatyczne np. Smoła, asfalty",
+      "category": "czynniki toksyczne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ]
     },
     {
       "id": 128,
-      "category": "Czynniki toksyczne",
-      "text": "CT:Naftalen i pochodne"
+      "text": "CT:Naftalen i pochodne",
+      "category": "czynniki toksyczne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ]
     },
     {
       "id": 129,
-      "category": "Czynniki toksyczne",
-      "text": "CT:Nikiel i jego związki"
+      "text": "CT:Nikiel i jego związki",
+      "category": "czynniki toksyczne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ]
     },
     {
       "id": 130,
-      "category": "Czynniki toksyczne",
-      "text": "CT:Ołów i jego związki"
+      "text": "CT:Ołów i jego związki",
+      "category": "czynniki toksyczne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ]
     },
     {
       "id": 57,
-      "category": "Pestycydy",
-      "text": "Pestycydy (P):Hamujące aktywność cholinesterazy"
+      "text": "Pestycydy (P):Hamujące aktywność cholinesterazy",
+      "category": "pestycydy",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ]
     },
     {
       "id": 58,
-      "category": "Pestycydy",
       "text": "P:Hamujące aktywność cholinesterazy - karbaminiany",
+      "category": "pestycydy",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ],
       "disabled": true
     },
     {
       "id": 59,
-      "category": "Pestycydy",
       "text": "P:Węglowodory chlorowane ",
+      "category": "pestycydy",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ],
       "disabled": false
     },
     {
       "id": 60,
-      "category": "Pestycydy",
       "text": "P:Związki kwasu dwuchlorofenoksyoctowego",
+      "category": "pestycydy",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ],
       "disabled": false
     },
     {
       "id": 61,
-      "category": "Pestycydy",
       "text": "P:Pestycydy dwutiokarbaminianowe",
+      "category": "pestycydy",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ],
       "disabled": false
     },
     {
       "id": 62,
-      "category": "Pestycydy",
       "text": "P:Związki dipirydylowe",
+      "category": "pestycydy",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ],
       "disabled": false
     },
     {
       "id": 63,
-      "category": "Pestycydy",
       "text": "P:Dinitroalkilofenole",
+      "category": "pestycydy",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ],
       "disabled": false
     },
     {
       "id": 64,
-      "category": "Pestycydy",
       "text": "P:Pyretroidy",
+      "category": "pestycydy",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ],
       "disabled": false
     },
     {
       "id": 65,
-      "category": "Pestycydy",
       "text": "P:Pirydyna",
+      "category": "pestycydy",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ],
       "disabled": false
     },
     {
       "id": 66,
-      "category": "Pestycydy",
       "text": "P:Rtęć - metaliczna i jej związki nieorganiczne",
+      "category": "pestycydy",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ],
       "disabled": false
     },
     {
       "id": 67,
-      "category": "Pestycydy",
       "text": "P:Rtęć - związki organiczne",
+      "category": "pestycydy",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ],
       "disabled": false
     },
     {
       "id": 68,
-      "category": "Pestycydy",
       "text": "P:Siarkowodór",
+      "category": "pestycydy",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ],
       "disabled": false
     },
     {
       "id": 69,
-      "category": "Pestycydy",
       "text": "P:Siarki tlenki",
+      "category": "pestycydy",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ],
       "disabled": false
     },
     {
       "id": 70,
-      "category": "Pestycydy",
       "text": "P:Terpentyna",
+      "category": "pestycydy",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ],
       "disabled": false
     },
     {
       "id": 131,
-      "category": "Pestycydy",
       "text": "P:Wanad i jego zwiazki",
+      "category": "pestycydy",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ],
       "disabled": false
     },
     {
       "id": 71,
-      "category": "Pestycydy",
       "text": "P:Toluen",
+      "category": "pestycydy",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ],
       "disabled": true
     },
     {
       "id": 72,
-      "category": "Pestycydy",
       "text": "P:Trójchloroetylen",
+      "category": "pestycydy",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ],
       "disabled": true
     },
     {
       "id": 73,
-      "category": "Pestycydy",
       "text": "P:Wanadu pięciotlenek",
+      "category": "pestycydy",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ],
       "disabled": true
     },
     {
       "id": 132,
-      "category": "Pestycydy",
       "text": "P:Węgla disiarczek",
+      "category": "pestycydy",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ],
       "disabled": false
     },
     {
       "id": 74,
-      "category": "Pestycydy",
       "text": "P:Węgla tlenek (II)",
+      "category": "pestycydy",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ],
       "disabled": false
     },
     {
       "id": 133,
-      "category": "Pestycydy",
       "text": "P:Węgla tlenek (IV)",
+      "category": "pestycydy",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ],
       "disabled": false
     },
     {
       "id": 75,
-      "category": "Pestycydy",
       "text": "P:Węglowodorów alifatycznych związki - związki aminowe",
+      "category": "pestycydy",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ],
       "disabled": false
     },
     {
       "id": 76,
-      "category": "Pestycydy",
       "text": "P:Węglowodorów alifatycznych związki - związki nitrowe",
+      "category": "pestycydy",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ],
       "disabled": false
     },
     {
       "id": 134,
-      "category": "Pestycydy",
       "text": "P:Węglowodorów alifatycznych związki - chlorowcopodobne węglowodorów alifatycznych lub alicyklicznych",
+      "category": "pestycydy",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ],
       "disabled": false
     },
     {
       "id": 135,
-      "category": "Pestycydy",
       "text": "P:Chlorek metylu",
+      "category": "pestycydy",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ],
       "disabled": false
     },
     {
       "id": 136,
-      "category": "Pestycydy",
       "text": "P:Bromek metylu",
+      "category": "pestycydy",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ],
       "disabled": false
     },
     {
       "id": 137,
-      "category": "Pestycydy",
       "text": "P:Chlorek metylenu",
+      "category": "pestycydy",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ],
       "disabled": false
     },
     {
       "id": 138,
-      "category": "Pestycydy",
       "text": "P:Chloroform",
+      "category": "pestycydy",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ],
       "disabled": false
     },
     {
       "id": 139,
-      "category": "Pestycydy",
       "text": "P:Dichloroetan",
+      "category": "pestycydy",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ],
       "disabled": false
     },
     {
       "id": 140,
-      "category": "Pestycydy",
       "text": "P:Czterochlorek węgla",
+      "category": "pestycydy",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ],
       "disabled": false
     },
     {
       "id": 141,
-      "category": "Pestycydy",
       "text": "P:Dibromek etylenu, trichloroetylen, tetrachloroetylen",
+      "category": "pestycydy",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ],
       "disabled": false
     },
     {
       "id": 77,
-      "category": "Pestycydy",
       "text": "P:Węglowodorów aromatycznych związki nitrowe",
+      "category": "pestycydy",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ],
       "disabled": false
     },
     {
       "id": 78,
-      "category": "Pestycydy",
       "text": "P:Węglowodorów aromatycznych związki aminowe",
+      "category": "pestycydy",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ],
       "disabled": false
     },
     {
       "id": 142,
-      "category": "Pestycydy",
       "text": "P:Węglowodorów aromatycznych związki chlorowcopodobne - pochodne benzenu",
+      "category": "pestycydy",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ],
       "disabled": false
     },
     {
       "id": 143,
-      "category": "Pestycydy",
       "text": "P:Węglowodorów aromatycznych związki chlorowcopodobne - pochodne bifenyli",
+      "category": "pestycydy",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ],
       "disabled": false
     },
     {
       "id": 144,
-      "category": "Pestycydy",
       "text": "P:Węglowodorów aromatycznych związki chlorowcopodobne - pochodne naftalenu",
+      "category": "pestycydy",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ],
       "disabled": false
     },
     {
       "id": 79,
-      "category": "Pestycydy",
       "text": "P:Winylobenzen",
+      "category": "pestycydy",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ],
       "disabled": false
     },
     {
       "id": 80,
-      "category": "Pestycydy",
       "text": "P:Winylu chlorek",
+      "category": "pestycydy",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ],
       "disabled": false
     },
     {
       "id": 81,
-      "category": "Pestycydy",
       "text": "P:Żywice epoksydowe",
+      "category": "pestycydy",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ],
       "disabled": false
     },
     {
       "id": 82,
-      "category": "Pestycydy",
       "text": "P:Mieszaniny rozpuszczalników organicznych",
+      "category": "pestycydy",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ],
       "disabled": false
     },
     {
       "id": 83,
-      "category": "Pestycydy",
       "text": "P:Cytostatyki",
+      "category": "pestycydy",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ],
       "disabled": false
     },
     {
       "id": 84,
-      "category": "Czynniki biologiczne",
-      "text": "Czynniki biologiczne (CB): Wirus zapalenia wątroby - typ B"
+      "text": "Czynniki biologiczne (CB): Wirus zapalenia wątroby - typ B",
+      "category": "czynniki biologiczne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ]
     },
     {
       "id": 85,
-      "category": "Czynniki biologiczne",
-      "text": "CB:Wirus zapalenia wątroby - typ C"
+      "text": "CB:Wirus zapalenia wątroby - typ C",
+      "category": "czynniki biologiczne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ]
     },
     {
       "id": 86,
-      "category": "Czynniki biologiczne",
-      "text": "CB:Ludzki wirus niedoboru odporności nabytej (HIV)"
+      "text": "CB:Ludzki wirus niedoboru odporności nabytej (HIV)",
+      "category": "czynniki biologiczne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ]
     },
     {
       "id": 87,
-      "category": "Czynniki biologiczne",
-      "text": "CB:Pąłeczki Brucella abortus bovis"
+      "text": "CB:Pąłeczki Brucella abortus bovis",
+      "category": "czynniki biologiczne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ]
     },
     {
       "id": 88,
-      "category": "Czynniki biologiczne",
-      "text": "CB:Promieniowanie termofilne, grzyby pleśniowe i inne"
+      "text": "CB:Promieniowanie termofilne, grzyby pleśniowe i inne",
+      "category": "czynniki biologiczne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ]
     },
     {
       "id": 89,
-      "category": "Czynniki biologiczne",
-      "text": "CB:Prątek gróźlicy, wirus kleszczowego zapalenia mózgu, Borrelia"
+      "text": "CB:Prątek gróźlicy, wirus kleszczowego zapalenia mózgu, Borrelia",
+      "category": "czynniki biologiczne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ]
     },
     {
       "id": 145,
-      "category": "Czynniki biologiczne",
-      "text": "CB:Wirus kleszczowego zapalenia mózgu"
+      "text": "CB:Wirus kleszczowego zapalenia mózgu",
+      "category": "czynniki biologiczne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ]
     },
     {
       "id": 146,
-      "category": "Czynniki biologiczne",
-      "text": "CB:Borrelia burgdorferi"
+      "text": "CB:Borrelia burgdorferi",
+      "category": "czynniki biologiczne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ]
     },
     {
       "id": 90,
-      "category": "Niekorzystne czynniki psychospołeczne",
-      "text": "Niekorzystne czynniki psychospołeczne (CPS) - Stały duży dopływ informacji i gotowość do odpowiedzi"
+      "text": "Niekorzystne czynniki psychospołeczne (CPS) - Stały duży dopływ informacji i gotowość do odpowiedzi",
+      "category": "niekorzystne czynniki psychospołeczne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ]
     },
     {
       "id": 91,
-      "category": "Niekorzystne czynniki psychospołeczne",
-      "text": "CPS:Stanowiska decyzyjne i odpowiedzialność"
+      "text": "CPS:Stanowiska decyzyjne i odpowiedzialność",
+      "category": "niekorzystne czynniki psychospołeczne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ]
     },
     {
       "id": 92,
-      "category": "Niekorzystne czynniki psychospołeczne",
-      "text": "CPS:Zagrożenia wynikające z narażenia życia"
+      "text": "CPS:Zagrożenia wynikające z narażenia życia",
+      "category": "niekorzystne czynniki psychospołeczne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ]
     },
     {
       "id": 93,
-      "category": "Niekorzystne czynniki psychospołeczne",
-      "text": "CPS:Zagrożenia wynikające z monotonii pracy"
+      "text": "CPS:Zagrożenia wynikające z monotonii pracy",
+      "category": "niekorzystne czynniki psychospołeczne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ]
     },
     {
       "id": 147,
-      "category": "Niekorzystne czynniki psychospołeczne",
-      "text": "CPS:Zagrożenia wynikające z organizacji pracy (praca pod presją czasu, nierównomierne obłożenie pracą, inne)"
-    },
-    {
-      "id": 148,
-      "text": "Praca związana z obsługą narzędzi, maszyn, urządzeń i poruszających się poza drogami publicznymi pojazdów (wózki widłowe, koparki, itd.)"
-    },
-    {
-      "id": 94,
-      "text": "Prace wymagające pełnej sprawnosci psychoruchowej"
-    },
-    {
-      "id": 149,
-      "text": "Praca na wysokości"
-    },
-    {
-      "id": 97,
-      "text": "Praca zmianowa"
-    },
-    {
-      "id": 150,
-      "text": "Praca fizyczna z wydatkiem energetycznym na pracę powyżej (…)"
-    },
-    {
-      "id": 99,
-      "text": "Praca w wymuszonej pozycji"
-    },
-    {
-      "id": 100,
-      "text": "Praca wymagająca ruchów monotypowych kończyn"
-    },
-    {
-      "id": 101,
-      "text": "Praca wymagająca stałego i długotrwałego wysiłku głosowego"
-    },
-    {
-      "id": 102,
-      "text": "Praca na stanowiskach związanych z kierowanie pojazdami, szkoleniem i egzaminowaniem kierowców"
-    },
-    {
-      "id": 107,
-      "text": "Praca związana z posługiwaniem się bronią palną"
-    },
-    {
-      "id": 108,
-      "text": "Inne prace związane z narażaniem na czynnik niebezpieczny"
-    },
-    {
-      "id": 109,
-      "text": "Praca w narażeniu na inny czynnik szkodliwy lub uciążliwy"
+      "text": "CPS:Zagrożenia wynikające z organizacji pracy (praca pod presją czasu, nierównomierne obłożenie pracą, inne)",
+      "category": "niekorzystne czynniki psychospołeczne",
+      "examinations": [
+        {
+          "name": "wstępne"
+        },
+        {
+          "name": "okresowe"
+        }
+      ]
     }
   ],
   "multiple": true,
