@@ -179,13 +179,13 @@
         </v-row>
         <v-row>
           <v-col cols="12">
-            <!-- <TestsList
+            <TestsList
               v-if="
                 selectedHarmfulFactors.length > 0 &&
                 selectedTypeWorkMedicine.length > 0
               "
-              :tests="tests"
-            /> -->
+              :tests="examinationsList"
+            />
             <!-- <TestsList
               v-if="
                 selectedHarmfulFactors.length > 0 &&
@@ -235,10 +235,11 @@ export default defineComponent({
     },
   },
   setup() {
-    const selectedHarmfulFactors: orgDataItemInterface[] = reactive([]);
+    const selectedHarmfulFactors = reactive<orgDataItemInterface[]>([]);
     const selectedTypeWorkMedicine = reactive<string[]>(["wstępne"]);
     const headers = [{ text: "Czynniki szkodliwe", value: "text" }];
     const search = ref("");
+    const examinationsList = reactive<string[]>([]);
     const workMedicineTypes = {
       police: [
         ...new Set(
@@ -310,8 +311,6 @@ export default defineComponent({
         )
     );
 
-    const tests = reactive(selectedHarmfulFactors);
-
     return {
       selectedHarmfulFactors,
       headers,
@@ -320,7 +319,7 @@ export default defineComponent({
       selectedTypeWorkMedicine,
       workMedicineTypes,
       policeWorkerTypes,
-      tests,
+      examinationsList,
       selectedSpecyficHarmfulFactors,
     };
   },
@@ -332,25 +331,28 @@ export default defineComponent({
         const index = newValue.indexOf("wstępne");
         newValue.splice(index, index + 1);
       }
-      getExaminationsList(
+      this.examinationsList = getExaminationsList(
         [
           ...this.selectedHarmfulFactors,
           ...this.selectedSpecyficHarmfulFactors,
         ],
-        this.police
+        this.police,
+        this.selectedTypeWorkMedicine
       );
     },
     selectedHarmfulFactors: function (newValue) {
       // this.tests = getExaminationsList(newValue);
-      getExaminationsList(
+      this.examinationsList = getExaminationsList(
         [...newValue, ...this.selectedSpecyficHarmfulFactors],
-        this.police
+        this.police,
+        this.selectedTypeWorkMedicine
       );
     },
     selectedSpecyficHarmfulFactors: function (newValue) {
-      getExaminationsList(
+      this.examinationsList = getExaminationsList(
         [...this.selectedHarmfulFactors, ...newValue],
-        this.police
+        this.police,
+        this.selectedTypeWorkMedicine
       );
     },
   },

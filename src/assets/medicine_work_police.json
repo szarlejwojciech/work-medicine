@@ -29,13 +29,16 @@
         {
           "name": "wstępne",
           "list": [
-            "Lar,yngolog",
+            "Laryngolog",
             "Audiometria"
           ]
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Laryngolog",
+            "Audiometria"
+          ]
         },
         {
           "name": "specjalistyczne",
@@ -50,13 +53,16 @@
         {
           "name": "wstępne",
           "list": [
-            "Lar,yngolog",
+            "Laryngolog",
             "Audiometria"
           ]
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Laryngolog",
+            "Audiometria"
+          ]
         },
         {
           "name": "specjalistyczne",
@@ -71,14 +77,18 @@
         {
           "name": "wstępne",
           "list": [
-            "RTG, rąk i stawów łokciowych",
+            "RTG rąk i stawów łokciowych",
             "Próba oziębiania z termometrią skórną i próbą uciskową",
             "Ocena czucia wibracji"
           ]
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "RTG rąk i stawów łokciowych",
+            "Próba oziębiania z termometrią skórną i próbą uciskową",
+            "Ocena czucia wibracji"
+          ]
         },
         {
           "name": "specjalistyczne",
@@ -93,12 +103,14 @@
         {
           "name": "wstępne",
           "list": [
-            "Neu,rolog"
+            "Neurolog"
           ]
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Neurolog"
+          ]
         },
         {
           "name": "specjalistyczne",
@@ -113,14 +125,18 @@
         {
           "name": "wstępne",
           "list": [
-            "Oku,lista",
+            "Okulista",
             "Morfologia z rozmazem",
             "Płytki krwi"
           ]
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Okulista",
+            "Morfologia z rozmazem",
+            "Płytki krwi"
+          ]
         },
         {
           "name": "specjalistyczne",
@@ -135,14 +151,18 @@
         {
           "name": "wstępne",
           "list": [
-            "Neu,rolog",
+            "Neurolog",
             "Okulista",
             "EKG"
           ]
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Neurolog",
+            "Okulista",
+            "EKG"
+          ]
         },
         {
           "name": "specjalistyczne",
@@ -157,13 +177,16 @@
         {
           "name": "wstępne",
           "list": [
-            "Oku,lista",
+            "Okulista",
             "Dermatolog"
           ]
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Okulista",
+            "Dermatolog"
+          ]
         },
         {
           "name": "specjalistyczne",
@@ -178,12 +201,14 @@
         {
           "name": "wstępne",
           "list": [
-            "Oku,lista"
+            "Okulista"
           ]
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Okulista"
+          ]
         },
         {
           "name": "specjalistyczne",
@@ -198,12 +223,14 @@
         {
           "name": "wstępne",
           "list": [
-            "Oku,lista"
+            "Okulista"
           ]
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Okulista"
+          ]
         },
         {
           "name": "specjalistyczne",
@@ -237,12 +264,14 @@
         {
           "name": "wstępne",
           "list": [
-            "Oku,lista"
+            "Okulista"
           ]
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Okulista"
+          ]
         },
         {
           "name": "specjalistyczne",
@@ -275,12 +304,14 @@
         {
           "name": "wstępne",
           "list": [
-            "Oku,lista"
+            "Okulista"
           ]
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Okulista"
+          ]
         },
         {
           "name": "specjalistyczne",
@@ -295,12 +326,14 @@
         {
           "name": "wstępne",
           "list": [
-            "EKG,"
+            "EKG"
           ]
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "EKG"
+          ]
         },
         {
           "name": "specjalistyczne",
@@ -333,14 +366,18 @@
         {
           "name": "wstępne",
           "list": [
-            "Lar,yngolog",
+            "Laryngolog",
             "Neurolog",
             "EKG"
           ]
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Laryngolog",
+            "Neurolog",
+            "EKG"
+          ]
         },
         {
           "name": "specjalistyczne",
@@ -356,13 +393,16 @@
         {
           "name": "wstępne",
           "list": [
-            "RTG, klatki piersiowej",
+            "RTG klatki piersiowej",
             "Spirometria"
           ]
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "RTG klatki piersiowej",
+            "Spirometria"
+          ]
         },
         {
           "name": "specjalistyczne",
@@ -378,13 +418,16 @@
         {
           "name": "wstępne",
           "list": [
-            "RTG, klatki piersiowej",
+            "RTG klatki piersiowej",
             "Spirometria"
           ]
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "RTG klatki piersiowej",
+            "Spirometria"
+          ]
         },
         {
           "name": "specjalistyczne",
@@ -400,13 +443,16 @@
         {
           "name": "wstępne",
           "list": [
-            "RTG, klatki piersiowej",
+            "RTG klatki piersiowej",
             "Spirometria"
           ]
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "RTG klatki piersiowej",
+            "Spirometria"
+          ]
         },
         {
           "name": "specjalistyczne",
@@ -422,13 +468,16 @@
         {
           "name": "wstępne",
           "list": [
-            "RTG, klatki piersiowej",
+            "RTG klatki piersiowej",
             "Spirometria"
           ]
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "RTG klatki piersiowej",
+            "Spirometria"
+          ]
         },
         {
           "name": "specjalistyczne",
@@ -444,13 +493,16 @@
         {
           "name": "wstępne",
           "list": [
-            "RTG, klatki piersiowej",
+            "RTG klatki piersiowej",
             "Spirometria"
           ]
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "RTG klatki piersiowej",
+            "Spirometria"
+          ]
         },
         {
           "name": "specjalistyczne",
@@ -466,13 +518,16 @@
         {
           "name": "wstępne",
           "list": [
-            "RTG, klatki piersiowej",
+            "RTG klatki piersiowej",
             "Spirometria"
           ]
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "RTG klatki piersiowej",
+            "Spirometria"
+          ]
         },
         {
           "name": "specjalistyczne",
@@ -488,13 +543,16 @@
         {
           "name": "wstępne",
           "list": [
-            "RTG, klatki piersiowej",
+            "RTG klatki piersiowej",
             "Spirometria"
           ]
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "RTG klatki piersiowej",
+            "Spirometria"
+          ]
         },
         {
           "name": "specjalistyczne",
@@ -510,13 +568,16 @@
         {
           "name": "wstępne",
           "list": [
-            "RTG, klatki piersiowej",
+            "RTG klatki piersiowej",
             "Spirometria"
           ]
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "RTG klatki piersiowej",
+            "Spirometria"
+          ]
         },
         {
           "name": "specjalistyczne",
@@ -532,12 +593,14 @@
         {
           "name": "wstępne",
           "list": [
-            "Spi,rometria"
+            "Spirometria"
           ]
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Spirometria"
+          ]
         },
         {
           "name": "specjalistyczne",
@@ -553,12 +616,14 @@
         {
           "name": "wstępne",
           "list": [
-            "Spi,rometria"
+            "Spirometria"
           ]
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Spirometria"
+          ]
         },
         {
           "name": "specjalistyczne",
@@ -574,12 +639,14 @@
         {
           "name": "wstępne",
           "list": [
-            "Spi,rometria"
+            "Spirometria"
           ]
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Spirometria"
+          ]
         },
         {
           "name": "specjalistyczne",
@@ -650,12 +717,14 @@
         {
           "name": "wstępne",
           "list": [
-            "Spi,rometria"
+            "Spirometria"
           ]
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Spirometria"
+          ]
         },
         {
           "name": "specjalistyczne",
@@ -1165,12 +1234,14 @@
         {
           "name": "wstępne",
           "list": [
-            "Stę,żenie kreatyniny"
+            "Stężenie kreatyniny"
           ]
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Stężenie kreatyniny"
+          ]
         },
         {
           "name": "specjalistyczne",
@@ -1186,13 +1257,16 @@
         {
           "name": "wstępne",
           "list": [
-            "EKG,",
+            "EKG",
             "Morfologia z rozmazem"
           ]
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "EKG",
+            "Morfologia z rozmazem"
+          ]
         },
         {
           "name": "specjalistyczne",
@@ -1619,7 +1693,7 @@
         {
           "name": "wstępne",
           "list": [
-            "Mor,fologia z rozmazem",
+            "Morfologia z rozmazem",
             "Aspat",
             "Alat",
             "Stężenie kreatyniny",
@@ -1631,7 +1705,16 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Morfologia z rozmazem",
+            "Aspat",
+            "Alat",
+            "Stężenie kreatyniny",
+            "Badanie ogólne moczu",
+            "Badanie poziomu cukru we krwi",
+            "stężenie methemogloiny we krwi",
+            "GGTP"
+          ]
         },
         {
           "name": "specjalistyczne",
@@ -1666,12 +1749,14 @@
         {
           "name": "wstępne",
           "list": [
-            "Spi,rometria"
+            "Spirometria"
           ]
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Spirometria"
+          ]
         },
         {
           "name": "specjalistyczne",
@@ -1801,13 +1886,16 @@
         {
           "name": "wstępne",
           "list": [
-            "RTG, klatki piersiowej",
+            "RTG klatki piersiowej",
             "Spirometria"
           ]
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "RTG klatki piersiowej",
+            "Spirometria"
+          ]
         },
         {
           "name": "specjalistyczne",
@@ -1880,7 +1968,7 @@
         {
           "name": "wstępne",
           "list": [
-            "EKG,",
+            "EKG",
             "Aspat",
             "Alat",
             "Lipidogram",
@@ -1890,7 +1978,14 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "EKG",
+            "Aspat",
+            "Alat",
+            "Lipidogram",
+            "Badanie poziomu cukru we krwi",
+            "GGTP"
+          ]
         },
         {
           "name": "specjalistyczne",
@@ -1925,12 +2020,14 @@
         {
           "name": "wstępne",
           "list": [
-            "EKG,"
+            "EKG"
           ]
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "EKG"
+          ]
         },
         {
           "name": "specjalistyczne",
@@ -2003,14 +2100,18 @@
         {
           "name": "wstępne",
           "list": [
-            "Asp,at",
+            "Aspat",
             "Alat",
             "GGTP"
           ]
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Aspat",
+            "Alat",
+            "GGTP"
+          ]
         },
         {
           "name": "specjalistyczne",
@@ -2026,14 +2127,18 @@
         {
           "name": "wstępne",
           "list": [
-            "Asp,at",
+            "Aspat",
             "Alat",
             "GGTP"
           ]
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Aspat",
+            "Alat",
+            "GGTP"
+          ]
         },
         {
           "name": "specjalistyczne",
@@ -2049,14 +2154,18 @@
         {
           "name": "wstępne",
           "list": [
-            "Asp,at",
+            "Aspat",
             "Alat",
             "GGTP"
           ]
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Aspat",
+            "Alat",
+            "GGTP"
+          ]
         },
         {
           "name": "specjalistyczne",
@@ -2072,7 +2181,7 @@
         {
           "name": "wstępne",
           "list": [
-            "Asp,at",
+            "Aspat",
             "Alat",
             "Stężenie kreatyniny",
             "Badanie ogólne moczu",
@@ -2081,7 +2190,13 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Aspat",
+            "Alat",
+            "Stężenie kreatyniny",
+            "Badanie ogólne moczu",
+            "GGTP"
+          ]
         },
         {
           "name": "specjalistyczne",
@@ -2097,7 +2212,7 @@
         {
           "name": "wstępne",
           "list": [
-            "Asp,at",
+            "Aspat",
             "Alat",
             "Stężenie kreatyniny",
             "Badanie ogólne moczu",
@@ -2106,7 +2221,13 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Aspat",
+            "Alat",
+            "Stężenie kreatyniny",
+            "Badanie ogólne moczu",
+            "GGTP"
+          ]
         },
         {
           "name": "specjalistyczne",
@@ -2122,14 +2243,18 @@
         {
           "name": "wstępne",
           "list": [
-            "Asp,at",
+            "Aspat",
             "Alat",
             "GGTP"
           ]
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Aspat",
+            "Alat",
+            "GGTP"
+          ]
         },
         {
           "name": "specjalistyczne",
@@ -2145,7 +2270,7 @@
         {
           "name": "wstępne",
           "list": [
-            "Asp,at",
+            "Aspat",
             "Alat",
             "Badanie ogólne moczu",
             "GGTP",
@@ -2154,7 +2279,13 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Aspat",
+            "Alat",
+            "Badanie ogólne moczu",
+            "GGTP",
+            "Stężenie kreatyniny"
+          ]
         },
         {
           "name": "specjalistyczne",
@@ -2170,7 +2301,7 @@
         {
           "name": "wstępne",
           "list": [
-            "EKG,",
+            "EKG",
             "Morfologia z rozmazem",
             "Aspat",
             "Alat",
@@ -2181,7 +2312,15 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "EKG",
+            "Morfologia z rozmazem",
+            "Aspat",
+            "Alat",
+            "Stężenie kreatyniny",
+            "Badanie ogólne moczu",
+            "GGTP"
+          ]
         },
         {
           "name": "specjalistyczne",
@@ -2235,7 +2374,7 @@
         {
           "name": "wstępne",
           "list": [
-            "Mor,fologia z rozmazem",
+            "Morfologia z rozmazem",
             "Aspat",
             "Alat",
             "GGTP"
@@ -2243,7 +2382,12 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Morfologia z rozmazem",
+            "Aspat",
+            "Alat",
+            "GGTP"
+          ]
         },
         {
           "name": "specjalistyczne",
@@ -2259,7 +2403,7 @@
         {
           "name": "wstępne",
           "list": [
-            "Asp,at",
+            "Aspat",
             "Alat",
             "Stężenie cholesterolu we krwi",
             "Poziom trójglicerydów we krwi",
@@ -2268,7 +2412,13 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Aspat",
+            "Alat",
+            "Stężenie cholesterolu we krwi",
+            "Poziom trójglicerydów we krwi",
+            "GGTP"
+          ]
         },
         {
           "name": "specjalistyczne",
@@ -2284,7 +2434,7 @@
         {
           "name": "wstępne",
           "list": [
-            "Mor,fologia z rozmazem",
+            "Morfologia z rozmazem",
             "Aspat",
             "Alat",
             "Stężenie kreatyniny",
@@ -2297,7 +2447,17 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Morfologia z rozmazem",
+            "Aspat",
+            "Alat",
+            "Stężenie kreatyniny",
+            "Badanie ogólne moczu",
+            "Stężenie cholesterolu we krwi",
+            "Poziom trójglicerydów we krwi",
+            "GGTP",
+            "Bilirubina"
+          ]
         },
         {
           "name": "specjalistyczne",
@@ -2408,13 +2568,16 @@
         {
           "name": "wstępne",
           "list": [
-            "Ala,t",
+            "Alat",
             "Bilirubina"
           ]
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Alat",
+            "Bilirubina"
+          ]
         },
         {
           "name": "specjalistyczne",
@@ -2429,13 +2592,16 @@
         {
           "name": "wstępne",
           "list": [
-            "Ala,t",
+            "Alat",
             "Bilirubina"
           ]
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Alat",
+            "Bilirubina"
+          ]
         },
         {
           "name": "specjalistyczne",
@@ -2468,13 +2634,16 @@
         {
           "name": "wstępne",
           "list": [
-            "Aud,iometria",
+            "Audiometria",
             "Badania czynności wątroby"
           ]
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Audiometria",
+            "Badania czynności wątroby"
+          ]
         },
         {
           "name": "specjalistyczne",
@@ -2489,14 +2658,14 @@
         {
           "name": "wstępne",
           "list": [
-            "RTG, klatki piersiowej",
+            "RTG klatki piersiowej",
             "Spirometria"
           ]
         },
         {
           "name": "okresowe",
           "list": [
-            "Spi,rometria"
+            "Spirometria"
           ]
         },
         {
@@ -2568,13 +2737,16 @@
         {
           "name": "wstępne",
           "list": [
-            "EKG,",
+            "EKG",
             "Cholesterol"
           ]
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "EKG",
+            "Cholesterol"
+          ]
         },
         {
           "name": "specjalistyczne",
@@ -2589,13 +2761,16 @@
         {
           "name": "wstępne",
           "list": [
-            "EKG,",
+            "EKG",
             "Cholesterol"
           ]
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "EKG",
+            "Cholesterol"
+          ]
         },
         {
           "name": "specjalistyczne",
@@ -2610,13 +2785,16 @@
         {
           "name": "wstępne",
           "list": [
-            "EKG,",
+            "EKG",
             "Cholesterol"
           ]
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "EKG",
+            "Cholesterol"
+          ]
         },
         {
           "name": "specjalistyczne",
@@ -2650,13 +2828,16 @@
         {
           "name": "wstępne",
           "list": [
-            "EKG,",
+            "EKG",
             "Lipidogram"
           ]
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "EKG",
+            "Lipidogram"
+          ]
         },
         {
           "name": "specjalistyczne",
@@ -2672,12 +2853,14 @@
         {
           "name": "wstępne",
           "list": [
-            "Oku,lista"
+            "Okulista"
           ]
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Okulista"
+          ]
         },
         {
           "name": "specjalistyczne",
@@ -2692,13 +2875,16 @@
         {
           "name": "wstępne",
           "list": [
-            "Neu,rolog",
+            "Neurolog",
             "Okulista"
           ]
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Neurolog",
+            "Okulista"
+          ]
         },
         {
           "name": "specjalistyczne",
@@ -2714,13 +2900,14 @@
         {
           "name": "wstępne",
           "list": [
-            "Bad,anie poziomu cukru we krwi",
             "Badanie poziomu cukru we krwi"
           ]
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Badanie poziomu cukru we krwi"
+          ]
         },
         {
           "name": "specjalistyczne",
@@ -2753,14 +2940,18 @@
         {
           "name": "wstępne",
           "list": [
-            "Lar,yngolog",
+            "Laryngolog",
             "Neurolog",
             "Okulista"
           ]
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Laryngolog",
+            "Neurolog",
+            "Okulista"
+          ]
         },
         {
           "name": "specjalistyczne",
@@ -2793,12 +2984,14 @@
         {
           "name": "wstępne",
           "list": [
-            "EKG,"
+            "EKG"
           ]
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "EKG"
+          ]
         },
         {
           "name": "specjalistyczne",
@@ -2835,7 +3028,7 @@
         {
           "name": "okresowe",
           "list": [
-            "Lar,yngolog"
+            "Laryngolog"
           ]
         },
         {
@@ -2851,12 +3044,14 @@
         {
           "name": "wstępne",
           "list": [
-            "Lar,yngolog"
+            "Laryngolog"
           ]
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Laryngolog"
+          ]
         },
         {
           "name": "specjalistyczne",
@@ -2871,13 +3066,16 @@
         {
           "name": "wstępne",
           "list": [
-            "Oku,lista",
+            "Okulista",
             "Badanie poziomu cukru we krwi"
           ]
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Okulista",
+            "Badanie poziomu cukru we krwi"
+          ]
         },
         {
           "name": "specjalistyczne",
@@ -2950,14 +3148,18 @@
         {
           "name": "wstępne",
           "list": [
-            "Neu,rolog",
+            "Neurolog",
             "Okulista",
             "Badanie poziomu cukru we krwi"
           ]
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Neurolog",
+            "Okulista",
+            "Badanie poziomu cukru we krwi"
+          ]
         },
         {
           "name": "specjalistyczne",
@@ -2974,7 +3176,7 @@
         {
           "name": "wstępne",
           "list": [
-            "Lar,yngolog",
+            "Laryngolog",
             "Audiometria",
             "Neurolog",
             "Okulista",
@@ -2996,7 +3198,7 @@
         {
           "name": "okresowe",
           "list": [
-            "Lar,yngolog",
+            "Laryngolog",
             "Audiometria",
             "Neurolog",
             "Okulista",
@@ -3030,7 +3232,7 @@
         {
           "name": "wstępne",
           "list": [
-            "Lar,yngolog",
+            "Laryngolog",
             "Audiometria",
             "Neurolog",
             "Okulista",
@@ -3053,7 +3255,7 @@
         {
           "name": "okresowe",
           "list": [
-            "Lar,yngolog",
+            "Laryngolog",
             "Audiometria",
             "Neurolog",
             "Okulista",
@@ -3088,7 +3290,7 @@
         {
           "name": "wstępne",
           "list": [
-            "Oku,lista",
+            "Okulista",
             "EKG",
             "RTG klatki piersiowej",
             "Morfologia z rozmazem",
@@ -3101,7 +3303,7 @@
         {
           "name": "okresowe",
           "list": [
-            "Oku,lista",
+            "Okulista",
             "EKG",
             "RTG klatki piersiowej",
             "Morfologia z rozmazem",
@@ -3126,7 +3328,7 @@
         {
           "name": "wstępne",
           "list": [
-            "Oku,lista",
+            "Okulista",
             "EKG",
             "RTG klatki piersiowej",
             "Morfologia z rozmazem",
@@ -3140,7 +3342,7 @@
         {
           "name": "okresowe",
           "list": [
-            "Oku,lista",
+            "Okulista",
             "EKG",
             "RTG klatki piersiowej",
             "Morfologia z rozmazem",
@@ -3166,7 +3368,7 @@
         {
           "name": "wstępne",
           "list": [
-            "RTG, klatki piersiowej",
+            "RTG klatki piersiowej",
             "Morfologia z rozmazem",
             "Badanie ogólne moczu",
             "Badanie poziomu cukru we krwi"
@@ -3175,7 +3377,7 @@
         {
           "name": "okresowe",
           "list": [
-            "RTG, klatki piersiowej",
+            "RTG klatki piersiowej",
             "Morfologia z rozmazem",
             "Badanie ogólne moczu",
             "Badanie poziomu cukru we krwi"
@@ -3196,7 +3398,7 @@
         {
           "name": "wstępne",
           "list": [
-            "EKG,",
+            "EKG",
             "RTG klatki piersiowej",
             "Morfologia z rozmazem",
             "Cholesterol",
@@ -3207,7 +3409,7 @@
         {
           "name": "okresowe",
           "list": [
-            "EKG,",
+            "EKG",
             "RTG klatki piersiowej",
             "Morfologia z rozmazem",
             "Cholesterol",
@@ -3237,7 +3439,7 @@
         {
           "name": "specjalistyczne",
           "list": [
-            "Neu,rolog",
+            "Neurolog",
             "Okulista"
           ]
         }
@@ -3258,7 +3460,7 @@
         {
           "name": "specjalistyczne",
           "list": [
-            "Lar,yngolog",
+            "Laryngolog",
             "Neurolog",
             "Okulista",
             "Audiometria",
@@ -3282,7 +3484,7 @@
         {
           "name": "specjalistyczne",
           "list": [
-            "Bad,anie kłau na pasożyty"
+            "Badanie kłau na pasożyty"
           ]
         }
       ]

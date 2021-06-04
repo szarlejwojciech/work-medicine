@@ -30,7 +30,9 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Audiometria"
+          ]
         }
       ]
     },
@@ -46,7 +48,9 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Audiometria"
+          ]
         }
       ]
     },
@@ -62,7 +66,9 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Próba oziębiania z termometrią skórną i próbą uciskową"
+          ]
         }
       ]
     },
@@ -94,7 +100,11 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Morfologia z rozmazem",
+            "Okulista",
+            "Płytki krwi"
+          ]
         }
       ]
     },
@@ -111,7 +121,10 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Morfologia z rozmazem",
+            "EKG"
+          ]
         }
       ]
     },
@@ -127,7 +140,9 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Okulista"
+          ]
         }
       ]
     },
@@ -143,7 +158,9 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Okulista"
+          ]
         }
       ]
     },
@@ -159,7 +176,9 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Okulista"
+          ]
         }
       ]
     },
@@ -235,7 +254,13 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Badanie ogólne moczu",
+            "Badanie poziomu cukru we krwi",
+            "Spirometria",
+            "EKG",
+            "Stężenie kreatyniny"
+          ]
         }
       ]
     },
@@ -255,7 +280,13 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Badanie ogólne moczu",
+            "Badanie poziomu cukru we krwi",
+            "Spirometria",
+            "EKG",
+            "Stężenie kreatyniny"
+          ]
         }
       ]
     },
@@ -286,7 +317,10 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "RTG klatki piersiowej",
+            "Spirometria"
+          ]
         }
       ]
     },
@@ -303,7 +337,10 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "RTG klatki piersiowej",
+            "Spirometria"
+          ]
         }
       ]
     },
@@ -320,7 +357,10 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "RTG klatki piersiowej",
+            "Spirometria"
+          ]
         }
       ]
     },
@@ -337,7 +377,10 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "RTG klatki piersiowej",
+            "Spirometria"
+          ]
         }
       ]
     },
@@ -354,7 +397,10 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "RTG klatki piersiowej",
+            "Spirometria"
+          ]
         }
       ]
     },
@@ -371,7 +417,10 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "RTG klatki piersiowej",
+            "Spirometria"
+          ]
         }
       ]
     },
@@ -388,7 +437,10 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "RTG klatki piersiowej",
+            "Spirometria"
+          ]
         }
       ]
     },
@@ -404,7 +456,9 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Spirometria"
+          ]
         }
       ]
     },
@@ -420,7 +474,9 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Spirometria"
+          ]
         }
       ]
     },
@@ -436,7 +492,9 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Spirometria"
+          ]
         }
       ]
     },
@@ -471,7 +529,14 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Aspat",
+            "Alat",
+            "Spirometria",
+            "Stężenie kreatyniny",
+            "Badanie ogólne moczu",
+            "GGTP"
+          ]
         }
       ],
       "disabled": false
@@ -488,7 +553,9 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Spirometria"
+          ]
         }
       ],
       "disabled": false
@@ -505,7 +572,9 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Spirometria"
+          ]
         }
       ],
       "disabled": false
@@ -537,7 +606,9 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Spirometria"
+          ]
         }
       ],
       "disabled": false
@@ -561,7 +632,16 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "EKG",
+            "RTG klatki piersiowej",
+            "Morfologia z rozmazem",
+            "Aspat",
+            "Alat",
+            "Stężenie kreatyniny",
+            "Badanie ogólne moczu",
+            "GGTP"
+          ]
         }
       ],
       "disabled": false
@@ -584,7 +664,15 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "EKG",
+            "Morfologia z rozmazem",
+            "Aspat",
+            "Alat",
+            "Stężenie kreatyniny",
+            "Badanie ogólne moczu",
+            "GGTP"
+          ]
         }
       ],
       "disabled": false
@@ -601,7 +689,9 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Spirometria"
+          ]
         }
       ],
       "disabled": false
@@ -641,7 +731,12 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "EKG",
+            "Stężenie potasu i wapna",
+            "Stężenie kinazy kreatynowej",
+            "Badanie ogólne moczu"
+          ]
         }
       ],
       "disabled": false
@@ -659,7 +754,10 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Toluen i ksylen",
+            "Morfologia z rozmazem"
+          ]
         }
       ],
       "disabled": false
@@ -678,7 +776,11 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "RTG klatki piersiowej",
+            "Morfologia z rozmazem",
+            "Badanie ogólne moczu"
+          ]
         }
       ],
       "disabled": false
@@ -699,7 +801,13 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "RTG klatki piersiowej",
+            "Aspat",
+            "Alat",
+            "Spirometria",
+            "GGTP"
+          ]
         }
       ],
       "disabled": false
@@ -716,7 +824,9 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Spirometria"
+          ]
         }
       ],
       "disabled": false
@@ -733,7 +843,9 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Spirometria"
+          ]
         }
       ],
       "disabled": false
@@ -753,7 +865,12 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "RTG klatki piersiowej",
+            "Morfologia z rozmazem",
+            "Spirometria",
+            "CRP"
+          ]
         }
       ],
       "disabled": false
@@ -774,7 +891,13 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Aspat",
+            "Alat",
+            "Badanie ogólne moczu",
+            "GGTP",
+            "Stężenie kreatyniny"
+          ]
         }
       ],
       "disabled": true
@@ -808,7 +931,11 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Aspat",
+            "Alat",
+            "GGTP"
+          ]
         }
       ],
       "disabled": false
@@ -830,7 +957,14 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Aspat",
+            "Alat",
+            "Stężenie kreatyniny",
+            "Badanie ogólne moczu",
+            "GGTP",
+            "Bilirubina"
+          ]
         }
       ],
       "disabled": false
@@ -853,7 +987,15 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "RTG klatki piersiowej",
+            "Aspat",
+            "Alat",
+            "Spirometria",
+            "Stężenie kreatyniny",
+            "Badanie ogólne moczu",
+            "GGTP"
+          ]
         }
       ],
       "disabled": false
@@ -874,7 +1016,13 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Aspat",
+            "Alat",
+            "Stężenie kreatyniny",
+            "Badanie ogólne moczu",
+            "GGTP"
+          ]
         }
       ],
       "disabled": false
@@ -893,7 +1041,11 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Spirometria",
+            "RTG kości jednego przedramienia",
+            "RTG kości miednicy"
+          ]
         }
       ],
       "disabled": false
@@ -916,7 +1068,15 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Aspat",
+            "Alat",
+            "Spirometria",
+            "Badanie ogólne moczu",
+            "Oznaczanie Wapnia i Fosforu we krwi",
+            "GGTP",
+            "CRP"
+          ]
         }
       ],
       "disabled": false
@@ -934,7 +1094,10 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "RTG klatki piersiowej",
+            "Spirometria"
+          ]
         }
       ],
       "disabled": false
@@ -952,7 +1115,10 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "RTG klatki piersiowej",
+            "Spirometria"
+          ]
         }
       ],
       "disabled": false
@@ -985,7 +1151,10 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "RTG klatki piersiowej",
+            "Spirometria"
+          ]
         }
       ],
       "disabled": false
@@ -1002,7 +1171,9 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Stężenie kreatyniny"
+          ]
         }
       ],
       "disabled": false
@@ -1020,7 +1191,10 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "EKG",
+            "Morfologia z rozmazem"
+          ]
         }
       ],
       "disabled": false
@@ -1040,7 +1214,12 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "RTG klatki piersiowej",
+            "Morfologia z rozmazem",
+            "Spirometria",
+            "CRP"
+          ]
         }
       ],
       "disabled": false
@@ -1060,7 +1239,12 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Aspat",
+            "Spirometria",
+            "Alat",
+            "GGTP"
+          ]
         }
       ],
       "disabled": false
@@ -1096,7 +1280,13 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Aspat",
+            "Alat",
+            "Stężenie kreatyniny",
+            "Badanie ogólne moczu",
+            "GGTP"
+          ]
         }
       ],
       "disabled": false
@@ -1145,7 +1335,11 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "EKG",
+            "RTG klatki piersiowej",
+            "Spirometria"
+          ]
         }
       ],
       "disabled": false
@@ -1182,7 +1376,14 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Morfologia z rozmazem",
+            "Aspat",
+            "Alat",
+            "Spirometria",
+            "Badanie ogólne moczu",
+            "GGTP"
+          ]
         }
       ],
       "disabled": false
@@ -1199,7 +1400,9 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Morfologia z rozmazem"
+          ]
         }
       ]
     },
@@ -1217,7 +1420,11 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "RTG klatki piersiowej",
+            "Morfologia z rozmazem",
+            "Badanie ogólne moczu"
+          ]
         }
       ]
     },
@@ -1238,7 +1445,14 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Aspat",
+            "Alat",
+            "Morfologia z rozmazem",
+            "Stężenie kreatyniny",
+            "Badanie ogólne moczu",
+            "GGTP"
+          ]
         }
       ]
     },
@@ -1272,7 +1486,13 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Morfologia z rozmazem",
+            "Stężenie kreatyniny",
+            "Badanie ogólne moczu",
+            "Oznaczanie poziomu ołowiu we krwi",
+            "Oznaczanie kwasu deltaaminolewulinowego w moczu"
+          ]
         }
       ]
     },
@@ -1288,7 +1508,9 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Aktywność cholinesterazy krwinkowej"
+          ]
         }
       ]
     },
@@ -1321,7 +1543,11 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Aspat",
+            "Alat",
+            "GGTP"
+          ]
         }
       ],
       "disabled": false
@@ -1342,7 +1568,13 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Aspat",
+            "Alat",
+            "Stężenie kreatyniny",
+            "Badanie ogólne moczu",
+            "Badanie poziomu cukru we krwi"
+          ]
         }
       ],
       "disabled": false
@@ -1363,7 +1595,13 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "TSH",
+            "EKG",
+            "Aspat",
+            "Alat",
+            "GGTP"
+          ]
         }
       ],
       "disabled": false
@@ -1404,7 +1642,16 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Morfologia z rozmazem",
+            "Aspat",
+            "Alat",
+            "Stężenie kreatyniny",
+            "Badanie ogólne moczu",
+            "Badanie poziomu cukru we krwi",
+            "stężenie methemogloiny we krwi",
+            "GGTP"
+          ]
         }
       ],
       "disabled": false
@@ -1421,7 +1668,9 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Spirometria"
+          ]
         }
       ],
       "disabled": false
@@ -1440,7 +1689,11 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Aspat",
+            "Alat",
+            "GGTP"
+          ]
         }
       ],
       "disabled": false
@@ -1458,7 +1711,10 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Stężenie kreatyniny",
+            "Badanie ogólne moczu"
+          ]
         }
       ],
       "disabled": false
@@ -1479,7 +1735,13 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Aspat",
+            "Alat",
+            "Stężenie kreatyniny",
+            "Badanie ogólne moczu",
+            "GGTP"
+          ]
         }
       ],
       "disabled": false
@@ -1514,7 +1776,10 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "RTG klatki piersiowej",
+            "Spirometria"
+          ]
         }
       ],
       "disabled": false
@@ -1533,7 +1798,11 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Spirometria",
+            "Stężenie kreatyniny",
+            "Badanie ogólne moczu"
+          ]
         }
       ],
       "disabled": false
@@ -1551,7 +1820,10 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "RTG klatki piersiowej",
+            "Spirometria"
+          ]
         }
       ],
       "disabled": false
@@ -1618,7 +1890,14 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "EKG",
+            "Aspat",
+            "Alat",
+            "Lipidogram",
+            "Badanie poziomu cukru we krwi",
+            "GGTP"
+          ]
         }
       ],
       "disabled": false
@@ -1636,7 +1915,10 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "EKG",
+            "Morfologia z rozmazem"
+          ]
         }
       ],
       "disabled": false
@@ -1653,7 +1935,9 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "EKG"
+          ]
         }
       ],
       "disabled": false
@@ -1670,7 +1954,9 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Spirometria"
+          ]
         }
       ],
       "disabled": false
@@ -1689,7 +1975,11 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Aspat",
+            "Alat",
+            "GGTP"
+          ]
         }
       ],
       "disabled": false
@@ -1708,7 +1998,11 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Aspat",
+            "Alat",
+            "GGTP"
+          ]
         }
       ],
       "disabled": false
@@ -1727,7 +2021,11 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Aspat",
+            "Alat",
+            "GGTP"
+          ]
         }
       ],
       "disabled": false
@@ -1746,7 +2044,11 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Aspat",
+            "Alat",
+            "GGTP"
+          ]
         }
       ],
       "disabled": false
@@ -1767,7 +2069,13 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Aspat",
+            "Alat",
+            "Stężenie kreatyniny",
+            "Badanie ogólne moczu",
+            "GGTP"
+          ]
         }
       ],
       "disabled": false
@@ -1788,7 +2096,13 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Aspat",
+            "Alat",
+            "Stężenie kreatyniny",
+            "Badanie ogólne moczu",
+            "GGTP"
+          ]
         }
       ],
       "disabled": false
@@ -1807,7 +2121,11 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Aspat",
+            "Alat",
+            "GGTP"
+          ]
         }
       ],
       "disabled": false
@@ -1828,7 +2146,13 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Aspat",
+            "Alat",
+            "Badanie ogólne moczu",
+            "GGTP",
+            "Stężenie kreatyniny"
+          ]
         }
       ],
       "disabled": false
@@ -1851,7 +2175,15 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "EKG",
+            "Morfologia z rozmazem",
+            "Aspat",
+            "Alat",
+            "Stężenie kreatyniny",
+            "Badanie ogólne moczu",
+            "GGTP"
+          ]
         }
       ],
       "disabled": false
@@ -1872,7 +2204,13 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Morfologia z rozmazem",
+            "Aspat",
+            "Alat",
+            "Stężenie kreatyniny",
+            "GGTP"
+          ]
         }
       ],
       "disabled": false
@@ -1893,7 +2231,13 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Morfologia z rozmazem",
+            "Aspat",
+            "Alat",
+            "Badanie ogólne moczu",
+            "GGTP"
+          ]
         }
       ],
       "disabled": false
@@ -1913,7 +2257,12 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Morfologia z rozmazem",
+            "Aspat",
+            "Alat",
+            "GGTP"
+          ]
         }
       ],
       "disabled": false
@@ -1934,7 +2283,13 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Aspat",
+            "Alat",
+            "Stężenie cholesterolu we krwi",
+            "Poziom trójglicerydów we krwi",
+            "GGTP"
+          ]
         }
       ],
       "disabled": false
@@ -1959,7 +2314,17 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Morfologia z rozmazem",
+            "Aspat",
+            "Alat",
+            "Stężenie kreatyniny",
+            "Badanie ogólne moczu",
+            "Stężenie cholesterolu we krwi",
+            "Poziom trójglicerydów we krwi",
+            "GGTP",
+            "Bilirubina"
+          ]
         }
       ],
       "disabled": false
@@ -1980,7 +2345,13 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Morfologia z rozmazem",
+            "Aspat",
+            "Alat",
+            "Spirometria",
+            "GGTP"
+          ]
         }
       ],
       "disabled": false
@@ -2003,7 +2374,15 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Fosfataza alkaiczna",
+            "Morfologia z rozmazem",
+            "Aspa",
+            "Alat",
+            "USG wątroby",
+            "Próba oziębienia rąk",
+            "GGTP"
+          ]
         }
       ],
       "disabled": false
@@ -2020,7 +2399,9 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Spirometria"
+          ]
         }
       ],
       "disabled": false
@@ -2040,7 +2421,12 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Morfologia z rozmazem",
+            "Aspat",
+            "Alat",
+            "GGTP"
+          ]
         }
       ],
       "disabled": false
@@ -2062,7 +2448,14 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Morfologia z rozmazem",
+            "Aspat",
+            "Alat",
+            "Stężenie kreatyniny",
+            "Badanie ogólne moczu",
+            "GGTP"
+          ]
         }
       ],
       "disabled": false
@@ -2081,7 +2474,11 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Aspat",
+            "Alat",
+            "przeciwciała anty-HBc total"
+          ]
         }
       ]
     },
@@ -2099,7 +2496,11 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "anty-HCV",
+            "Aspat",
+            "Alat"
+          ]
         }
       ]
     },
@@ -2115,7 +2516,9 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "anty-HIV"
+          ]
         }
       ]
     },
@@ -2140,12 +2543,15 @@
         {
           "name": "wstępne",
           "list": [
+            "RTG klatki piersiowej",
             "Spirometria"
           ]
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Spirometria"
+          ]
         }
       ]
     },
@@ -2204,7 +2610,10 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "EKG",
+            "Lipidogram"
+          ]
         }
       ]
     },
@@ -2221,7 +2630,10 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "EKG",
+            "Lipidogram"
+          ]
         }
       ]
     },
@@ -2238,7 +2650,10 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "EKG",
+            "Lipidogram"
+          ]
         }
       ]
     },
@@ -2255,7 +2670,10 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "EKG",
+            "Lipidogram"
+          ]
         }
       ]
     },
@@ -2272,7 +2690,10 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "EKG",
+            "Lipidogram"
+          ]
         }
       ]
     },
@@ -2288,7 +2709,9 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Okulista"
+          ]
         }
       ]
     },
@@ -2313,13 +2736,14 @@
         {
           "name": "wstępne",
           "list": [
-            "Badanie poziomu cukru we krwi",
             "Badanie poziomu cukru we krwi"
           ]
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Badanie poziomu cukru we krwi"
+          ]
         }
       ]
     },
@@ -2349,7 +2773,9 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "EKG"
+          ]
         }
       ]
     },
@@ -2408,7 +2834,10 @@
         },
         {
           "name": "okresowe",
-          "list": []
+          "list": [
+            "Okulista",
+            "Badanie poziomu cukru we krwi"
+          ]
         }
       ]
     },

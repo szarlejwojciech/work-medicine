@@ -15,11 +15,23 @@ interface orgDataItemInterface {
   type?: string;
 }
 
-export default function getExaminationsList(array: orgDataItemInterface[], isPolice = false) {
-  console.log(array);
-  console.log(array.map(({ id }) => id));
+export default function getExaminationsList(array: orgDataItemInterface[], isPolice = false, workMedicineType: string[]) {
+  if (workMedicineType.includes("kontrolne (profilaktyczne)")) return ["Lekarz medycyny pracy"];
 
-  const examinationsList = array.map(({ text }) => text);
+  const data = isPolice ? medicineWorkPolice : medicineWorkBasic;
+  const selectedHarmfulsId: number[] = array.map(({ id }) => id);
 
-  return array;
+  const harmfulsList = data.arrayValues
+    .filter(({ id }) => selectedHarmfulsId.includes(id))
+    .map(({ examinations }) =>
+      examinations
+        .filter(({ name }) => workMedicineType.includes(name))
+        .map(({ list }) => list)
+        .flat()
+    )
+    .flat();
+
+  const examinationsList = ["Lekarz medycyny pracy", ...new Set(harmfulsList)];
+
+  return examinationsList;
 }

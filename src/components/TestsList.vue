@@ -47,11 +47,6 @@ import { toRefs, defineComponent } from "@vue/composition-api";
 export default defineComponent({
   name: "TestsList",
   props: ["tests"],
-  setup(props) {
-    const { tests } = toRefs(props);
-
-    return { tests };
-  },
   // props: {
   //   selectedLicenceCategory: {
   //     type: Array as PropType<selectedLicenceCategory[]>,
