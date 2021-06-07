@@ -11,8 +11,8 @@
             </v-list-item-content>
           </v-list-item>
         </template> -->
-        <template v-if="tests.length > 0">
-          <v-list-item v-for="(item, i) in tests" :key="i">
+        <template>
+          <v-list-item v-for="(item, i) in tests" :key="i" dense>
             <v-list-item-content>
               <v-list-item-title v-text="item"></v-list-item-title>
             </v-list-item-content>
@@ -26,7 +26,7 @@
 <script lang="ts">
 // import medicineWorkPreliminary from "../assets/medicine_work_preliminary.json";
 // import medicineWorkPeriodic from "../assets/medicine_work_periodic.json";
-import { toRefs, defineComponent } from "@vue/composition-api";
+import { defineComponent } from "@vue/composition-api";
 
 // interface examinationInterface {
 //   preliminary: string[];
@@ -46,7 +46,12 @@ import { toRefs, defineComponent } from "@vue/composition-api";
 // }
 export default defineComponent({
   name: "TestsList",
-  props: ["tests"],
+  props: {
+    tests: {
+      type: Array,
+      required: true,
+    },
+  },
   // props: {
   //   selectedLicenceCategory: {
   //     type: Array as PropType<selectedLicenceCategory[]>,
@@ -103,4 +108,5 @@ export default defineComponent({
   // },
 });
 </script>
+
 

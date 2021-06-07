@@ -161,6 +161,12 @@
               outlined
               color="primary"
               hide-details
+              clearable
+              :disabled="
+                selectedTypeWorkMedicine.includes('specjalistyczne') &&
+                selectedTypeWorkMedicine.length === 1
+              "
+              :rules="[(value) => !!value || 'Wybierz rodzaj pracownika!']"
             ></v-select>
           </v-col>
         </v-row>
@@ -174,6 +180,8 @@
               color="primary"
               hide-details
               :disabled="policeWorkerTypes.ageRange.length === 0"
+              clearable
+              :rules="[(value) => !!value || 'Wybierz wiek pracownika!']"
             ></v-select>
           </v-col>
         </v-row>
@@ -186,14 +194,6 @@
               "
               :tests="examinationsList"
             />
-            <!-- <TestsList
-              v-if="
-                selectedHarmfulFactors.length > 0 &&
-                selectedTypeWorkMedicine.length > 0
-              "
-              :selectedHarmfulFactors="selectedHarmfulFactors"
-              :selectedTypeWorkMedicine="selectedTypeWorkMedicine"
-            /> -->
           </v-col>
         </v-row>
       </v-col>
@@ -240,6 +240,7 @@ export default defineComponent({
     const headers = [{ text: "Czynniki szkodliwe", value: "text" }];
     const search = ref("");
     const examinationsList = reactive<string[]>([]);
+
     const workMedicineTypes = {
       police: [
         ...new Set(
@@ -258,14 +259,18 @@ export default defineComponent({
         "kontrolne (profilaktyczne)",
       ],
     };
-    // if (props.police) workMedicineTypes.push("specjalistyczne");
+
+    const specyficSort = (prev: string, next: string) =>
+      prev === "ogólne" || next === "ogólne" || prev > next
+        ? 1
+        : prev < next
+        ? -1
+        : 0;
 
     const displayData = reactive({
       basic: orgDataBasic.arrayValues
         .filter(({ disabled }) => !disabled)
-        .sort((a, b) =>
-          a.category > b.category ? 1 : a.category < b.category ? -1 : 0
-        ),
+        .sort((a, b) => specyficSort(a.category, b.category)),
       police: {
         basic: orgDataPolice.arrayValues
           .filter(
@@ -274,9 +279,7 @@ export default defineComponent({
               category !== "specjalistyczne" &&
               category !== "specyficzne"
           )
-          .sort((a, b) =>
-            a.category > b.category ? 1 : a.category < b.category ? -1 : 0
-          ),
+          .sort((a, b) => specyficSort(a.category, b.category)),
         specialist: orgDataPolice.arrayValues.filter(
           ({ category, disabled }) =>
             !disabled && category === "specjalistyczne"
@@ -325,12 +328,11 @@ export default defineComponent({
   },
   watch: {
     selectedTypeWorkMedicine: function (newValue: string[]) {
-      // console.log(this.selectedTypeWorkMedicine);
-      // this.selectedHarmfulFactors.length = 0;
       if (newValue.length > 1 && newValue.includes("wstępne")) {
         const index = newValue.indexOf("wstępne");
         newValue.splice(index, index + 1);
       }
+
       this.examinationsList = getExaminationsList(
         [
           ...this.selectedHarmfulFactors,
@@ -341,7 +343,7 @@ export default defineComponent({
       );
     },
     selectedHarmfulFactors: function (newValue) {
-      // this.tests = getExaminationsList(newValue);
+      this.search = "";
       this.examinationsList = getExaminationsList(
         [...newValue, ...this.selectedSpecyficHarmfulFactors],
         this.police,
