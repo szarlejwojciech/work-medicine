@@ -13,6 +13,7 @@
           disable-sort
           hide-default-footer
           single-select
+          checkbox-color="primary"
         >
           <!-- eslint-disable-next-line -->
           <template v-slot:item.text="{ item }">
@@ -29,7 +30,10 @@
         </v-data-table>
       </v-col>
       <v-col cols="4">
-        <TestsList v-if="selectedLicenceCategory.length > 0" />
+        <TestsList
+          v-if="selectedLicenceCategory.length > 0"
+          :tests="examinationsList"
+        />
       </v-col>
     </v-row>
   </v-container>
@@ -39,21 +43,32 @@
 import medicine_work_driving_licence from "../assets/medicine_work_driving_licence.json";
 import { reactive, defineComponent } from "@vue/composition-api";
 import TestsList from "./TestsList.vue";
+import getExaminationsList from "@/helpers/getExaminationsList";
 
-interface displayDataItemInterface {
+interface examinationInterface {
+  name: string;
+  list?: string[];
+}
+
+interface orgDataItemInterface {
   id: number;
   text: string;
-  examinations: string[];
+  category?: string;
+  examinations: examinationInterface[] | [] | string[];
+  type?: string;
+  disabled?: boolean;
 }
 
 export default defineComponent({
   name: "MedicineWorkDrivingLicence",
   components: { TestsList },
   setup() {
-    const selectedLicenceCategory: displayDataItemInterface[] = reactive([]);
+    const selectedLicenceCategory: orgDataItemInterface[] = reactive([]);
     const headers = [{ text: "Wybierz kategorię prawa jazdy", value: "text" }];
-
-    const displayData: displayDataItemInterface[] =
+    const examinationsList = reactive<
+      (string | examinationInterface | undefined)[]
+    >([]);
+    const displayData: orgDataItemInterface[] =
       medicine_work_driving_licence.arrayValues;
 
     function getIconName(text: string) {
@@ -74,7 +89,13 @@ export default defineComponent({
       headers,
       displayData,
       getIconName,
+      examinationsList,
     };
+  },
+  watch: {
+    selectedLicenceCategory: function (newValue) {
+      this.examinationsList = getExaminationsList(newValue);
+    },
   },
 });
 </script>

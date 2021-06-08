@@ -1,6 +1,7 @@
 <template>
   <v-card>
-    <v-list dense>
+    <v-list denses>
+      <v-subheader>BADANIA DO WYKONANIA</v-subheader>
       <v-list-group
         class="px-5"
         v-for="(group, i) in dicplayTests"

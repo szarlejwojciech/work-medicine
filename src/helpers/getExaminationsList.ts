@@ -11,11 +11,17 @@ interface orgDataItemInterface {
   id: number;
   text: string;
   category?: string;
-  examinations?: examinationItemInterface[] | [];
+  examinations?: examinationItemInterface[];
   type?: string;
 }
 
-export default function getExaminationsList(array: orgDataItemInterface[], isPolice = false, workMedicineType: string[]) {
+interface displayDataItemInterface {
+  id: number;
+  text: string;
+  examinations: string[];
+}
+export default function getExaminationsList(array: (orgDataItemInterface | displayDataItemInterface)[], isPolice = false, workMedicineType: string[] = []) {
+  if (!workMedicineType.length) return array.map(({ examinations }) => examinations).flat();
   if (workMedicineType.includes("kontrolne (profilaktyczne)")) return ["Lekarz medycyny pracy"];
 
   const data = isPolice ? medicineWorkPolice : medicineWorkBasic;

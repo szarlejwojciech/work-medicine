@@ -239,7 +239,9 @@ export default defineComponent({
     const selectedTypeWorkMedicine = reactive<string[]>(["wstępne"]);
     const headers = [{ text: "Czynniki szkodliwe", value: "text" }];
     const search = ref("");
-    const examinationsList = reactive<string[]>([]);
+    const examinationsList = reactive<
+      (string | examinationInterface | undefined)[]
+    >([]);
     const workMedicineTypes = {
       police: [
         ...new Set(
