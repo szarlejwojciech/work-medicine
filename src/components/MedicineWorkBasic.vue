@@ -240,7 +240,6 @@ export default defineComponent({
     const headers = [{ text: "Czynniki szkodliwe", value: "text" }];
     const search = ref("");
     const examinationsList = reactive<string[]>([]);
-
     const workMedicineTypes = {
       police: [
         ...new Set(
@@ -259,7 +258,6 @@ export default defineComponent({
         "kontrolne (profilaktyczne)",
       ],
     };
-
     const specyficSort = (prev: string, next: string) =>
       prev === "ogólne" || next === "ogólne" || prev > next
         ? 1
