@@ -18,9 +18,12 @@ export default Vue.extend({
 });
 </script>
 <style lang="scss" scoped>
+// mocked portal interface
 .app-root {
-  background-image: linear-gradient(white, white), url(./assets/mock.png) !important;
-  background-repeat: no-repeat, no-repeat !important;
-  background-position: 255px 50px, 0px -33px !important;
+  background: #0008 !important;
+  background-image: url(./assets/mock.png) !important;
+  background-repeat: no-repeat !important;
+  background-position: 0px -33px !important;
+  background-blend-mode: darken;
 }
 </style>
