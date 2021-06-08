@@ -27,7 +27,7 @@
             <MedicineWorkBasic police />
           </v-card>
         </v-tab-item>
-        <v-tab-item v-for="i in 1" :key="i"> w budowie </v-tab-item>
+        <!-- <v-tab-item v-for="i in 1" :key="i"> w budowie </v-tab-item> -->
       </v-tabs-items>
     </v-card>
   </v-container>
@@ -50,7 +50,7 @@ export default defineComponent({
       "Medycyna pracy",
       "Prawo jazdy",
       "Medycyna pracy policja",
-      "Pozwolenie na broń",
+      // "Pozwolenie na broń",
     ];
     return {
       tab,

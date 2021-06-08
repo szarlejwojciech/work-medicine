@@ -41,35 +41,25 @@
 
 <script lang="ts">
 import medicine_work_driving_licence from "../assets/medicine_work_driving_licence.json";
-import { reactive, defineComponent } from "@vue/composition-api";
+import medicineWorkDrivingLicenceOrgData from "../assets/medicine_work_driving_licence_org_data.json";
+import { defineComponent, ref, watch } from "@vue/composition-api";
 import TestsList from "./TestsList.vue";
-import getExaminationsList from "@/helpers/getExaminationsList";
 
-interface examinationInterface {
-  name: string;
-  list?: string[];
-}
-
-interface orgDataItemInterface {
+interface categoryInterface {
   id: number;
   text: string;
-  category?: string;
-  examinations: examinationInterface[] | [] | string[];
-  type?: string;
-  disabled?: boolean;
+  examinations?: string[];
 }
 
 export default defineComponent({
   name: "MedicineWorkDrivingLicence",
   components: { TestsList },
   setup() {
-    const selectedLicenceCategory: orgDataItemInterface[] = reactive([]);
+    const selectedLicenceCategory = ref<categoryInterface[]>([]);
     const headers = [{ text: "Wybierz kategorię prawa jazdy", value: "text" }];
-    const examinationsList = reactive<
-      (string | examinationInterface | undefined)[]
-    >([]);
-    const displayData: orgDataItemInterface[] =
-      medicine_work_driving_licence.arrayValues;
+    const examinationsList = ref<string[]>([]);
+    const displayData: categoryInterface[] =
+      medicineWorkDrivingLicenceOrgData.arrayValues;
 
     function getIconName(text: string) {
       const icons: { [key: string]: string[] } = {
@@ -83,7 +73,15 @@ export default defineComponent({
       };
       return icons[text];
     }
-
+    watch(selectedLicenceCategory, () => {
+      const selectedHarmfulsId: number[] = selectedLicenceCategory.value.map(
+        ({ id }) => id
+      );
+      examinationsList.value = medicine_work_driving_licence.arrayValues
+        .filter(({ id }) => selectedHarmfulsId.includes(id))
+        .map(({ examinations }) => examinations)
+        .flat();
+    });
     return {
       selectedLicenceCategory,
       headers,
@@ -91,11 +89,6 @@ export default defineComponent({
       getIconName,
       examinationsList,
     };
-  },
-  watch: {
-    selectedLicenceCategory: function (newValue) {
-      this.examinationsList = getExaminationsList(newValue);
-    },
   },
 });
 </script>

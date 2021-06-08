@@ -207,7 +207,13 @@ import orgDataPolice from "../assets/medicine_work_police_org_data.json";
 import orgDataBasic from "../assets/medicine_work_basic_org_data.json";
 import getExaminationsList from "../helpers/getExaminationsList";
 
-import { ref, reactive, defineComponent, computed } from "@vue/composition-api";
+import {
+  ref,
+  reactive,
+  defineComponent,
+  computed,
+  watch,
+} from "@vue/composition-api";
 import TestsList from "./TestsList.vue";
 
 interface examinationInterface {
@@ -234,14 +240,12 @@ export default defineComponent({
       default: false,
     },
   },
-  setup() {
-    const selectedHarmfulFactors = reactive<orgDataItemInterface[]>([]);
-    const selectedTypeWorkMedicine = reactive<string[]>(["wstępne"]);
+  setup(props) {
+    const selectedHarmfulFactors = ref<orgDataItemInterface[]>([]);
+    const selectedTypeWorkMedicine = ref<string[]>(["wstępne"]);
     const headers = [{ text: "Czynniki szkodliwe", value: "text" }];
     const search = ref("");
-    const examinationsList = reactive<
-      (string | examinationInterface | undefined)[]
-    >([]);
+    const examinationsList = ref<string[]>([]);
     const workMedicineTypes = {
       police: [
         ...new Set(
@@ -314,6 +318,32 @@ export default defineComponent({
         )
     );
 
+    watch(
+      [
+        selectedHarmfulFactors,
+        selectedTypeWorkMedicine,
+        selectedSpecyficHarmfulFactors,
+      ],
+      () => {
+        if (
+          selectedTypeWorkMedicine.value.length > 1 &&
+          selectedTypeWorkMedicine.value.includes("wstępne")
+        ) {
+          const index = selectedTypeWorkMedicine.value.indexOf("wstępne");
+          selectedTypeWorkMedicine.value.splice(index, index + 1);
+        }
+        search.value = "";
+        examinationsList.value = getExaminationsList(
+          [
+            ...selectedHarmfulFactors.value,
+            ...selectedSpecyficHarmfulFactors.value,
+          ],
+          props.police,
+          selectedTypeWorkMedicine.value
+        );
+      }
+    );
+
     return {
       selectedHarmfulFactors,
       headers,
@@ -325,38 +355,6 @@ export default defineComponent({
       examinationsList,
       selectedSpecyficHarmfulFactors,
     };
-  },
-  watch: {
-    selectedTypeWorkMedicine: function (newValue: string[]) {
-      if (newValue.length > 1 && newValue.includes("wstępne")) {
-        const index = newValue.indexOf("wstępne");
-        newValue.splice(index, index + 1);
-      }
-
-      this.examinationsList = getExaminationsList(
-        [
-          ...this.selectedHarmfulFactors,
-          ...this.selectedSpecyficHarmfulFactors,
-        ],
-        this.police,
-        this.selectedTypeWorkMedicine
-      );
-    },
-    selectedHarmfulFactors: function (newValue) {
-      this.search = "";
-      this.examinationsList = getExaminationsList(
-        [...newValue, ...this.selectedSpecyficHarmfulFactors],
-        this.police,
-        this.selectedTypeWorkMedicine
-      );
-    },
-    selectedSpecyficHarmfulFactors: function (newValue) {
-      this.examinationsList = getExaminationsList(
-        [...this.selectedHarmfulFactors, ...newValue],
-        this.police,
-        this.selectedTypeWorkMedicine
-      );
-    },
   },
 });
 </script>

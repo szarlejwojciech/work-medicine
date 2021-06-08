@@ -1,6 +1,6 @@
 <template>
   <v-card>
-    <v-list denses>
+    <v-list class="pb-5">
       <v-subheader>BADANIA DO WYKONANIA</v-subheader>
       <v-list-group
         class="px-5"
@@ -13,12 +13,18 @@
       >
         <template v-slot:activator>
           <v-list-item-content>
-            <v-list-item-title>{{ group.title }}:</v-list-item-title>
+            <v-list-item-title v-text="group.title"></v-list-item-title>
+            <v-list-item-subtitle
+              v-text="group.description"
+            ></v-list-item-subtitle>
           </v-list-item-content>
         </template>
 
         <v-list-item v-for="(test, i) in group.arrayValues" :key="i" link>
-          <v-list-item-title v-text="test.text"></v-list-item-title>
+          <v-list-item-title
+            class="text-wrap"
+            v-text="test.text"
+          ></v-list-item-title>
         </v-list-item>
       </v-list-group>
     </v-list>
