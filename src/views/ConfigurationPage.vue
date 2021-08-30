@@ -13,13 +13,13 @@
 
       <v-tabs-items v-model="tab">
         <v-tab-item>
-          <v-card> Medycyna pracy </v-card>
+          <WorkMedicineConfig :data="workMedicineBasic" />
         </v-tab-item>
         <v-tab-item>
-          <v-card> Prawo jazdy </v-card>
+          <WorkMedicineConfig :data="workMedicinePolice" />
         </v-tab-item>
         <v-tab-item>
-          <v-card> Policja </v-card>
+          <WorkMedicineConfig :data="workMedicineDrivingLicence" />
         </v-tab-item>
         <!-- <v-tab-item v-for="i in 1" :key="i"> w budowie </v-tab-item> -->
       </v-tabs-items>
@@ -28,11 +28,14 @@
 </template>
 
 <script lang="ts">
-import { ref, defineComponent } from "@vue/composition-api";
+import { ref, defineComponent, reactive, toRefs } from "@vue/composition-api";
+import WorkMedicineConfig from "../components/WorkMedicineConfig.vue";
 
 export default defineComponent({
   name: "ConfigurationPage",
-  components: {},
+  components: {
+    WorkMedicineConfig,
+  },
   setup() {
     const tab = ref(null);
     const tabsLabels = [
@@ -41,9 +44,36 @@ export default defineComponent({
       "Medycyna pracy policja",
       // "Pozwolenie na broń",
     ];
+    const data = reactive({
+      workMedicinePolice: {},
+      workMedicineGunPermission: {},
+      workMedicineDrivingLicence: {},
+      workMedicineBasic: {},
+      examinationList: {},
+    });
+
+    async function getData() {
+      try {
+        const res = await require("../assets/data.json");
+        console.log(
+          "🚩🚩🚩 - file: ConfigurationPage.vue - line 47 - res",
+          res
+        );
+        data.workMedicinePolice = res.workMedicinePolice;
+        data.workMedicineGunPermission = res.workMedicineGunPermission;
+        data.workMedicineDrivingLicence = res.workMedicineDrivingLicence;
+        data.workMedicineBasic = res.workMedicineBasic;
+        data.examinationList = res.examinationList;
+      } catch (e) {
+        console.log(e);
+      }
+    }
+    getData();
+
     return {
       tab,
       tabsLabels,
+      ...toRefs(data),
     };
   },
 });
