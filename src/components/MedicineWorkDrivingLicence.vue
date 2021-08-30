@@ -92,7 +92,7 @@ export default defineComponent({
   },
 });
 </script>
-<style  scoped>
+<style scoped>
 .v-icon.mdi-bus-side::before {
   font-size: 1.3em !important;
 }
