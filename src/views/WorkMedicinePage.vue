@@ -35,11 +35,11 @@
 
 <script lang="ts">
 import { ref, defineComponent } from "@vue/composition-api";
-import MedicineWorkBasic from "./MedicineWorkBasic.vue";
-import MedicineWorkDrivingLicence from "./MedicineWorkDrivingLicence.vue";
+import MedicineWorkBasic from "../components/MedicineWorkBasic.vue";
+import MedicineWorkDrivingLicence from "../components/MedicineWorkDrivingLicence.vue";
 
 export default defineComponent({
-  name: "MedicineWorkTemplate",
+  name: "WorkMedicinePage",
   components: {
     MedicineWorkBasic,
     MedicineWorkDrivingLicence,
