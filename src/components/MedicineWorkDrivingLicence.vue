@@ -18,22 +18,12 @@
           <!-- eslint-disable-next-line -->
           <template v-slot:item.text="{ item }">
             {{ item.text }}
-            <v-icon
-              v-for="(icon, i) in getIconName(item.text)"
-              class="ml-2 mb-0.5"
-              style="margin-right: -0.5em"
-              color="primary"
-              :key="i"
-              >{{ icon }}</v-icon
-            >
+            <v-icon v-for="(icon, i) in getIconName(item.text)" class="ml-2 mb-0.5" style="margin-right: -0.5em" color="primary" :key="i">{{ icon }}</v-icon>
           </template>
         </v-data-table>
       </v-col>
       <v-col cols="4">
-        <TestsList
-          v-if="selectedLicenceCategory.length > 0"
-          :tests="examinationsList"
-        />
+        <TestsList v-if="selectedLicenceCategory.length > 0" :tests="examinationsList" />
       </v-col>
     </v-row>
   </v-container>
@@ -58,8 +48,7 @@ export default defineComponent({
     const selectedLicenceCategory = ref<categoryInterface[]>([]);
     const headers = [{ text: "Wybierz kategorię prawa jazdy", value: "text" }];
     const examinationsList = ref<string[]>([]);
-    const displayData: categoryInterface[] =
-      medicineWorkDrivingLicenceOrgData.arrayValues;
+    const displayData: categoryInterface[] = medicineWorkDrivingLicenceOrgData.arrayValues;
 
     function getIconName(text: string) {
       const icons: { [key: string]: string[] } = {
@@ -74,9 +63,7 @@ export default defineComponent({
       return icons[text];
     }
     watch(selectedLicenceCategory, () => {
-      const selectedHarmfulsId: number[] = selectedLicenceCategory.value.map(
-        ({ id }) => id
-      );
+      const selectedHarmfulsId: number[] = selectedLicenceCategory.value.map(({ id }) => id);
       examinationsList.value = medicine_work_driving_licence.arrayValues
         .filter(({ id }) => selectedHarmfulsId.includes(id))
         .map(({ examinations }) => examinations)

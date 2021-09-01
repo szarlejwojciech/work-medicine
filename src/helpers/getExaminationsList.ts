@@ -13,17 +13,9 @@ interface orgDataItemInterface {
   type?: string;
 }
 
-export default function getExaminationsList(
-  array: orgDataItemInterface[],
-  isPolice = false,
-  workMedicineType: string[] = []
-): string[] {
+export default function getExaminationsList(array: orgDataItemInterface[], isPolice = false, workMedicineType: string[] = []): string[] {
   if ((!array?.length || array[0]) === undefined) return [];
-  if (
-    workMedicineType.includes("kontrolne (profilaktyczne)") &&
-    workMedicineType.length === 1
-  )
-    return ["Lekarz medycyny pracy"];
+  if (workMedicineType.includes("kontrolne (profilaktyczne)") && workMedicineType.length === 1) return ["Lekarz medycyny pracy"];
 
   const data = isPolice ? medicineWorkPolice : medicineWorkBasic;
   const selectedHarmfulsId: number[] = array.map(({ id }) => id);

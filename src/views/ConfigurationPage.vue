@@ -55,10 +55,7 @@ export default defineComponent({
     async function getData() {
       try {
         const res = await require("../assets/data.json");
-        console.log(
-          "🚩🚩🚩 - file: ConfigurationPage.vue - line 47 - res",
-          res
-        );
+        console.log("🚩🚩🚩 - file: ConfigurationPage.vue - line 47 - res", res);
         data.workMedicinePolice = res.workMedicinePolice;
         data.workMedicineGunPermission = res.workMedicineGunPermission;
         data.workMedicineDrivingLicence = res.workMedicineDrivingLicence;

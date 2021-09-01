@@ -2,13 +2,7 @@
   <v-container>
     <v-row align="start">
       <v-col cols="8">
-        <v-text-field
-          v-model="search"
-          append-icon="mdi-magnify"
-          label="Wyszukaj czynniki szkodliwe"
-          outlined
-          clearable
-        ></v-text-field>
+        <v-text-field v-model="search" append-icon="mdi-magnify" label="Wyszukaj czynniki szkodliwe" outlined clearable></v-text-field>
         <v-spacer></v-spacer>
         <v-data-table
           v-if="selectedHarmfulFactors.length"
@@ -26,12 +20,7 @@
           <template v-slot:item="{ item, isSelected, select }">
             <tr>
               <td class="text-start">
-                <v-simple-checkbox
-                  :ripple="false"
-                  color="primary"
-                  :value="isSelected"
-                  @input="select($event)"
-                ></v-simple-checkbox>
+                <v-simple-checkbox :ripple="false" color="primary" :value="isSelected" @input="select($event)"></v-simple-checkbox>
               </td>
               <td class="text-start">
                 {{ item.text.split(":")[1] || item.text.split(":")[0] }}
@@ -45,11 +34,7 @@
           :search="search"
           :headers="headers"
           v-if="selectedTypeWorkMedicine.includes('specjalistyczne')"
-          :items="
-            displayData.police.specialist.filter(
-              (item) => !selectedHarmfulFactors.includes(item)
-            )
-          "
+          :items="displayData.police.specialist.filter((item) => !selectedHarmfulFactors.includes(item))"
           item-key="id"
           show-select
           group-by="category"
@@ -61,21 +46,14 @@
           <!-- eslint-disable-next-line -->
           <template v-slot:group.header="{ items, isOpen, toggle }">
             <th colspan="2">
-              <v-icon @click="toggle"
-                >{{ isOpen ? "mdi-minus" : "mdi-plus" }}
-              </v-icon>
+              <v-icon @click="toggle">{{ isOpen ? "mdi-minus" : "mdi-plus" }} </v-icon>
               {{ items[0].category || "ogólne" }}
             </th>
           </template>
           <template v-slot:item="{ item, isSelected, select }">
             <tr>
               <td class="text-start">
-                <v-simple-checkbox
-                  :ripple="false"
-                  color="primary"
-                  :value="isSelected"
-                  @input="select($event)"
-                ></v-simple-checkbox>
+                <v-simple-checkbox :ripple="false" color="primary" :value="isSelected" @input="select($event)"></v-simple-checkbox>
               </td>
               <td class="text-start">
                 {{ item.text.split(":")[1] || item.text.split(":")[0] }}
@@ -84,23 +62,13 @@
           </template>
         </v-data-table>
         <v-data-table
-          v-if="
-            !selectedTypeWorkMedicine.includes('specjalistyczne') ||
-            (selectedTypeWorkMedicine.includes('specjalistyczne') &&
-              selectedTypeWorkMedicine.length > 1)
-          "
+          v-if="!selectedTypeWorkMedicine.includes('specjalistyczne') || (selectedTypeWorkMedicine.includes('specjalistyczne') && selectedTypeWorkMedicine.length > 1)"
           class="elevation-1"
           v-model="selectedHarmfulFactors"
           :search="search"
           :headers="headers"
           :items="
-            police
-              ? displayData.police.basic.filter(
-                  (item) => !selectedHarmfulFactors.includes(item)
-                )
-              : displayData.basic.filter(
-                  (item) => !selectedHarmfulFactors.includes(item)
-                )
+            police ? displayData.police.basic.filter((item) => !selectedHarmfulFactors.includes(item)) : displayData.basic.filter((item) => !selectedHarmfulFactors.includes(item))
           "
           item-key="id"
           show-select
@@ -108,29 +76,19 @@
           disable-pagination
           disable-sort
           hide-default-footer
-          :hide-default-header="
-            !!selectedHarmfulFactors.length ||
-            selectedTypeWorkMedicine.includes('specjalistyczne')
-          "
+          :hide-default-header="!!selectedHarmfulFactors.length || selectedTypeWorkMedicine.includes('specjalistyczne')"
         >
           <!-- eslint-disable-next-line -->
           <template v-slot:group.header="{ items, isOpen, toggle }">
             <th colspan="2">
-              <v-icon @click="toggle"
-                >{{ isOpen ? "mdi-minus" : "mdi-plus" }}
-              </v-icon>
+              <v-icon @click="toggle">{{ isOpen ? "mdi-minus" : "mdi-plus" }} </v-icon>
               {{ items[0].category || "ogólne" }}
             </th>
           </template>
           <template v-slot:item="{ item, isSelected, select }">
             <tr>
               <td class="text-start">
-                <v-simple-checkbox
-                  :ripple="false"
-                  color="primary"
-                  :value="isSelected"
-                  @input="select($event)"
-                ></v-simple-checkbox>
+                <v-simple-checkbox :ripple="false" color="primary" :value="isSelected" @input="select($event)"></v-simple-checkbox>
               </td>
               <td class="text-start">
                 {{ item.text.split(":")[1] || item.text.split(":")[0] }}
@@ -162,10 +120,7 @@
               color="primary"
               hide-details
               clearable
-              :disabled="
-                selectedTypeWorkMedicine.includes('specjalistyczne') &&
-                selectedTypeWorkMedicine.length === 1
-              "
+              :disabled="selectedTypeWorkMedicine.includes('specjalistyczne') && selectedTypeWorkMedicine.length === 1"
               :rules="[(value) => !!value || 'Wybierz rodzaj pracownika!']"
             ></v-select>
           </v-col>
@@ -187,13 +142,7 @@
         </v-row>
         <v-row>
           <v-col cols="12">
-            <TestsList
-              v-if="
-                selectedHarmfulFactors.length > 0 &&
-                selectedTypeWorkMedicine.length > 0
-              "
-              :tests="examinationsList"
-            />
+            <TestsList v-if="selectedHarmfulFactors.length > 0 && selectedTypeWorkMedicine.length > 0" :tests="examinationsList" />
           </v-col>
         </v-row>
       </v-col>
@@ -207,13 +156,7 @@ import orgDataPolice from "../assets/medicine_work_police_org_data.json";
 import orgDataBasic from "../assets/medicine_work_basic_org_data.json";
 import getExaminationsList from "../helpers/getExaminationsList";
 
-import {
-  ref,
-  reactive,
-  defineComponent,
-  computed,
-  watch,
-} from "@vue/composition-api";
+import { ref, reactive, defineComponent, computed, watch } from "@vue/composition-api";
 import TestsList from "./TestsList.vue";
 
 interface examinationInterface {
@@ -247,50 +190,19 @@ export default defineComponent({
     const search = ref("");
     const examinationsList = ref<string[]>([]);
     const workMedicineTypes = {
-      police: [
-        ...new Set(
-          orgDataPolice.arrayValues
-            .map(({ examinations }) => examinations.map(({ name }) => name))
-            .flat()
-        ),
-        "kontrolne (profilaktyczne)",
-      ],
-      basic: [
-        ...new Set(
-          orgDataBasic.arrayValues
-            .map(({ examinations }) => examinations.map(({ name }) => name))
-            .flat()
-        ),
-        "kontrolne (profilaktyczne)",
-      ],
+      police: [...new Set(orgDataPolice.arrayValues.map(({ examinations }) => examinations.map(({ name }) => name)).flat()), "kontrolne (profilaktyczne)"],
+      basic: [...new Set(orgDataBasic.arrayValues.map(({ examinations }) => examinations.map(({ name }) => name)).flat()), "kontrolne (profilaktyczne)"],
     };
-    const specyficSort = (prev: string, next: string) =>
-      prev === "ogólne" || next === "ogólne" || prev > next
-        ? 1
-        : prev < next
-        ? -1
-        : 0;
+    const specyficSort = (prev: string, next: string) => (prev === "ogólne" || next === "ogólne" || prev > next ? 1 : prev < next ? -1 : 0);
 
     const displayData = reactive({
-      basic: orgDataBasic.arrayValues
-        .filter(({ disabled }) => !disabled)
-        .sort((a, b) => specyficSort(a.category, b.category)),
+      basic: orgDataBasic.arrayValues.filter(({ disabled }) => !disabled).sort((a, b) => specyficSort(a.category, b.category)),
       police: {
         basic: orgDataPolice.arrayValues
-          .filter(
-            ({ category, disabled }) =>
-              !disabled &&
-              category !== "specjalistyczne" &&
-              category !== "specyficzne"
-          )
+          .filter(({ category, disabled }) => !disabled && category !== "specjalistyczne" && category !== "specyficzne")
           .sort((a, b) => specyficSort(a.category, b.category)),
-        specialist: orgDataPolice.arrayValues.filter(
-          ({ category, disabled }) =>
-            !disabled && category === "specjalistyczne"
-        ),
-        specyfic: orgDataPolice.arrayValues.filter(
-          ({ category, disabled }) => !disabled && category === "specyficzne"
-        ),
+        specialist: orgDataPolice.arrayValues.filter(({ category, disabled }) => !disabled && category === "specjalistyczne"),
+        specyfic: orgDataPolice.arrayValues.filter(({ category, disabled }) => !disabled && category === "specyficzne"),
       },
     });
 
@@ -302,47 +214,21 @@ export default defineComponent({
     } = reactive({
       list: displayData.police.specyfic.map(({ type }) => type),
       selectedType: ref(""),
-      ageRange: computed(() =>
-        displayData.police.specyfic
-          .filter(({ type }) => type === policeWorkerTypes.selectedType)
-          .map(({ text }) => text)
-      ),
+      ageRange: computed(() => displayData.police.specyfic.filter(({ type }) => type === policeWorkerTypes.selectedType).map(({ text }) => text)),
       selectedAge: ref(""),
     });
-    const selectedSpecyficHarmfulFactors = computed<orgDataItemInterface[]>(
-      () =>
-        orgDataPolice.arrayValues.filter(
-          ({ type, text }) =>
-            type === policeWorkerTypes.selectedType &&
-            text === policeWorkerTypes.selectedAge
-        )
+    const selectedSpecyficHarmfulFactors = computed<orgDataItemInterface[]>(() =>
+      orgDataPolice.arrayValues.filter(({ type, text }) => type === policeWorkerTypes.selectedType && text === policeWorkerTypes.selectedAge)
     );
 
-    watch(
-      [
-        selectedHarmfulFactors,
-        selectedTypeWorkMedicine,
-        selectedSpecyficHarmfulFactors,
-      ],
-      () => {
-        if (
-          selectedTypeWorkMedicine.value.length > 1 &&
-          selectedTypeWorkMedicine.value.includes("wstępne")
-        ) {
-          const index = selectedTypeWorkMedicine.value.indexOf("wstępne");
-          selectedTypeWorkMedicine.value.splice(index, index + 1);
-        }
-        search.value = "";
-        examinationsList.value = getExaminationsList(
-          [
-            ...selectedHarmfulFactors.value,
-            ...selectedSpecyficHarmfulFactors.value,
-          ],
-          props.police,
-          selectedTypeWorkMedicine.value
-        );
+    watch([selectedHarmfulFactors, selectedTypeWorkMedicine, selectedSpecyficHarmfulFactors], () => {
+      if (selectedTypeWorkMedicine.value.length > 1 && selectedTypeWorkMedicine.value.includes("wstępne")) {
+        const index = selectedTypeWorkMedicine.value.indexOf("wstępne");
+        selectedTypeWorkMedicine.value.splice(index, index + 1);
       }
-    );
+      search.value = "";
+      examinationsList.value = getExaminationsList([...selectedHarmfulFactors.value, ...selectedSpecyficHarmfulFactors.value], props.police, selectedTypeWorkMedicine.value);
+    });
 
     return {
       selectedHarmfulFactors,

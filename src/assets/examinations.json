@@ -1,0 +1,306 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "Lekarz medycyny pracy",
+      "groupName": "Spejaliści",
+      "details": ""
+    },
+    {
+      "id": 2,
+      "name": "Okulista",
+      "groupName": "Spejaliści",
+      "details": ""
+    },
+    {
+      "id": 3,
+      "name": "Laryngolog",
+      "groupName": "Spejaliści",
+      "details": ""
+    },
+    {
+      "id": 4,
+      "name": "Kardiolog",
+      "groupName": "Spejaliści",
+      "details": ""
+    },
+    {
+      "id": 5,
+      "name": "Ortopeda",
+      "groupName": "Spejaliści",
+      "details": ""
+    },
+    {
+      "id": 6,
+      "name": "Neurolog",
+      "groupName": "Spejaliści",
+      "details": ""
+    },
+    {
+      "id": 7,
+      "name": "Psychotesty",
+      "groupName": "Spejaliści",
+      "details": ""
+    },
+    {
+      "id": 8,
+      "name": "Audiometria",
+      "groupName": "Pielęgniarka",
+      "details": ""
+    },
+    {
+      "id": 9,
+      "name": "Spirometria",
+      "groupName": "Pielęgniarka",
+      "details": ""
+    },
+    {
+      "id": 10,
+      "name": "EKG",
+      "groupName": "Pielęgniarka",
+      "details": ""
+    },
+    {
+      "id": 11,
+      "name": "Cholesterol",
+      "groupName": "Pielęgniarka",
+      "details": ""
+    },
+    {
+      "id": 12,
+      "name": "Lipidogram",
+      "groupName": "Pielęgniarka",
+      "details": ""
+    },
+    {
+      "id": 13,
+      "name": "Glukoza",
+      "groupName": "Pielęgniarka",
+      "details": ""
+    },
+    {
+      "id": 14,
+      "name": "Badanie poziomu cukru we krwi",
+      "groupName": "Pielęgniarka",
+      "details": ""
+    },
+    {
+      "id": 15,
+      "name": "Badanie poziomu cukru we krwi",
+      "groupName": "Labolatorium",
+      "details": ""
+    },
+    {
+      "id": 16,
+      "name": "Aktywność cholinesterazy krwinkowej",
+      "groupName": "Labolatorium",
+      "details": ""
+    },
+    {
+      "id": 17,
+      "name": "Alat",
+      "groupName": "Labolatorium",
+      "details": ""
+    },
+    {
+      "id": 18,
+      "name": "Aspat",
+      "groupName": "Labolatorium",
+      "details": ""
+    },
+    {
+      "id": 19,
+      "name": "anty-HIV",
+      "groupName": "Labolatorium",
+      "details": ""
+    },
+    {
+      "id": 20,
+      "name": "Badania czynności wątroby",
+      "groupName": "Labolatorium",
+      "details": ""
+    },
+    {
+      "id": 21,
+      "name": "Badanie ogólne moczu",
+      "groupName": "Labolatorium",
+      "details": ""
+    },
+    {
+      "id": 22,
+      "name": "Bilirubina",
+      "groupName": "Labolatorium",
+      "details": ""
+    },
+    {
+      "id": 23,
+      "name": "Fosfataza alkaiczna",
+      "groupName": "Labolatorium",
+      "details": ""
+    },
+    {
+      "id": 24,
+      "name": "Morfologia z rozmazem",
+      "groupName": "Labolatorium",
+      "details": ""
+    },
+    {
+      "id": 25,
+      "name": "Oznaczanie kwasu deltaaminolewulinowego w moczu",
+      "groupName": "Labolatorium",
+      "details": ""
+    },
+    {
+      "id": 26,
+      "name": "Oznaczanie Wapnia i Fosforu we krwi",
+      "groupName": "Labolatorium",
+      "details": ""
+    },
+    {
+      "id": 27,
+      "name": "Płytki krwi",
+      "groupName": "Labolatorium",
+      "details": ""
+    },
+    {
+      "id": 28,
+      "name": "Poziom trójglicerydów we krwi",
+      "groupName": "Labolatorium",
+      "details": ""
+    },
+    {
+      "id": 29,
+      "name": "Przeciwciała anty-HBc total",
+      "groupName": "Labolatorium",
+      "details": ""
+    },
+    {
+      "id": 30,
+      "name": "Retykulocyty",
+      "groupName": "Labolatorium",
+      "details": ""
+    },
+    {
+      "id": 31,
+      "name": "Stężenie cholesterolu we krwi",
+      "groupName": "Labolatorium",
+      "details": ""
+    },
+    {
+      "id": 32,
+      "name": "Stężenie kinazy kreatynowej",
+      "groupName": "Labolatorium",
+      "details": ""
+    },
+    {
+      "id": 33,
+      "name": "Stężenie kreatyniny",
+      "groupName": "Labolatorium",
+      "details": ""
+    },
+    {
+      "id": 34,
+      "name": "Stężenie methemogloiny we krwi",
+      "groupName": "Labolatorium",
+      "details": ""
+    },
+    {
+      "id": 35,
+      "name": "Stężenie potasu i wapna",
+      "groupName": "Labolatorium",
+      "details": ""
+    },
+    {
+      "id": 36,
+      "name": "Toluen i ksylen",
+      "groupName": "Labolatorium",
+      "details": ""
+    },
+    {
+      "id": 37,
+      "name": "CRP",
+      "groupName": "Labolatorium",
+      "details": ""
+    },
+    {
+      "id": 38,
+      "name": "GGTP",
+      "groupName": "Labolatorium",
+      "details": ""
+    },
+    {
+      "id": 39,
+      "name": "HBsAg",
+      "groupName": "Labolatorium",
+      "details": ""
+    },
+    {
+      "id": 40,
+      "name": "HCV",
+      "groupName": "Labolatorium",
+      "details": ""
+    },
+    {
+      "id": 41,
+      "name": "TSH",
+      "groupName": "Labolatorium",
+      "details": ""
+    },
+    {
+      "id": 42,
+      "name": "Próba oziębiania z termometrią skórną i próbą uciskową",
+      "groupName": "Podwykonawcy",
+      "details": "Eskulap"
+    },
+    {
+      "id": 43,
+      "name": "Próba oziębienia rąk",
+      "groupName": "Podwykonawcy",
+      "details": "Eskulap"
+    },
+    {
+      "id": 44,
+      "name": "Ocena czucia wibracji",
+      "groupName": "Podwykonawcy",
+      "details": "Eskulap"
+    },
+    {
+      "id": 45,
+      "name": "USG wątroby",
+      "groupName": "Badanie USG",
+      "details": ""
+    },
+    {
+      "id": 47,
+      "name": "RTG klatki piersiowej",
+      "groupName": "Pracownia RTG",
+      "details": ""
+    },
+    {
+      "id": 48,
+      "name": "RTG kości jednego przedramienia",
+      "groupName": "Pracownia RTG",
+      "details": ""
+    },
+    {
+      "id": 49,
+      "name": "RTG kości miednicy",
+      "groupName": "Pracownia RTG",
+      "details": ""
+    },
+    {
+      "id": 50,
+      "name": "RTG rąk i stawów łokciowych",
+      "groupName": "Pracownia RTG",
+      "details": ""
+    },
+    {
+      "id": 51,
+      "name": "do badania kontrolnego pacjent musi mieć zaświadczenie o zakończeniu leczenia",
+      "groupName": "Uwagi",
+      "details": ""
+    }
+  ],
+  "name": "Medycyna pracy lista badań możliwa do wykonania",
+  "id": 31
+}
