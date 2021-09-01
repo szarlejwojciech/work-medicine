@@ -16,10 +16,10 @@
           <WorkMedicineConfig :data="workMedicineBasic" />
         </v-tab-item>
         <v-tab-item>
-          <WorkMedicineConfig :data="workMedicinePolice" />
+          <WorkMedicineConfig :data="workMedicinePolice" police />
         </v-tab-item>
         <v-tab-item>
-          <WorkMedicineConfig :data="workMedicineDrivingLicence" />
+          <WorkMedicineConfig :data="workMedicineDrivingLicence" drivingLicense />
         </v-tab-item>
         <!-- <v-tab-item v-for="i in 1" :key="i"> w budowie </v-tab-item> -->
       </v-tabs-items>
@@ -40,8 +40,8 @@ export default defineComponent({
     const tab = ref(null);
     const tabsLabels = [
       "Medycyna pracy",
-      "Prawo jazdy",
       "Medycyna pracy policja",
+      "Prawo jazdy",
       // "Pozwolenie na broń",
     ];
     const data = reactive({

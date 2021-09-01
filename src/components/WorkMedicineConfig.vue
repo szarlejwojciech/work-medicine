@@ -15,7 +15,7 @@
               <v-divider></v-divider>
               <v-list-item v-for="(item, i) in groupedItem.items" :key="i">
                 <v-list-item-content>
-                  <v-list-item-title v-text="item.text"></v-list-item-title>
+                  <v-list-item-title>{{ item.text }}{{ item.age ? ` - ${item.age}` : "" }}</v-list-item-title>
                 </v-list-item-content>
                 <v-list-item-action>
                   <v-row>
@@ -70,7 +70,10 @@ export default defineComponent({
   },
   setup(props) {
     const harmfulsFactorsList = ref(props.data.arrayValues);
-    const harmfulsFactorCategories = computed(() => [...new Set(props.data.arrayValues.map(({ category }) => category))]);
+    const harmfulsFactorCategories = computed(() => {
+      const categories = [...new Set(props.data.arrayValues.map(({ category }) => category))];
+      return !categories?.[0] ? ["ogólne"] : categories;
+    });
     const search = ref("");
     const formIsVisible = ref(false);
 

@@ -6340,8 +6340,8 @@
       },
       {
         "id": 161,
-        "type": "Policjant (skierowanie wg załącznika nr 1)",
-        "text": "Poniżej 40 roku życia",
+        "text": "Policjant (skierowanie wg załącznika nr 1)",
+        "age": "Poniżej 40 roku życia",
         "examinations": [
           {
             "name": "wstępne",
@@ -6397,8 +6397,8 @@
       },
       {
         "id": 162,
-        "type": "Policjant (skierowanie wg załącznika nr 1)",
-        "text": "Powyżej 40 roku życia",
+        "text": "Policjant (skierowanie wg załącznika nr 1)",
+        "age": "Powyżej 40 roku życia",
         "examinations": [
           {
             "name": "wstępne",
@@ -6456,8 +6456,8 @@
       },
       {
         "id": 163,
-        "type": "Policjant służby wspomagającej działalność Policji (skierowanie wg załącznika nr 3)",
-        "text": "Poniżej 40 roku życia",
+        "text": "Policjant służby wspomagającej działalność Policji (skierowanie wg załącznika nr 3)",
+        "age": "Poniżej 40 roku życia",
         "examinations": [
           {
             "name": "wstępne",
@@ -6495,8 +6495,8 @@
       },
       {
         "id": 164,
-        "type": "Policjant służby wspomagającej działalność Policji (skierowanie wg załącznika nr 3)",
-        "text": "Powyżej 40 roku życia",
+        "text": "Policjant służby wspomagającej działalność Policji (skierowanie wg załącznika nr 3)",
+        "age": "Powyżej 40 roku życia",
         "examinations": [
           {
             "name": "wstępne",
@@ -6536,8 +6536,8 @@
       },
       {
         "id": 165,
-        "type": "Pracownik cywilny",
-        "text": "Poniżej 50 roku życia",
+        "text": "Pracownik cywilny",
+        "age": "Poniżej 50 roku życia",
         "examinations": [
           {
             "name": "wstępne",
@@ -6567,8 +6567,8 @@
       },
       {
         "id": 166,
-        "type": "Pracownik cywilny",
-        "text": "Powyżej 50 roku życia",
+        "text": "Pracownik cywilny",
+        "age": "Powyżej 50 roku życia",
         "examinations": [
           {
             "name": "wstępne",
