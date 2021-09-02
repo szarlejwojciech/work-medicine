@@ -8,11 +8,27 @@
         <v-icon>mdi-pencil</v-icon>
       </v-btn>
     </template>
+
     <v-card>
-      <v-card-title>
-        <span class="text-h5">Edycja czynnika szkodliwego</span>
-      </v-card-title>
-      <v-card-text>
+      <v-toolbar color="primary" dark>
+        <v-row>
+          <v-col cols="auto" class="d-flex align-center">{{ create ? "Dodaj nowy czynnik szkodliwy" : "Edycja czynnika szkodliwego" }}</v-col>
+          <v-spacer></v-spacer>
+          <v-col cols="auto">
+            <v-btn
+              fab
+              icon
+              @click="
+                cancelEdiding();
+                isActive = false;
+              "
+            >
+              <v-icon>mdi-close</v-icon>
+            </v-btn>
+          </v-col>
+        </v-row>
+      </v-toolbar>
+      <v-card-text class="mt-5">
         <v-container>
           <v-row>
             <v-col cols="12">
@@ -41,7 +57,7 @@
             <v-divider></v-divider>
             <v-subheader>Kategoria</v-subheader>
             <v-col cols="12">
-              <v-combobox :items="harmfulsFactorCategories" label="kategoria" v-model="factor.category" small-chips hide-details outlined></v-combobox>
+              <v-combobox :items="categories || ['ogólne']" label="kategoria" v-model="factor.category" small-chips hide-details outlined></v-combobox>
             </v-col>
           </v-row>
         </v-container>
@@ -124,7 +140,7 @@ export default defineComponent({
         disabled: false,
       }),
     },
-    harmfulsFactorCategories: {
+    categories: {
       type: Array,
       required: true,
     },
@@ -170,11 +186,11 @@ export default defineComponent({
     }
 
     const updateHarmfulFactor = () => {
-      emit("updateHarmfulFactor", factor);
+      emit("updateHarmfulFactor", factor.value);
       cachedFactor.value = JSON.stringify(factor.value);
     };
 
-    const addHarmfulFactor = () => emit("addHarmfulFactor", factor);
+    const addHarmfulFactor = () => emit("addHarmfulFactor", factor.value);
 
     const setData = () => (factor.value = props.harmfulFactor);
 

@@ -13,15 +13,18 @@
 
       <v-tabs-items v-model="tab">
         <v-tab-item>
-          <WorkMedicineConfig :data="workMedicineBasic" />
+          <WorkMedicineConfig :data="workMedicineBasic" :examList="examList" />
         </v-tab-item>
         <v-tab-item>
-          <WorkMedicineConfig :data="workMedicinePolice" police />
+          <WorkMedicineConfig :data="workMedicinePolice" :examList="examList" />
         </v-tab-item>
         <v-tab-item>
-          <WorkMedicineConfig :data="workMedicineDrivingLicence" drivingLicense />
+          <WorkMedicineConfig :data="workMedicineDrivingLicence" :examList="examList" />
         </v-tab-item>
         <!-- <v-tab-item v-for="i in 1" :key="i"> w budowie </v-tab-item> -->
+        <v-tab-item>
+          <WorkMedicineConfig :data="examinationList" :examList="examList" exam />
+        </v-tab-item>
       </v-tabs-items>
     </v-card>
   </v-container>
@@ -43,6 +46,7 @@ export default defineComponent({
       "Medycyna pracy policja",
       "Prawo jazdy",
       // "Pozwolenie na broń",
+      "konfiguracja badań",
     ];
     const data = reactive({
       workMedicinePolice: {},
@@ -50,17 +54,19 @@ export default defineComponent({
       workMedicineDrivingLicence: {},
       workMedicineBasic: {},
       examinationList: {},
+      examList: [],
     });
 
     async function getData() {
       try {
         const res = await require("../assets/data.json");
-        console.log("🚩🚩🚩 - file: ConfigurationPage.vue - line 47 - res", res);
+
         data.workMedicinePolice = res.workMedicinePolice;
         data.workMedicineGunPermission = res.workMedicineGunPermission;
         data.workMedicineDrivingLicence = res.workMedicineDrivingLicence;
         data.workMedicineBasic = res.workMedicineBasic;
         data.examinationList = res.examinationList;
+        data.examList = res.examinationList.arrayValues.map(({ text }: { text: string }) => text);
       } catch (e) {
         console.log(e);
       }

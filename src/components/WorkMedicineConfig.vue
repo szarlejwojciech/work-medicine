@@ -2,8 +2,7 @@
   <v-card>
     <v-text-field v-model="search" label="Wyszukaj" outlined class="mt-5" hide-details style="max-width: 600px"></v-text-field>
     <v-divider class="my-5"></v-divider>
-
-    <HarmfulFactorEditBox :harmfulsFactorCategories="harmfulsFactorCategories" @addHarmfulFactor="addHarmfulFactor" create />
+    <NewItem :categories="categories" :examList="examList" :exam="exam" @addHarmfulFactor="addHarmfulFactor" />
     <v-data-iterator :items="harmfulsFactorsList" item-key="id" :search="search" :items-per-page="50" group-by="category">
       <template v-slot:default="{ groupedItems }">
         <v-list>
@@ -15,11 +14,16 @@
               <v-divider></v-divider>
               <v-list-item v-for="(item, i) in groupedItem.items" :key="i">
                 <v-list-item-content>
-                  <v-list-item-title>{{ item.text }}{{ item.age ? ` - ${item.age}` : "" }}</v-list-item-title>
+                  <v-list-item-title>
+                    <span>{{ item.text }}</span>
+                    <small v-if="item.age"> - {{ item.age }}</small>
+                    <small v-if="item.details"> - {{ item.details }}</small>
+                  </v-list-item-title>
                 </v-list-item-content>
                 <v-list-item-action>
                   <v-row>
-                    <HarmfulFactorEditBox :harmfulFactor="item" :harmfulsFactorCategories="harmfulsFactorCategories" @updateHarmfulFactor="updateHarmfulFactor" />
+                    <ExaminationsEditBox v-if="exam" :examItem="item" :categories="categories" />
+                    <HarmfulFactorEditBox v-else :harmfulFactor="item" :categories="categories" @updateHarmfulFactor="updateHarmfulFactor" />
                     <v-btn small fab icon color="error" @click="() => deleteHarmfulFactor(item.id)" title="Usuń">
                       <v-icon>mdi-delete</v-icon>
                     </v-btn>
@@ -37,6 +41,8 @@
 <script lang="ts">
 import { ref, defineComponent, PropType, computed } from "@vue/composition-api";
 import HarmfulFactorEditBox from "../components/HarmfulFactorEditBox.vue";
+import ExaminationsEditBox from "../components/ExaminationsEditBox.vue";
+import NewItem from "../components/NewItem.vue";
 
 interface Examination {
   name: string;
@@ -50,6 +56,7 @@ interface DataItem {
   examinations: Examination[] | [];
   type?: string;
   disabled?: boolean;
+  details?: string;
 }
 
 interface Data {
@@ -60,17 +67,27 @@ interface Data {
 
 export default defineComponent({
   name: "WorkMedicineConfig",
-  components: { HarmfulFactorEditBox },
+  components: { HarmfulFactorEditBox, ExaminationsEditBox, NewItem },
   props: {
     data: {
       type: Object as PropType<Data>,
       required: false,
       default: false,
     },
+    examList: {
+      type: Array as PropType<string[] | []>,
+      required: false,
+      default: [],
+    },
+    exam: {
+      type: Boolean,
+      required: false,
+      default: false,
+    },
   },
   setup(props) {
     const harmfulsFactorsList = ref(props.data.arrayValues);
-    const harmfulsFactorCategories = computed(() => {
+    const categories = computed(() => {
       const categories = [...new Set(props.data.arrayValues.map(({ category }) => category))];
       return !categories?.[0] ? ["ogólne"] : categories;
     });
@@ -84,7 +101,6 @@ export default defineComponent({
     }
 
     function addHarmfulFactor(item: DataItem) {
-      item.id = +new Date(); // mocked id
       harmfulsFactorsList.value.push(item);
 
       const paylad = { item };
@@ -105,7 +121,7 @@ export default defineComponent({
       harmfulsFactorsList,
       search,
       formIsVisible,
-      harmfulsFactorCategories,
+      categories,
       deleteHarmfulFactor,
       addHarmfulFactor,
       updateHarmfulFactor,

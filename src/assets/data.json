@@ -6680,64 +6680,162 @@
         "id": 0,
         "text": "Kategoria B",
         "examinations": [
-          "Glukoza"
-        ]
+          {
+            "name": "wstępne",
+            "list": [
+              "Glukoza"
+            ]
+          },
+          {
+            "name": "okresowe",
+            "list": [
+              "Glukoza"
+            ]
+          }
+        ],
+        "category": "ogólne"
       },
       {
         "id": 1,
         "text": "Kategoria C",
         "examinations": [
-          "Okulista",
-          "Neurolog",
-          "Psychotesty",
-          "Glukoza"
-        ]
+          {
+            "name": "wstępne",
+            "list": [
+              "Okulista",
+              "Neurolog",
+              "Psychotesty",
+              "Glukoza"
+            ]
+          },
+          {
+            "name": "okresowe",
+            "list": [
+              "Okulista",
+              "Neurolog",
+              "Psychotesty",
+              "Glukoza"
+            ]
+          }
+        ],
+        "category": "ogólne"
       },
       {
         "id": 2,
         "text": "Kategoria C+E",
         "examinations": [
-          "Okulista",
-          "Neurolog",
-          "Psychotesty",
-          "Glukoza"
-        ]
+          {
+            "name": "wstępne",
+            "list": [
+              "Okulista",
+              "Neurolog",
+              "Psychotesty",
+              "Glukoza"
+            ]
+          },
+          {
+            "name": "okresowe",
+            "list": [
+              "Okulista",
+              "Neurolog",
+              "Psychotesty",
+              "Glukoza"
+            ]
+          }
+        ],
+        "category": "ogólne"
       },
       {
         "id": 3,
         "text": "Kategoria D",
         "examinations": [
-          "Okulista",
-          "Neurolog",
-          "Psychotesty",
-          "Glukoza"
-        ]
+          {
+            "name": "wstępne",
+            "list": [
+              "Okulista",
+              "Neurolog",
+              "Psychotesty",
+              "Glukoza"
+            ]
+          },
+          {
+            "name": "okresowe",
+            "list": [
+              "Okulista",
+              "Neurolog",
+              "Psychotesty",
+              "Glukoza"
+            ]
+          }
+        ],
+        "category": "ogólne"
       },
       {
         "id": 4,
         "text": "Kategoria D+E",
         "examinations": [
-          "Okulista",
-          "Neurolog",
-          "Psychotesty",
-          "Glukoza"
-        ]
+          {
+            "name": "wstępne",
+            "list": [
+              "Okulista",
+              "Neurolog",
+              "Psychotesty",
+              "Glukoza"
+            ]
+          },
+          {
+            "name": "okresowe",
+            "list": [
+              "Okulista",
+              "Neurolog",
+              "Psychotesty",
+              "Glukoza"
+            ]
+          }
+        ],
+        "category": "ogólne"
       },
       {
         "id": 5,
         "text": "Kategoria T",
         "examinations": [
-          "Okulista"
-        ]
+          {
+            "name": "wstępne",
+            "list": [
+              "Okulista"
+            ]
+          },
+          {
+            "name": "okresowe",
+            "list": [
+              "Okulista"
+            ]
+          }
+        ],
+        "category": "ogólne"
       },
       {
         "id": 6,
         "text": "Pojazdy uprzywilejowane",
         "examinations": [
-          "Okulista",
-          "Psychotesty",
-          "Glukoza"
-        ]
+          {
+            "name": "wstępne",
+            "list": [
+              "Okulista",
+              "Psychotesty",
+              "Glukoza"
+            ]
+          },
+          {
+            "name": "okresowe",
+            "list": [
+              "Okulista",
+              "Psychotesty",
+              "Glukoza"
+            ]
+          }
+        ],
+        "category": "ogólne"
       }
     ],
     "visibleReception": true
@@ -6749,252 +6847,310 @@
     "visibleReception": true
   },
   "examinationList": {
-    "items": [
+    "id": 4,
+    "title": "Medycyna pracy lista badań możliwa do wykonania",
+    "arrayValues": [
       {
         "id": 1,
-        "title": "Spejaliści",
-        "arrayValues": [
-          {
-            "id": 1,
-            "text": "Lekarz medycyny pracy"
-          },
-          {
-            "id": 2,
-            "text": "Okulista"
-          },
-          {
-            "id": 3,
-            "text": "Laryngolog"
-          },
-          {
-            "id": 4,
-            "text": "Kardiolog"
-          },
-          {
-            "id": 5,
-            "text": "Ortopeda"
-          },
-          {
-            "id": 6,
-            "text": "Neurolog"
-          },
-          {
-            "id": 7,
-            "text": "Psychotesty"
-          }
-        ]
+        "text": "Lekarz medycyny pracy",
+        "category": "Spejaliści",
+        "details": ""
       },
       {
         "id": 2,
-        "title": "Pielęgniarka",
-        "arrayValues": [
-          {
-            "id": 1,
-            "text": "Audiometria"
-          },
-          {
-            "id": 2,
-            "text": "Spirometria"
-          },
-          {
-            "id": 3,
-            "text": "EKG"
-          },
-          {
-            "id": 4,
-            "text": "Cholesterol"
-          },
-          {
-            "id": 5,
-            "text": "Lipidogram"
-          },
-          {
-            "id": 6,
-            "text": "Glukoza"
-          },
-          {
-            "id": 7,
-            "text": "Badanie poziomu cukru we krwi"
-          }
-        ]
+        "text": "Okulista",
+        "category": "Spejaliści",
+        "details": ""
       },
       {
         "id": 3,
-        "title": "Labolatorium",
-        "arrayValues": [
-          {
-            "id": 1,
-            "text": "Badanie poziomu cukru we krwi"
-          },
-          {
-            "id": 2,
-            "text": "Aktywność cholinesterazy krwinkowej"
-          },
-          {
-            "id": 3,
-            "text": "Alat"
-          },
-          {
-            "id": 4,
-            "text": "Aspat"
-          },
-          {
-            "id": 5,
-            "text": "anty-HIV"
-          },
-          {
-            "id": 6,
-            "text": "Badania czynności wątroby"
-          },
-          {
-            "id": 7,
-            "text": "Badanie ogólne moczu"
-          },
-          {
-            "id": 8,
-            "text": "Bilirubina"
-          },
-          {
-            "id": 9,
-            "text": "Fosfataza alkaiczna"
-          },
-          {
-            "id": 10,
-            "text": "Morfologia z rozmazem"
-          },
-          {
-            "id": 11,
-            "text": "Oznaczanie kwasu deltaaminolewulinowego w moczu"
-          },
-          {
-            "id": 12,
-            "text": "Oznaczanie Wapnia i Fosforu we krwi"
-          },
-          {
-            "id": 13,
-            "text": "Płytki krwi"
-          },
-          {
-            "id": 14,
-            "text": "Poziom trójglicerydów we krwi"
-          },
-          {
-            "id": 15,
-            "text": "Przeciwciała anty-HBc total"
-          },
-          {
-            "id": 16,
-            "text": "Retykulocyty"
-          },
-          {
-            "id": 17,
-            "text": "Stężenie cholesterolu we krwi"
-          },
-          {
-            "id": 18,
-            "text": "Stężenie kinazy kreatynowej"
-          },
-          {
-            "id": 19,
-            "text": "Stężenie kreatyniny"
-          },
-          {
-            "id": 20,
-            "text": "Stężenie methemogloiny we krwi"
-          },
-          {
-            "id": 21,
-            "text": "Stężenie potasu i wapna"
-          },
-          {
-            "id": 22,
-            "text": "Toluen i ksylen"
-          },
-          {
-            "id": 23,
-            "text": "CRP"
-          },
-          {
-            "id": 24,
-            "text": "GGTP"
-          },
-          {
-            "id": 25,
-            "text": "HBsAg"
-          },
-          {
-            "id": 26,
-            "text": "HCV"
-          },
-          {
-            "id": 27,
-            "text": "TSH"
-          }
-        ]
-      },
-      {
-        "id": 6,
-        "title": "Podwykonawcy",
-        "description": "Eskulap",
-        "arrayValues": [
-          {
-            "id": 1,
-            "text": "Próba oziębiania z termometrią skórną i próbą uciskową"
-          },
-          {
-            "id": 2,
-            "text": "Próba oziębienia rąk"
-          },
-          {
-            "id": 3,
-            "text": "Ocena czucia wibracji"
-          }
-        ]
-      },
-      {
-        "id": 7,
-        "title": "Badanie USG",
-        "arrayValues": [
-          {
-            "id": 1,
-            "text": "USG wątroby"
-          }
-        ]
+        "text": "Laryngolog",
+        "category": "Spejaliści",
+        "details": ""
       },
       {
         "id": 4,
-        "title": "Pracownia RTG",
-        "arrayValues": [
-          {
-            "id": 1,
-            "text": "RTG klatki piersiowej"
-          },
-          {
-            "id": 2,
-            "text": "RTG kości jednego przedramienia"
-          },
-          {
-            "id": 3,
-            "text": "RTG kości miednicy"
-          },
-          {
-            "id": 4,
-            "text": "RTG rąk i stawów łokciowych"
-          }
-        ]
+        "text": "Kardiolog",
+        "category": "Spejaliści",
+        "details": ""
       },
       {
         "id": 5,
-        "title": "Uwagi",
-        "arrayValues": [
-          {
-            "id": 1,
-            "text": "do badania kontrolnego pacjent musi mieć zaświadczenie o zakończeniu leczenia"
-          }
-        ]
+        "text": "Ortopeda",
+        "category": "Spejaliści",
+        "details": ""
+      },
+      {
+        "id": 6,
+        "text": "Neurolog",
+        "category": "Spejaliści",
+        "details": ""
+      },
+      {
+        "id": 7,
+        "text": "Psychotesty",
+        "category": "Spejaliści",
+        "details": ""
+      },
+      {
+        "id": 8,
+        "text": "Audiometria",
+        "category": "Pielęgniarka",
+        "details": ""
+      },
+      {
+        "id": 9,
+        "text": "Spirometria",
+        "category": "Pielęgniarka",
+        "details": ""
+      },
+      {
+        "id": 10,
+        "text": "EKG",
+        "category": "Pielęgniarka",
+        "details": ""
+      },
+      {
+        "id": 11,
+        "text": "Cholesterol",
+        "category": "Pielęgniarka",
+        "details": ""
+      },
+      {
+        "id": 12,
+        "text": "Lipidogram",
+        "category": "Pielęgniarka",
+        "details": ""
+      },
+      {
+        "id": 13,
+        "text": "Glukoza",
+        "category": "Pielęgniarka",
+        "details": ""
+      },
+      {
+        "id": 14,
+        "text": "Badanie poziomu cukru we krwi",
+        "category": "Pielęgniarka",
+        "details": ""
+      },
+      {
+        "id": 15,
+        "text": "Badanie poziomu cukru we krwi",
+        "category": "Labolatorium",
+        "details": ""
+      },
+      {
+        "id": 16,
+        "text": "Aktywność cholinesterazy krwinkowej",
+        "category": "Labolatorium",
+        "details": ""
+      },
+      {
+        "id": 17,
+        "text": "Alat",
+        "category": "Labolatorium",
+        "details": ""
+      },
+      {
+        "id": 18,
+        "text": "Aspat",
+        "category": "Labolatorium",
+        "details": ""
+      },
+      {
+        "id": 19,
+        "text": "anty-HIV",
+        "category": "Labolatorium",
+        "details": ""
+      },
+      {
+        "id": 20,
+        "text": "Badania czynności wątroby",
+        "category": "Labolatorium",
+        "details": ""
+      },
+      {
+        "id": 21,
+        "text": "Badanie ogólne moczu",
+        "category": "Labolatorium",
+        "details": ""
+      },
+      {
+        "id": 22,
+        "text": "Bilirubina",
+        "category": "Labolatorium",
+        "details": ""
+      },
+      {
+        "id": 23,
+        "text": "Fosfataza alkaiczna",
+        "category": "Labolatorium",
+        "details": ""
+      },
+      {
+        "id": 24,
+        "text": "Morfologia z rozmazem",
+        "category": "Labolatorium",
+        "details": ""
+      },
+      {
+        "id": 25,
+        "text": "Oznaczanie kwasu deltaaminolewulinowego w moczu",
+        "category": "Labolatorium",
+        "details": ""
+      },
+      {
+        "id": 26,
+        "text": "Oznaczanie Wapnia i Fosforu we krwi",
+        "category": "Labolatorium",
+        "details": ""
+      },
+      {
+        "id": 27,
+        "text": "Płytki krwi",
+        "category": "Labolatorium",
+        "details": ""
+      },
+      {
+        "id": 28,
+        "text": "Poziom trójglicerydów we krwi",
+        "category": "Labolatorium",
+        "details": ""
+      },
+      {
+        "id": 29,
+        "text": "Przeciwciała anty-HBc total",
+        "category": "Labolatorium",
+        "details": ""
+      },
+      {
+        "id": 30,
+        "text": "Retykulocyty",
+        "category": "Labolatorium",
+        "details": ""
+      },
+      {
+        "id": 31,
+        "text": "Stężenie cholesterolu we krwi",
+        "category": "Labolatorium",
+        "details": ""
+      },
+      {
+        "id": 32,
+        "text": "Stężenie kinazy kreatynowej",
+        "category": "Labolatorium",
+        "details": ""
+      },
+      {
+        "id": 33,
+        "text": "Stężenie kreatyniny",
+        "category": "Labolatorium",
+        "details": ""
+      },
+      {
+        "id": 34,
+        "text": "Stężenie methemogloiny we krwi",
+        "category": "Labolatorium",
+        "details": ""
+      },
+      {
+        "id": 35,
+        "text": "Stężenie potasu i wapna",
+        "category": "Labolatorium",
+        "details": ""
+      },
+      {
+        "id": 36,
+        "text": "Toluen i ksylen",
+        "category": "Labolatorium",
+        "details": ""
+      },
+      {
+        "id": 37,
+        "text": "CRP",
+        "category": "Labolatorium",
+        "details": ""
+      },
+      {
+        "id": 38,
+        "text": "GGTP",
+        "category": "Labolatorium",
+        "details": ""
+      },
+      {
+        "id": 39,
+        "text": "HBsAg",
+        "category": "Labolatorium",
+        "details": ""
+      },
+      {
+        "id": 40,
+        "text": "HCV",
+        "category": "Labolatorium",
+        "details": ""
+      },
+      {
+        "id": 41,
+        "text": "TSH",
+        "category": "Labolatorium",
+        "details": ""
+      },
+      {
+        "id": 42,
+        "text": "Próba oziębiania z termometrią skórną i próbą uciskową",
+        "category": "Podwykonawcy",
+        "details": "Eskulap"
+      },
+      {
+        "id": 43,
+        "text": "Próba oziębienia rąk",
+        "category": "Podwykonawcy",
+        "details": "Eskulap"
+      },
+      {
+        "id": 44,
+        "text": "Ocena czucia wibracji",
+        "category": "Podwykonawcy",
+        "details": "Eskulap"
+      },
+      {
+        "id": 45,
+        "text": "USG wątroby",
+        "category": "Badanie USG",
+        "details": ""
+      },
+      {
+        "id": 47,
+        "text": "RTG klatki piersiowej",
+        "category": "Pracownia RTG",
+        "details": ""
+      },
+      {
+        "id": 48,
+        "text": "RTG kości jednego przedramienia",
+        "category": "Pracownia RTG",
+        "details": ""
+      },
+      {
+        "id": 49,
+        "text": "RTG kości miednicy",
+        "category": "Pracownia RTG",
+        "details": ""
+      },
+      {
+        "id": 50,
+        "text": "RTG rąk i stawów łokciowych",
+        "category": "Pracownia RTG",
+        "details": ""
+      },
+      {
+        "id": 51,
+        "text": "do badania kontrolnego pacjent musi mieć zaświadczenie o zakończeniu leczenia",
+        "category": "Uwagi",
+        "details": ""
       }
     ],
-    "name": "Medycyna pracy lista badań możliwa do wykonania",
-    "id": 4
+    "visibleReception": true
   }
 }
