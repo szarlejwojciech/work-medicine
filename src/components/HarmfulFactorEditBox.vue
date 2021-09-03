@@ -1,10 +1,7 @@
 <template>
   <v-dialog v-model="isActive" persistent max-width="600px">
     <template v-slot:activator="{ on, attrs }">
-      <v-btn v-if="create" v-on="on" v-bind="attrs" fab absolute top right dark color="primary" style="top: 50px" title="Dodaj">
-        <v-icon>mdi-plus</v-icon>
-      </v-btn>
-      <v-btn v-else v-on="on" v-bind="attrs" @click="setData" fab icon small color="primary" title="Edytuj">
+      <v-btn v-on="on" v-bind="attrs" @click="setData" fab icon small color="primary" title="Edytuj">
         <v-icon>mdi-pencil</v-icon>
       </v-btn>
     </template>
@@ -12,7 +9,7 @@
     <v-card>
       <v-toolbar color="primary" dark>
         <v-row>
-          <v-col cols="auto" class="d-flex align-center">{{ create ? "Dodaj nowy czynnik szkodliwy" : "Edycja czynnika szkodliwego" }}</v-col>
+          <v-col cols="auto" class="d-flex align-center">Edycja czynnika szkodliwego</v-col>
           <v-spacer></v-spacer>
           <v-col cols="auto">
             <v-btn
@@ -78,11 +75,11 @@
           color="primary"
           text
           @click="
-            create ? addHarmfulFactor() : updateHarmfulFactor();
+            updateHarmfulFactor();
             isActive = false;
           "
         >
-          {{ create ? "Dodaj" : "Zapisz" }}
+          Dodaj
         </v-btn>
       </v-card-actions>
     </v-card>
@@ -144,11 +141,6 @@ export default defineComponent({
       type: Array,
       required: true,
     },
-    create: {
-      type: Boolean,
-      required: false,
-      default: false,
-    },
   },
   setup(props, { emit }) {
     const isActive = ref(false);
@@ -173,9 +165,13 @@ export default defineComponent({
     getExamList();
 
     function cancelEdiding() {
-      const { id, text, category, disabled, type, examinations, age } = JSON.parse(cachedFactor.value) as DataItem;
+      console.log("🚩🚩🚩 - file: HarmfulFactorEditBox.vue - line 173 - cancelEdiding");
+      const { text, category, disabled, type, examinations, age } = JSON.parse(cachedFactor.value) as DataItem;
+      console.log("🚩🚩🚩 - file: HarmfulFactorEditBox.vue - line 175 - cachedFactor.value \n", JSON.parse(cachedFactor.value).id, JSON.parse(cachedFactor.value).text);
+      console.log("🚩🚩🚩 - file: HarmfulFactorEditBox.vue - line 181 - factor.value \n", factor.value.id, factor.value.text);
+
       {
-        factor.value.id = id;
+        // factor.value.id = id;
         factor.value.text = text;
         factor.value.category = category;
         factor.value.disabled = disabled;
@@ -192,7 +188,10 @@ export default defineComponent({
 
     const addHarmfulFactor = () => emit("addHarmfulFactor", factor.value);
 
-    const setData = () => (factor.value = props.harmfulFactor);
+    const setData = () => {
+      factor.value = props.harmfulFactor;
+      cachedFactor.value = JSON.stringify(factor.value);
+    };
 
     return {
       isActive,

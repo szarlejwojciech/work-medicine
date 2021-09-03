@@ -1,17 +1,14 @@
 <template>
   <v-dialog v-model="isActive" persistent max-width="600px">
     <template v-slot:activator="{ on, attrs }">
-      <v-btn v-if="create" v-on="on" v-bind="attrs" @click="clearData" fab absolute top right dark color="primary" style="top: 50px" title="Dodaj">
-        <v-icon>mdi-plus</v-icon>
-      </v-btn>
-      <v-btn v-else v-on="on" v-bind="attrs" @click="setData" fab icon small color="primary" title="Edytuj">
+      <v-btn v-on="on" v-bind="attrs" @click="setData" fab icon small color="primary" title="Edytuj">
         <v-icon>mdi-pencil</v-icon>
       </v-btn>
     </template>
     <v-card>
       <v-toolbar color="primary" dark>
         <v-row>
-          <v-col cols="auto" class="d-flex align-center">{{ create ? "Dodaj nowe badanie" : "Edycja badania" }}</v-col>
+          <v-col cols="auto" class="d-flex align-center">Edycja badania</v-col>
           <v-spacer></v-spacer>
           <v-col cols="auto">
             <v-btn
@@ -60,11 +57,11 @@
           color="primary"
           text
           @click="
-            create ? addHarmfulFactor() : updateHarmfulFactor();
+            updateHarmfulFactor();
             isActive = false;
           "
         >
-          {{ create ? "Dodaj" : "Zapisz" }}
+          Zapisz
         </v-btn>
       </v-card-actions>
     </v-card>
@@ -96,11 +93,6 @@ export default defineComponent({
     categories: {
       type: Array,
       required: true,
-    },
-    create: {
-      type: Boolean,
-      required: false,
-      default: false,
     },
   },
   setup(props, { emit }) {

@@ -29,15 +29,15 @@
         <v-container>
           <v-row>
             <v-col cols="12">
-              <v-text-field label="Nazwa" hide-details required v-model="exam.text" outlined></v-text-field>
+              <v-text-field label="Nazwa" hide-details required v-model="item.text" outlined></v-text-field>
             </v-col>
             <v-col cols="12">
-              <v-text-field label="Szczegóły" hide-details required v-model="exam.details" outlined></v-text-field>
+              <v-text-field label="Szczegóły" hide-details required v-model="item.details" outlined></v-text-field>
             </v-col>
             <v-divider></v-divider>
             <v-subheader>Kategoria</v-subheader>
             <v-col cols="12">
-              <v-combobox :items="categories || ['ogólne']" label="kategoria" v-model="exam.category" small-chips hide-details outlined></v-combobox>
+              <v-combobox :items="categories || ['ogólne']" label="kategoria" v-model="item.category" small-chips hide-details outlined></v-combobox>
             </v-col>
           </v-row>
         </v-container>
@@ -191,7 +191,7 @@ export default defineComponent({
     const addHarmfulFactor = () => {
       item.id = +new Date();
 
-      emit("addHarmfulFactor", { ...item });
+      emit("addHarmfulFactor", JSON.parse(JSON.stringify(item)));
       resetData();
     };
 
