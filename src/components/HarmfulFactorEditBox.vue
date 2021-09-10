@@ -29,10 +29,10 @@
         <v-container>
           <v-row>
             <v-col cols="12">
-              <v-text-field label="Nazwa" hide-details required v-model="factor.text" outlined></v-text-field>
+              <v-text-field label="Nazwa czynnika" hide-details required v-model="factor.text" outlined prepend-icon="mdi-skull-scan"></v-text-field>
             </v-col>
             <v-col cols="12" v-if="factor.age">
-              <v-text-field label="Nazwa" hide-details required v-model="factor.age" outlined></v-text-field>
+              <v-text-field label="Przedział wiekowy" hide-details required v-model="factor.age" outlined prepend-icon="mdi-sort-calendar-descending"></v-text-field>
             </v-col>
             <v-divider></v-divider>
             <v-subheader>Badania</v-subheader>
@@ -48,13 +48,22 @@
                   hide-details
                   outlined
                   hide-selected
+                  prepend-icon="mdi-heart-pulse"
                 ></v-autocomplete>
               </v-col>
             </template>
             <v-divider></v-divider>
             <v-subheader>Kategoria</v-subheader>
             <v-col cols="12">
-              <v-combobox :items="categories || ['ogólne']" label="kategoria" v-model="factor.category" small-chips hide-details outlined></v-combobox>
+              <v-combobox
+                :items="categories || ['ogólne']"
+                label="kategoria"
+                v-model="factor.category"
+                small-chips
+                hide-details
+                outlined
+                prepend-icon="mdi-format-list-bulleted-type"
+              ></v-combobox>
             </v-col>
           </v-row>
         </v-container>
@@ -141,6 +150,11 @@ export default defineComponent({
       type: Array,
       required: true,
     },
+    examList: {
+      type: Array as PropType<string[] | []>,
+      required: false,
+      default: () => [],
+    },
   },
   setup(props, { emit }) {
     const isActive = ref(false);
@@ -148,21 +162,6 @@ export default defineComponent({
 
     // casching for cancel editing
     const cachedFactor = ref(JSON.stringify(factor.value));
-
-    const examList = ref<string[]>([]);
-
-    async function getExamList() {
-      try {
-        const res = await require("../assets/examinations.json");
-
-        //// get examinations list
-
-        examList.value = res.items.map(({ name }: { name: string }) => name);
-      } catch (e) {
-        console.log(e);
-      }
-    }
-    getExamList();
 
     function cancelEdiding() {
       const { text, category, disabled, type, examinations, age } = JSON.parse(cachedFactor.value) as DataItem;
@@ -192,7 +191,6 @@ export default defineComponent({
     return {
       isActive,
       factor,
-      examList,
       updateHarmfulFactor,
       cancelEdiding,
       addHarmfulFactor,

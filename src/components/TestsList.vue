@@ -1,6 +1,6 @@
 <template>
   <v-card>
-    <v-list class="pb-5">
+    <v-list class="pb-5" dense>
       <v-subheader>BADANIA DO WYKONANIA</v-subheader>
       <v-list-group class="px-5" v-for="(group, i) in displayTests" :key="i" :value="true" prepend-icon="mdi-account-circle" dense no-action>
         <template v-slot:activator>

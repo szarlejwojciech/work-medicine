@@ -28,15 +28,31 @@
         <v-container>
           <v-row>
             <v-col cols="12">
-              <v-text-field label="Nazwa" hide-details required v-model="exam.text" outlined></v-text-field>
+              <v-text-field label="Nazwa badania" hide-details required v-model="exam.text" outlined prepend-icon="mdi-needle"></v-text-field>
             </v-col>
             <v-col cols="12">
-              <v-text-field label="Szczegóły" hide-details required v-model="exam.details" outlined></v-text-field>
+              <v-text-field
+                label="Szczegóły"
+                hide-details
+                required
+                v-model="exam.details"
+                outlined
+                prepend-icon="mdi-text"
+                messages="Np. nazwa podwykonawcy lub inne szczegóły"
+              ></v-text-field>
             </v-col>
             <v-divider></v-divider>
             <v-subheader>Kategoria</v-subheader>
             <v-col cols="12">
-              <v-combobox :items="categories || ['ogólne']" label="kategoria" v-model="exam.category" small-chips hide-details outlined></v-combobox>
+              <v-combobox
+                :items="categories || ['ogólne']"
+                label="kategoria"
+                v-model="exam.category"
+                small-chips
+                hide-details
+                outlined
+                prepend-icon="mdi-format-list-bulleted-type"
+              ></v-combobox>
             </v-col>
           </v-row>
         </v-container>

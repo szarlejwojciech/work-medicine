@@ -59,6 +59,8 @@ export default defineComponent({
 
     async function getData() {
       try {
+        /// get data
+
         const res = await require("../assets/data.json");
 
         data.workMedicinePolice = res.workMedicinePolice;

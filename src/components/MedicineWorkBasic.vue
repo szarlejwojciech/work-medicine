@@ -100,7 +100,7 @@
       <v-col cols="4">
         <v-combobox
           v-model="selectedTypeWorkMedicine"
-          :items="workMedicineTypes[police ? 'police' : 'basic']"
+          :items="workMedicineTypes"
           label="Rodzaj badania medycyny pracy"
           :rules="[(value) => !!value.length || 'Wybierz rodzaj badania!']"
           height="2rem"
@@ -203,10 +203,7 @@ export default defineComponent({
     const headers = [{ text: "Czynniki szkodliwe", value: "text" }];
     const search = ref("");
     const testsToDo = ref<string[]>([]);
-    const workMedicineTypes = {
-      police: [...new Set(props.data.arrayValues.map(({ examinations }) => examinations.map(({ name }) => name)).flat()), "kontrolne (profilaktyczne)"],
-      basic: [...new Set(props.data.arrayValues.map(({ examinations }) => examinations.map(({ name }) => name)).flat()), "kontrolne (profilaktyczne)"],
-    };
+    const workMedicineTypes = [...new Set(props.data.arrayValues.map(({ examinations }) => examinations.map(({ name }) => name)).flat()), "kontrolne (profilaktyczne)"];
     const specyficSort = (prev = "", next = "") => (prev === "ogólne" || next === "ogólne" || prev > next ? 1 : prev < next ? -1 : 0);
 
     const displayData = reactive({

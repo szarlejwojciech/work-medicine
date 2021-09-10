@@ -29,15 +29,30 @@
         <v-container>
           <v-row>
             <v-col cols="12">
-              <v-text-field label="Nazwa" hide-details required v-model="item.text" outlined></v-text-field>
+              <v-text-field label="Nazwa badania" hide-details required v-model="item.text" outlined prepend-icon="mdi-needle"></v-text-field>
             </v-col>
             <v-col cols="12">
-              <v-text-field label="Szczegóły" hide-details required v-model="item.details" outlined></v-text-field>
+              <v-text-field
+                label="Szczegóły"
+                persistent-hint
+                messages="Np. nazwa podwykonawcy lub inne szczegóły"
+                required
+                v-model="item.details"
+                outlined
+                prepend-icon="mdi-text"
+              ></v-text-field>
             </v-col>
-            <v-divider></v-divider>
             <v-subheader>Kategoria</v-subheader>
             <v-col cols="12">
-              <v-combobox :items="categories || ['ogólne']" label="kategoria" v-model="item.category" small-chips hide-details outlined></v-combobox>
+              <v-combobox
+                :items="categories || ['ogólne']"
+                label="kategoria"
+                v-model="item.category"
+                small-chips
+                hide-details
+                outlined
+                prepend-icon="mdi-format-list-bulleted-type"
+              ></v-combobox>
             </v-col>
           </v-row>
         </v-container>
@@ -46,16 +61,15 @@
         <v-container>
           <v-row>
             <v-col cols="12">
-              <v-text-field label="Nazwa" hide-details required v-model="item.text" outlined></v-text-field>
+              <v-text-field label="Nazwa czynnika" hide-details required v-model="item.text" outlined prepend-icon="mdi-skull-scan"></v-text-field>
             </v-col>
             <v-col cols="12" v-if="item.age">
-              <v-text-field label="Nazwa" hide-details required v-model="item.age" outlined></v-text-field>
+              <v-text-field label="Nazwa" hide-details required v-model="item.age" outlined prepend-icon="mdi-sort-calendar-descending"></v-text-field>
             </v-col>
             <v-divider></v-divider>
             <v-subheader>Badania</v-subheader>
             <template v-for="(exam, i) in ['wstępne', 'okresowe', 'specjalistyczne']">
               <v-col cols="12" :key="i" v-if="i < item.examinations.length">
-                {{ item.examinations[i].list }}
                 <v-autocomplete
                   :items="examList"
                   :label="exam"
@@ -66,13 +80,22 @@
                   hide-details
                   outlined
                   hide-selected
+                  prepend-icon="mdi-heart-pulse"
                 ></v-autocomplete>
               </v-col>
             </template>
             <v-divider></v-divider>
             <v-subheader>Kategoria</v-subheader>
             <v-col cols="12">
-              <v-combobox :items="categories || ['ogólne']" label="kategoria" v-model="item.category" small-chips hide-details outlined></v-combobox>
+              <v-combobox
+                :items="categories || ['ogólne']"
+                label="kategoria"
+                v-model="item.category"
+                small-chips
+                hide-details
+                outlined
+                prepend-icon="mdi-format-list-bulleted-type"
+              ></v-combobox>
             </v-col>
           </v-row>
         </v-container>
