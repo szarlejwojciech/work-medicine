@@ -98,13 +98,15 @@ export default defineComponent({
     function deleteItem(idToRemove: number) {
       harmfulsFactorsList.value = harmfulsFactorsList.value.filter(({ id }) => id !== idToRemove);
 
+      const paylad = { itemId: idToRemove, listId: props.data.id };
+
       //// delete on server
     }
 
     function addItem(item: DataItem) {
       harmfulsFactorsList.value.push(item);
 
-      const paylad = { item };
+      const paylad = { item, listId: props.data.id };
 
       ///// add harmful factor on server
     }
@@ -113,7 +115,7 @@ export default defineComponent({
       const index = harmfulsFactorsList.value.findIndex(({ id }) => id === item.id);
       harmfulsFactorsList.value[index] = item;
 
-      const paylad = { item };
+      const paylad = { itemId: item.id, listId: props.data.id };
 
       ///// update harmful factor on server
     }
@@ -130,3 +132,6 @@ export default defineComponent({
   },
 });
 </script>
+method: deleteHarmfulFactor(): localization: "file: @/src/components/WorkMedicineConfig.vue - line 99" method: addHarmfulFactor(): localization: "file:
+@/src/components/WorkMedicineConfig.vue - line 106" method: updateHarmfulFactor(): localization: "file: @/src/components/WorkMedicineConfig.vue - line 115" method: getData():
+localization: "file: @/src/views/WorkMedicinePage.vue - line 64" method: getData(): localization: "file: @/src/views/ConfigurationPage.vue - line 61"
