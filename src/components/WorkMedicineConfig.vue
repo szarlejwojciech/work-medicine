@@ -116,7 +116,6 @@ export default defineComponent({
       harmfulsFactorsList.value[index] = item;
 
       const paylad = { itemId: item.id, listId: props.data.id };
-
       ///// update harmful factor on server
     }
 
@@ -132,6 +131,3 @@ export default defineComponent({
   },
 });
 </script>
-method: deleteHarmfulFactor(): localization: "file: @/src/components/WorkMedicineConfig.vue - line 99" method: addHarmfulFactor(): localization: "file:
-@/src/components/WorkMedicineConfig.vue - line 106" method: updateHarmfulFactor(): localization: "file: @/src/components/WorkMedicineConfig.vue - line 115" method: getData():
-localization: "file: @/src/views/WorkMedicinePage.vue - line 64" method: getData(): localization: "file: @/src/views/ConfigurationPage.vue - line 61"
