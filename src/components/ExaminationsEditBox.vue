@@ -102,21 +102,6 @@ export default defineComponent({
     // casching for cancel editing
     const cachedExam = ref(JSON.stringify(exam.value));
 
-    // const examList = ref<string[]>([]);
-
-    // async function getExamList() {
-    //   try {
-    //     const res = await require("../assets/examinations.json");
-
-    //     //// get examinations list
-
-    //     examList.value = res.items.map(({ name }: { name: string }) => name);
-    //   } catch (e) {
-    //     console.log(e);
-    //   }
-    // }
-    // getExamList();
-
     function cancelEdiding() {
       const { id, text, category, details } = JSON.parse(cachedExam.value) as DataItem;
       {
@@ -145,7 +130,6 @@ export default defineComponent({
     return {
       isActive,
       exam,
-      // examList,
       updateHarmfulFactor,
       cancelEdiding,
       addHarmfulFactor,

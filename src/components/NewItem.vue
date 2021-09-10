@@ -1,7 +1,7 @@
 <template>
   <v-dialog v-model="isActive" persistent max-width="600px">
     <template v-slot:activator="{ on, attrs }">
-      <v-btn v-on="on" v-bind="attrs" fab absolute top right dark color="primary" style="top: 50px" title="Dodaj">
+      <v-btn v-on="on" v-bind="attrs" @click="resetData()" fab absolute top right dark color="primary" style="top: 50px" title="Dodaj">
         <v-icon>mdi-plus</v-icon>
       </v-btn>
     </template>
@@ -55,6 +55,7 @@
             <v-subheader>Badania</v-subheader>
             <template v-for="(exam, i) in ['wstępne', 'okresowe', 'specjalistyczne']">
               <v-col cols="12" :key="i" v-if="i < item.examinations.length">
+                {{ item.examinations[i].list }}
                 <v-autocomplete
                   :items="examList"
                   :label="exam"
@@ -93,6 +94,7 @@
           text
           @click="
             addHarmfulFactor();
+            resetData();
             isActive = false;
           "
         >
@@ -119,13 +121,6 @@ interface DataItem {
   disabled?: boolean;
   details?: string;
 }
-
-// interface ExamItem {
-//   id: number;
-//   name: string;
-//   groupName: string;
-//   details?: string;
-// }
 
 import { defineComponent, ref, PropType, reactive, toRefs } from "@vue/composition-api";
 export default defineComponent({
@@ -179,7 +174,9 @@ export default defineComponent({
         item.category = "";
         item.details = "";
       } else {
-        item.examinations.forEach(({ list }) => (list.length = 0));
+        item.examinations.forEach(({ list }) => {
+          return (list.length = 0);
+        });
         item.text = "";
         item.category = "";
         item.details = "";
@@ -192,7 +189,6 @@ export default defineComponent({
       item.id = +new Date();
 
       emit("addHarmfulFactor", JSON.parse(JSON.stringify(item)));
-      resetData();
     };
 
     return {

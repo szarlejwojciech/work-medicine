@@ -165,11 +165,7 @@ export default defineComponent({
     getExamList();
 
     function cancelEdiding() {
-      console.log("🚩🚩🚩 - file: HarmfulFactorEditBox.vue - line 173 - cancelEdiding");
       const { text, category, disabled, type, examinations, age } = JSON.parse(cachedFactor.value) as DataItem;
-      console.log("🚩🚩🚩 - file: HarmfulFactorEditBox.vue - line 175 - cachedFactor.value \n", JSON.parse(cachedFactor.value).id, JSON.parse(cachedFactor.value).text);
-      console.log("🚩🚩🚩 - file: HarmfulFactorEditBox.vue - line 181 - factor.value \n", factor.value.id, factor.value.text);
-
       {
         // factor.value.id = id;
         factor.value.text = text;

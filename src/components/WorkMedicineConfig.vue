@@ -23,7 +23,7 @@
                 <v-list-item-action>
                   <v-row>
                     <ExaminationsEditBox v-if="exam" :examItem="item" :categories="categories" />
-                    <HarmfulFactorEditBox v-else :harmfulFactor="item" :categories="categories" @updateHarmfulFactor="updateHarmfulFactor" />
+                    <HarmfulFactorEditBox v-else :harmfulFactor="item" :categories="categories" @updateHarmfulFactor="updateHarmfulFactor" exam />
                     <v-btn small fab icon color="error" @click="() => deleteHarmfulFactor(item.id)" title="Usuń">
                       <v-icon>mdi-delete</v-icon>
                     </v-btn>
@@ -95,7 +95,6 @@ export default defineComponent({
     const formIsVisible = ref(false);
 
     function deleteHarmfulFactor(idToRemove: number) {
-      console.log("🚩🚩🚩 - file: WorkMedicineConfig.vue - line 98 - deleteHarmfulFactor");
       harmfulsFactorsList.value = harmfulsFactorsList.value.filter(({ id }) => id !== idToRemove);
 
       //// delete on server
@@ -110,7 +109,6 @@ export default defineComponent({
     }
 
     function updateHarmfulFactor(item: DataItem) {
-      console.log("🚩🚩🚩 - file: WorkMedicineConfig.vue - line 112 - updateHarmfulFactor");
       const index = harmfulsFactorsList.value.findIndex(({ id }) => id === item.id);
       harmfulsFactorsList.value[index] = item;
 
