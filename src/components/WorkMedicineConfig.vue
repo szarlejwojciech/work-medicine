@@ -52,6 +52,7 @@ interface Examination {
 interface DataItem {
   id: number;
   text: string;
+  age?: string;
   category?: string;
   examinations: Examination[] | [];
   type?: string;

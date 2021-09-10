@@ -14,17 +14,17 @@
       <v-tabs-items v-model="tab">
         <v-tab-item>
           <v-card>
-            <MedicineWorkBasic />
+            <MedicineWorkBasic :data="workMedicineBasic" :examinationList="examinationList" />
           </v-card>
         </v-tab-item>
         <v-tab-item>
           <v-card>
-            <MedicineWorkDrivingLicence />
+            <MedicineWorkDrivingLicence :data="workMedicineDrivingLicence" :examinationList="examinationList" />
           </v-card>
         </v-tab-item>
         <v-tab-item>
           <v-card>
-            <MedicineWorkBasic police />
+            <MedicineWorkBasic police :data="workMedicinePolice" :examinationList="examinationList" />
           </v-card>
         </v-tab-item>
         <!-- <v-tab-item v-for="i in 1" :key="i"> w budowie </v-tab-item> -->
@@ -34,7 +34,7 @@
 </template>
 
 <script lang="ts">
-import { ref, defineComponent } from "@vue/composition-api";
+import { ref, defineComponent, reactive, toRefs } from "@vue/composition-api";
 import MedicineWorkBasic from "../components/MedicineWorkBasic.vue";
 import MedicineWorkDrivingLicence from "../components/MedicineWorkDrivingLicence.vue";
 
@@ -52,11 +52,35 @@ export default defineComponent({
       "Medycyna pracy policja",
       // "Pozwolenie na broń",
     ];
+    const data = reactive({
+      workMedicinePolice: {},
+      workMedicineGunPermission: {},
+      workMedicineDrivingLicence: {},
+      workMedicineBasic: {},
+      examinationList: {},
+      examList: [],
+    });
+    async function getData() {
+      try {
+        const res = await require("../assets/data.json");
+
+        data.workMedicinePolice = res.workMedicinePolice;
+        data.workMedicineGunPermission = res.workMedicineGunPermission;
+        data.workMedicineDrivingLicence = res.workMedicineDrivingLicence;
+        data.workMedicineBasic = res.workMedicineBasic;
+        data.examinationList = res.examinationList;
+      } catch (e) {
+        console.log(e);
+      }
+    }
+    getData();
     return {
       tab,
       tabsLabels,
+      ...toRefs(data),
     };
   },
+
   watch: {
     selectTypeWorkMedicine: function (newValue: string[]) {
       if (newValue.length > 1 && newValue.includes("wstępne")) {

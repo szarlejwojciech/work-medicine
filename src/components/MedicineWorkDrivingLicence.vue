@@ -6,7 +6,7 @@
           class="elevation-1 mb-10"
           v-model="selectedLicenceCategory"
           :headers="headers"
-          :items="displayData"
+          :items="data.arrayValues"
           item-key="id"
           show-select
           disable-pagination
@@ -30,8 +30,7 @@
 </template>
 
 <script lang="ts">
-import medicine_work_driving_licence from "../assets/medicine_work_driving_licence.json";
-import medicineWorkDrivingLicenceOrgData from "../assets/medicine_work_driving_licence_org_data.json";
+import { PropType } from "@vue/composition-api";
 import { defineComponent, ref, watch } from "@vue/composition-api";
 import TestsList from "./TestsList.vue";
 
@@ -40,15 +39,41 @@ interface categoryInterface {
   text: string;
   examinations?: string[];
 }
+interface Examination {
+  name: string;
+  list?: string[];
+}
+
+interface DataItem {
+  id: number;
+  text: string;
+  age?: string;
+  category?: string;
+  examinations: Examination[] | [];
+  type?: string;
+  disabled?: boolean;
+  details?: string;
+}
+
+interface Data {
+  id: number;
+  title: string;
+  arrayValues: DataItem[];
+}
 
 export default defineComponent({
   name: "MedicineWorkDrivingLicence",
   components: { TestsList },
-  setup() {
+  props: {
+    data: {
+      type: Object as PropType<Data>,
+      required: true,
+    },
+  },
+  setup(props) {
     const selectedLicenceCategory = ref<categoryInterface[]>([]);
     const headers = [{ text: "Wybierz kategorię prawa jazdy", value: "text" }];
-    const examinationsList = ref<string[]>([]);
-    const displayData: categoryInterface[] = medicineWorkDrivingLicenceOrgData.arrayValues;
+    const examinationsList = ref<Examination[]>([]);
 
     function getIconName(text: string) {
       const icons: { [key: string]: string[] } = {
@@ -64,7 +89,7 @@ export default defineComponent({
     }
     watch(selectedLicenceCategory, () => {
       const selectedHarmfulsId: number[] = selectedLicenceCategory.value.map(({ id }) => id);
-      examinationsList.value = medicine_work_driving_licence.arrayValues
+      examinationsList.value = props.data.arrayValues
         .filter(({ id }) => selectedHarmfulsId.includes(id))
         .map(({ examinations }) => examinations)
         .flat();
@@ -72,9 +97,8 @@ export default defineComponent({
     return {
       selectedLicenceCategory,
       headers,
-      displayData,
-      getIconName,
       examinationsList,
+      getIconName,
     };
   },
 });

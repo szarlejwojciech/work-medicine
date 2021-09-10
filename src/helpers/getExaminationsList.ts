@@ -1,24 +1,29 @@
-import medicineWorkPolice from "../assets/medicine_work_police.json";
-import medicineWorkBasic from "../assets/medicine_work_basic.json";
-
-interface examinationItemInterface {
-  name?: string;
+interface Examination {
+  name: string;
   list?: string[];
 }
-interface orgDataItemInterface {
+interface DataItem {
   id: number;
   text: string;
-  category?: string;
-  examinations: (examinationItemInterface | string)[];
+  age?: string;
+  category?: string | undefined;
+  examinations: Examination[] | [];
   type?: string;
+  disabled?: boolean;
+  details?: string;
+}
+interface Data {
+  id: number;
+  title: string;
+  arrayValues: DataItem[];
 }
 
-export default function getExaminationsList(array: orgDataItemInterface[], isPolice = false, workMedicineType: string[] = []): string[] {
-  if ((!array?.length || array[0]) === undefined) return [];
+export default function getExaminationsList(selectedHarmful: DataItem[], workMedicineType: string[] = [], data: Data): string[] {
+  if ((!selectedHarmful?.length || selectedHarmful[0]) === undefined) return [];
   if (workMedicineType.includes("kontrolne (profilaktyczne)") && workMedicineType.length === 1) return ["Lekarz medycyny pracy"];
 
-  const data = isPolice ? medicineWorkPolice : medicineWorkBasic;
-  const selectedHarmfulsId: number[] = array.map(({ id }) => id);
+  // const data = isPolice ? medicineWorkPolice : medicineWorkBasic;
+  const selectedHarmfulsId: number[] = selectedHarmful.map(({ id }) => id);
 
   const harmfulsList = data.arrayValues
     .filter(({ id }) => selectedHarmfulsId.includes(id))
@@ -30,7 +35,7 @@ export default function getExaminationsList(array: orgDataItemInterface[], isPol
     )
     .flat();
 
-  const examinationsList = ["Lekarz medycyny pracy", ...new Set(harmfulsList)];
+  const examinationsList = [...new Set(["Lekarz medycyny pracy", ...harmfulsList])];
 
-  return examinationsList;
+  return examinationsList as string[];
 }

@@ -142,7 +142,7 @@
         </v-row>
         <v-row>
           <v-col cols="12">
-            <TestsList v-if="selectedHarmfulFactors.length > 0 && selectedTypeWorkMedicine.length > 0" :tests="examinationsList" />
+            <TestsList v-if="selectedHarmfulFactors.length > 0 && selectedTypeWorkMedicine.length > 0" :tests="testsToDo" :examinationList="examinationList" />
           </v-col>
         </v-row>
       </v-col>
@@ -152,25 +152,31 @@
 </template>
 
 <script lang="ts">
-import orgDataPolice from "../assets/medicine_work_police_org_data.json";
-import orgDataBasic from "../assets/medicine_work_basic_org_data.json";
 import getExaminationsList from "../helpers/getExaminationsList";
 
-import { ref, reactive, defineComponent, computed, watch } from "@vue/composition-api";
+import { ref, reactive, defineComponent, computed, watch, PropType } from "@vue/composition-api";
 import TestsList from "./TestsList.vue";
 
-interface examinationInterface {
+interface Examination {
   name: string;
   list?: string[];
 }
 
-interface orgDataItemInterface {
+interface DataItem {
   id: number;
   text: string;
+  age?: string;
   category?: string;
-  examinations: examinationInterface[] | [];
+  examinations: Examination[] | [];
   type?: string;
   disabled?: boolean;
+  details?: string;
+}
+
+interface Data {
+  id: number;
+  title: string;
+  arrayValues: DataItem[];
 }
 
 export default defineComponent({
@@ -182,27 +188,35 @@ export default defineComponent({
       required: false,
       default: false,
     },
+    data: {
+      type: Object as PropType<Data>,
+      required: true,
+    },
+    examinationList: {
+      type: Object as PropType<Data>,
+      required: true,
+    },
   },
   setup(props) {
-    const selectedHarmfulFactors = ref<orgDataItemInterface[]>([]);
+    const selectedHarmfulFactors = ref<DataItem[]>([]);
     const selectedTypeWorkMedicine = ref<string[]>(["wstępne"]);
     const headers = [{ text: "Czynniki szkodliwe", value: "text" }];
     const search = ref("");
-    const examinationsList = ref<string[]>([]);
+    const testsToDo = ref<string[]>([]);
     const workMedicineTypes = {
-      police: [...new Set(orgDataPolice.arrayValues.map(({ examinations }) => examinations.map(({ name }) => name)).flat()), "kontrolne (profilaktyczne)"],
-      basic: [...new Set(orgDataBasic.arrayValues.map(({ examinations }) => examinations.map(({ name }) => name)).flat()), "kontrolne (profilaktyczne)"],
+      police: [...new Set(props.data.arrayValues.map(({ examinations }) => examinations.map(({ name }) => name)).flat()), "kontrolne (profilaktyczne)"],
+      basic: [...new Set(props.data.arrayValues.map(({ examinations }) => examinations.map(({ name }) => name)).flat()), "kontrolne (profilaktyczne)"],
     };
-    const specyficSort = (prev: string, next: string) => (prev === "ogólne" || next === "ogólne" || prev > next ? 1 : prev < next ? -1 : 0);
+    const specyficSort = (prev = "", next = "") => (prev === "ogólne" || next === "ogólne" || prev > next ? 1 : prev < next ? -1 : 0);
 
     const displayData = reactive({
-      basic: orgDataBasic.arrayValues.filter(({ disabled }) => !disabled).sort((a, b) => specyficSort(a.category, b.category)),
+      basic: props.data.arrayValues.filter(({ disabled }) => !disabled).sort((a, b) => specyficSort(a.category, b.category)),
       police: {
-        basic: orgDataPolice.arrayValues
+        basic: props.data.arrayValues
           .filter(({ category, disabled }) => !disabled && category !== "specjalistyczne" && category !== "specyficzne")
           .sort((a, b) => specyficSort(a.category, b.category)),
-        specialist: orgDataPolice.arrayValues.filter(({ category, disabled }) => !disabled && category === "specjalistyczne"),
-        specyfic: orgDataPolice.arrayValues.filter(({ category, disabled }) => !disabled && category === "specyficzne"),
+        specialist: props.data.arrayValues.filter(({ category, disabled }) => !disabled && category === "specjalistyczne"),
+        specyfic: props.data.arrayValues.filter(({ category, disabled }) => !disabled && category === "specyficzne"),
       },
     });
 
@@ -212,13 +226,13 @@ export default defineComponent({
       ageRange: (string | undefined)[];
       selectedAge: string;
     } = reactive({
-      list: displayData.police.specyfic.map(({ type }) => type),
+      list: displayData.police.specyfic.map(({ text }) => text),
       selectedType: ref(""),
-      ageRange: computed(() => displayData.police.specyfic.filter(({ type }) => type === policeWorkerTypes.selectedType).map(({ text }) => text)),
+      ageRange: computed(() => displayData.police.specyfic.filter(({ text }) => text === policeWorkerTypes.selectedType).map(({ age }) => age)),
       selectedAge: ref(""),
     });
-    const selectedSpecyficHarmfulFactors = computed<orgDataItemInterface[]>(() =>
-      orgDataPolice.arrayValues.filter(({ type, text }) => type === policeWorkerTypes.selectedType && text === policeWorkerTypes.selectedAge)
+    const selectedSpecyficHarmfulFactors = computed(() =>
+      props.data.arrayValues.filter(({ text, age }) => text === policeWorkerTypes.selectedType && age === policeWorkerTypes.selectedAge)
     );
 
     watch([selectedHarmfulFactors, selectedTypeWorkMedicine, selectedSpecyficHarmfulFactors], () => {
@@ -227,7 +241,7 @@ export default defineComponent({
         selectedTypeWorkMedicine.value.splice(index, index + 1);
       }
       search.value = "";
-      examinationsList.value = getExaminationsList([...selectedHarmfulFactors.value, ...selectedSpecyficHarmfulFactors.value], props.police, selectedTypeWorkMedicine.value);
+      testsToDo.value = getExaminationsList([...selectedHarmfulFactors.value, ...selectedSpecyficHarmfulFactors.value], selectedTypeWorkMedicine.value, props.data);
     });
 
     return {
@@ -238,7 +252,7 @@ export default defineComponent({
       selectedTypeWorkMedicine,
       workMedicineTypes,
       policeWorkerTypes,
-      examinationsList,
+      testsToDo,
       selectedSpecyficHarmfulFactors,
     };
   },
