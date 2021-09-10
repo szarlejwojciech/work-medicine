@@ -116,7 +116,6 @@ export default defineComponent({
       harmfulsFactorsList.value[index] = item;
 
       const paylad = { itemId: item.id, listId: props.data.id };
-
       ///// update harmful factor on server
     }
 
