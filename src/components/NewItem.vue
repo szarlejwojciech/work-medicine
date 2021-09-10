@@ -92,9 +92,10 @@
                 label="kategoria"
                 v-model="item.category"
                 small-chips
-                hide-details
                 outlined
                 prepend-icon="mdi-format-list-bulleted-type"
+                persistent-hint
+                hint="W celu dodania nowej grupy - wpisz jej nazwę"
               ></v-combobox>
             </v-col>
           </v-row>
@@ -116,7 +117,7 @@
           color="primary"
           text
           @click="
-            addHarmfulFactor();
+            addItem();
             resetData();
             isActive = false;
           "
@@ -148,7 +149,7 @@ interface DataItem {
 import { defineComponent, ref, PropType, reactive, toRefs } from "@vue/composition-api";
 export default defineComponent({
   name: "NewItem",
-  emits: ["addHarmfulFactor"],
+  emits: ["addItem"],
   props: {
     categories: {
       type: Array,
@@ -208,16 +209,16 @@ export default defineComponent({
       }
     }
 
-    const addHarmfulFactor = () => {
+    const addItem = () => {
       item.id = +new Date();
 
-      emit("addHarmfulFactor", JSON.parse(JSON.stringify(item)));
+      emit("addItem", JSON.parse(JSON.stringify(item)));
     };
 
     return {
       isActive,
       item,
-      addHarmfulFactor,
+      addItem,
       resetData,
     };
   },

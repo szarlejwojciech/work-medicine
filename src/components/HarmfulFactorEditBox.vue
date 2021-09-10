@@ -60,9 +60,10 @@
                 label="kategoria"
                 v-model="factor.category"
                 small-chips
-                hide-details
                 outlined
                 prepend-icon="mdi-format-list-bulleted-type"
+                persistent-hint
+                messages="W celu dodania nowej grupy - wpisz jej nazwę"
               ></v-combobox>
             </v-col>
           </v-row>
@@ -84,7 +85,7 @@
           color="primary"
           text
           @click="
-            updateHarmfulFactor();
+            updateItem();
             isActive = false;
           "
         >
@@ -120,7 +121,8 @@ interface DataItem {
 
 import { defineComponent, ref, PropType } from "@vue/composition-api";
 export default defineComponent({
-  emits: ["addHarmfulFactor", "updateHarmfulFactor"],
+  name: "HarmfulFactorEditBox",
+  emits: ["addItem", "updateItem"],
   props: {
     harmfulFactor: {
       type: Object as PropType<DataItem>,
@@ -152,8 +154,7 @@ export default defineComponent({
     },
     examList: {
       type: Array as PropType<string[] | []>,
-      required: false,
-      default: () => [],
+      required: true,
     },
   },
   setup(props, { emit }) {
@@ -176,12 +177,12 @@ export default defineComponent({
       }
     }
 
-    const updateHarmfulFactor = () => {
-      emit("updateHarmfulFactor", factor.value);
+    const updateItem = () => {
+      emit("updateItem", factor.value);
       cachedFactor.value = JSON.stringify(factor.value);
     };
 
-    const addHarmfulFactor = () => emit("addHarmfulFactor", factor.value);
+    const addItem = () => emit("addItem", factor.value);
 
     const setData = () => {
       factor.value = props.harmfulFactor;
@@ -191,9 +192,9 @@ export default defineComponent({
     return {
       isActive,
       factor,
-      updateHarmfulFactor,
+      updateItem,
       cancelEdiding,
-      addHarmfulFactor,
+      addItem,
       setData,
     };
   },

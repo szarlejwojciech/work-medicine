@@ -2,7 +2,7 @@
   <v-card>
     <v-text-field v-model="search" label="Wyszukaj" outlined class="mt-5" hide-details style="max-width: 600px"></v-text-field>
     <v-divider class="my-5"></v-divider>
-    <NewItem :categories="categories" :examList="examList" :exam="exam" @addHarmfulFactor="addHarmfulFactor" />
+    <NewItem :categories="categories" :examList="examList" :exam="exam" @addItem="addItem" />
     <v-data-iterator :items="harmfulsFactorsList" item-key="id" :search="search" :items-per-page="50" group-by="category">
       <template v-slot:default="{ groupedItems }">
         <v-list>
@@ -22,9 +22,9 @@
                 </v-list-item-content>
                 <v-list-item-action>
                   <v-row>
-                    <ExaminationsEditBox v-if="exam" :examItem="item" :categories="categories" />
-                    <HarmfulFactorEditBox v-else :harmfulFactor="item" :categories="categories" @updateHarmfulFactor="updateHarmfulFactor" exam />
-                    <v-btn small fab icon color="error" @click="() => deleteHarmfulFactor(item.id)" title="Usuń">
+                    <ExaminationsEditBox v-if="exam" :examItem="item" :categories="categories" @updateItem="updateItem" />
+                    <HarmfulFactorEditBox v-else :harmfulFactor="item" :categories="categories" :examList="examList" @updateItem="updateItem" exam />
+                    <v-btn small fab icon color="error" @click="() => deleteItem(item.id)" title="Usuń">
                       <v-icon>mdi-delete</v-icon>
                     </v-btn>
                   </v-row>
@@ -95,13 +95,13 @@ export default defineComponent({
     const search = ref("");
     const formIsVisible = ref(false);
 
-    function deleteHarmfulFactor(idToRemove: number) {
+    function deleteItem(idToRemove: number) {
       harmfulsFactorsList.value = harmfulsFactorsList.value.filter(({ id }) => id !== idToRemove);
 
       //// delete on server
     }
 
-    function addHarmfulFactor(item: DataItem) {
+    function addItem(item: DataItem) {
       harmfulsFactorsList.value.push(item);
 
       const paylad = { item };
@@ -109,7 +109,7 @@ export default defineComponent({
       ///// add harmful factor on server
     }
 
-    function updateHarmfulFactor(item: DataItem) {
+    function updateItem(item: DataItem) {
       const index = harmfulsFactorsList.value.findIndex(({ id }) => id === item.id);
       harmfulsFactorsList.value[index] = item;
 
@@ -123,9 +123,9 @@ export default defineComponent({
       search,
       formIsVisible,
       categories,
-      deleteHarmfulFactor,
-      addHarmfulFactor,
-      updateHarmfulFactor,
+      deleteItem,
+      addItem,
+      updateItem,
     };
   },
 });

@@ -33,11 +33,11 @@
             <v-col cols="12">
               <v-text-field
                 label="Szczegóły"
-                hide-details
                 required
                 v-model="exam.details"
                 outlined
                 prepend-icon="mdi-text"
+                persistent-hint
                 messages="Np. nazwa podwykonawcy lub inne szczegóły"
               ></v-text-field>
             </v-col>
@@ -49,9 +49,10 @@
                 label="kategoria"
                 v-model="exam.category"
                 small-chips
-                hide-details
                 outlined
                 prepend-icon="mdi-format-list-bulleted-type"
+                persistent-hint
+                hint="W celu dodania nowej grupy - wpisz jej nazwę"
               ></v-combobox>
             </v-col>
           </v-row>
@@ -73,7 +74,7 @@
           color="primary"
           text
           @click="
-            updateHarmfulFactor();
+            updateItem();
             isActive = false;
           "
         >
@@ -95,7 +96,7 @@ interface DataItem {
 import { defineComponent, ref, PropType } from "@vue/composition-api";
 export default defineComponent({
   name: "ExaminationsEditBox",
-  emits: ["addHarmfulFactor", "updateHarmfulFactor"],
+  emits: ["updateItem"],
   props: {
     examItem: {
       type: Object as PropType<DataItem>,
@@ -128,12 +129,10 @@ export default defineComponent({
       }
     }
 
-    const updateHarmfulFactor = () => {
-      emit("updateHarmfulFactor", exam.value);
+    const updateItem = () => {
+      emit("updateItem", exam.value);
       cachedExam.value = JSON.stringify(exam.value);
     };
-
-    const addHarmfulFactor = () => emit("addHarmfulFactor", exam.value);
 
     const setData = () => (exam.value = props.examItem);
 
@@ -146,9 +145,8 @@ export default defineComponent({
     return {
       isActive,
       exam,
-      updateHarmfulFactor,
+      updateItem,
       cancelEdiding,
-      addHarmfulFactor,
       setData,
       clearData,
     };
