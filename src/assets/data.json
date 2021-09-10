@@ -322,7 +322,7 @@
       },
       {
         "id": 16,
-        "text": "Pyły i włókna (PW): Pyły nieorganiczne zawierające krzemionkę",
+        "text": "Pyły nieorganiczne zawierające krzemionkę",
         "examinations": [
           {
             "name": "wstępne",
@@ -343,7 +343,7 @@
       },
       {
         "id": 111,
-        "text": "PW:Pyły węgla kamiennego, brunatnego",
+        "text": "Pyły węgla kamiennego, brunatnego",
         "examinations": [
           {
             "name": "wstępne",
@@ -364,7 +364,7 @@
       },
       {
         "id": 112,
-        "text": "PW:Pyły grafitu",
+        "text": "Pyły grafitu",
         "examinations": [
           {
             "name": "wstępne",
@@ -385,7 +385,7 @@
       },
       {
         "id": 113,
-        "text": "PW:Pyły nieorganiczne zawieające włókna azbestu",
+        "text": "Pyły nieorganiczne zawieające włókna azbestu",
         "examinations": [
           {
             "name": "wstępne",
@@ -406,7 +406,7 @@
       },
       {
         "id": 114,
-        "text": "PW:Pył talku ",
+        "text": "Pył talku ",
         "examinations": [
           {
             "name": "wstępne",
@@ -427,7 +427,7 @@
       },
       {
         "id": 115,
-        "text": "PW:Pył zawierający metale twarde",
+        "text": "Pył zawierający metale twarde",
         "examinations": [
           {
             "name": "wstępne",
@@ -448,7 +448,7 @@
       },
       {
         "id": 116,
-        "text": "PW:Pył zawierający tworzywa sztuczne w tym sztuczne włókna mineralne",
+        "text": "Pył zawierający tworzywa sztuczne w tym sztuczne włókna mineralne",
         "examinations": [
           {
             "name": "wstępne",
@@ -469,7 +469,7 @@
       },
       {
         "id": 117,
-        "text": "PW:Pył organiczny pochodzenia roślinnego i zwierzęcego, z wyjątkiem pyłów drewna i mąki",
+        "text": "Pył organiczny pochodzenia roślinnego i zwierzęcego, z wyjątkiem pyłów drewna i mąki",
         "examinations": [
           {
             "name": "wstępne",
@@ -488,7 +488,7 @@
       },
       {
         "id": 118,
-        "text": "PW:Pył drewna",
+        "text": "Pył drewna",
         "examinations": [
           {
             "name": "wstępne",
@@ -507,7 +507,7 @@
       },
       {
         "id": 119,
-        "text": "PW:Pył mąki",
+        "text": "Pył mąki",
         "examinations": [
           {
             "name": "wstępne",
@@ -526,7 +526,7 @@
       },
       {
         "id": 17,
-        "text": "Czynniki toksyczne (CT): Związki akrylowe - akrylonitryl",
+        "text": "Związki akrylowe - akrylonitryl",
         "examinations": [
           {
             "name": "wstępne",
@@ -541,7 +541,7 @@
       },
       {
         "id": 18,
-        "text": "CT:Związki akrylowe - akrylany",
+        "text": "Związki akrylowe - akrylany",
         "examinations": [
           {
             "name": "wstępne",
@@ -571,7 +571,7 @@
       },
       {
         "id": 19,
-        "text": "CT:Aldehydy - akrylowy",
+        "text": "Aldehydy - akrylowy",
         "examinations": [
           {
             "name": "wstępne",
@@ -591,7 +591,7 @@
       },
       {
         "id": 120,
-        "text": "CT:Aldehydy - formaldehyd",
+        "text": "Aldehydy - formaldehyd",
         "examinations": [
           {
             "name": "wstępne",
@@ -611,7 +611,7 @@
       },
       {
         "id": 20,
-        "text": "CT:Aldehydy - mrówkowy",
+        "text": "Aldehydy - mrówkowy",
         "examinations": [
           {
             "name": "wstępne",
@@ -627,7 +627,7 @@
       },
       {
         "id": 21,
-        "text": "CT:Amoniak",
+        "text": "Amoniak",
         "examinations": [
           {
             "name": "wstępne",
@@ -647,7 +647,7 @@
       },
       {
         "id": 22,
-        "text": "CT:Arsen i jego związki",
+        "text": "Arsen i jego związki",
         "examinations": [
           {
             "name": "wstępne",
@@ -681,7 +681,7 @@
       },
       {
         "id": 23,
-        "text": "CT:Arsenowodór",
+        "text": "Arsenowodór",
         "examinations": [
           {
             "name": "wstępne",
@@ -713,7 +713,7 @@
       },
       {
         "id": 24,
-        "text": "CT:Tlenki azotu",
+        "text": "Tlenki azotu",
         "examinations": [
           {
             "name": "wstępne",
@@ -733,7 +733,7 @@
       },
       {
         "id": 25,
-        "text": "CT:Bar i jego związki nierozpuszczalne w wodzie",
+        "text": "Bar i jego związki nierozpuszczalne w wodzie",
         "examinations": [
           {
             "name": "wstępne",
@@ -754,7 +754,7 @@
       },
       {
         "id": 121,
-        "text": "CT:Bar i jego związki rozpuszczalne w wodzie",
+        "text": "Bar i jego związki rozpuszczalne w wodzie",
         "examinations": [
           {
             "name": "wstępne",
@@ -780,7 +780,7 @@
       },
       {
         "id": 26,
-        "text": "CT:Benzen",
+        "text": "Benzen",
         "examinations": [
           {
             "name": "wstępne",
@@ -802,7 +802,7 @@
       },
       {
         "id": 27,
-        "text": "CT:Benzoapiren",
+        "text": "Benzoapiren",
         "examinations": [
           {
             "name": "wstępne",
@@ -826,7 +826,7 @@
       },
       {
         "id": 28,
-        "text": "CT:Beryl i jego związki",
+        "text": "Beryl i jego związki",
         "examinations": [
           {
             "name": "wstępne",
@@ -854,7 +854,7 @@
       },
       {
         "id": 29,
-        "text": "CT:Brom i jego związki",
+        "text": "Brom i jego związki",
         "examinations": [
           {
             "name": "wstępne",
@@ -874,7 +874,7 @@
       },
       {
         "id": 30,
-        "text": "CT:Chlor, chlorowodór i tlenki chloru",
+        "text": "Chlor, chlorowodór i tlenki chloru",
         "examinations": [
           {
             "name": "wstępne",
@@ -894,7 +894,7 @@
       },
       {
         "id": 31,
-        "text": "CT:Chrom i chromiany",
+        "text": "Chrom i chromiany",
         "examinations": [
           {
             "name": "wstępne",
@@ -920,7 +920,7 @@
       },
       {
         "id": 32,
-        "text": "CT:Czterochlorek węgla",
+        "text": "Czterochlorek węgla",
         "examinations": [
           {
             "name": "wstępne",
@@ -948,7 +948,7 @@
       },
       {
         "id": 33,
-        "text": "CT:Czterochloroetylen (PER)",
+        "text": "Czterochloroetylen (PER)",
         "examinations": [
           {
             "name": "wstępne",
@@ -964,7 +964,7 @@
       },
       {
         "id": 34,
-        "text": "CT:Czteroetylek ołowiu",
+        "text": "Czteroetylek ołowiu",
         "examinations": [
           {
             "name": "wstępne",
@@ -988,7 +988,7 @@
       },
       {
         "id": 35,
-        "text": "CT:Dwumetyloformamid",
+        "text": "Dwumetyloformamid",
         "examinations": [
           {
             "name": "wstępne",
@@ -1018,7 +1018,7 @@
       },
       {
         "id": 36,
-        "text": "CT:Epichlorhydryna",
+        "text": "Epichlorhydryna",
         "examinations": [
           {
             "name": "wstępne",
@@ -1050,7 +1050,7 @@
       },
       {
         "id": 37,
-        "text": "CT:Fenol i polifenole",
+        "text": "Fenol i polifenole",
         "examinations": [
           {
             "name": "wstępne",
@@ -1078,7 +1078,7 @@
       },
       {
         "id": 38,
-        "text": "CT:Fluor i fluorki",
+        "text": "Fluor i fluorki",
         "examinations": [
           {
             "name": "wstępne",
@@ -1102,7 +1102,7 @@
       },
       {
         "id": 39,
-        "text": "CT:Fosfor biały",
+        "text": "Fosfor biały",
         "examinations": [
           {
             "name": "wstępne",
@@ -1134,7 +1134,7 @@
       },
       {
         "id": 40,
-        "text": "CT:Fosforu związki chlorowe ",
+        "text": "Fosforu związki chlorowe ",
         "examinations": [
           {
             "name": "wstępne",
@@ -1156,7 +1156,7 @@
       },
       {
         "id": 41,
-        "text": "CT:Ftalowy bezwodnik",
+        "text": "Ftalowy bezwodnik",
         "examinations": [
           {
             "name": "wstępne",
@@ -1178,7 +1178,7 @@
       },
       {
         "id": 42,
-        "text": "CT:Furfurol",
+        "text": "Furfurol",
         "examinations": [
           {
             "name": "wstępne",
@@ -1194,7 +1194,7 @@
       },
       {
         "id": 43,
-        "text": "CT:Glinu tlenek",
+        "text": "Glinu tlenek",
         "examinations": [
           {
             "name": "wstępne",
@@ -1216,7 +1216,7 @@
       },
       {
         "id": 122,
-        "text": "CT:Glikole - etylenowy, dietylenowy, butano 1,4-diol, glicerol",
+        "text": "Glikole - etylenowy, dietylenowy, butano 1,4-diol, glicerol",
         "examinations": [
           {
             "name": "wstępne",
@@ -1236,7 +1236,7 @@
       },
       {
         "id": 123,
-        "text": "CT:Glikole - nitrylowe pochodne glikoli lub gliceryny, nitrogliceryna, nirtoglikol",
+        "text": "Glikole - nitrylowe pochodne glikoli lub gliceryny, nitrogliceryna, nirtoglikol",
         "examinations": [
           {
             "name": "wstępne",
@@ -1258,7 +1258,7 @@
       },
       {
         "id": 44,
-        "text": "CT:Izocyjanianowe związki",
+        "text": "Izocyjanianowe związki",
         "examinations": [
           {
             "name": "wstępne",
@@ -1284,7 +1284,7 @@
       },
       {
         "id": 45,
-        "text": "CT:Ketony - aceton",
+        "text": "Ketony - aceton",
         "examinations": [
           {
             "name": "wstępne",
@@ -1310,7 +1310,7 @@
       },
       {
         "id": 46,
-        "text": "CT:Ketony - metyloetyloketon, metyloizobutyloketon",
+        "text": "Ketony - metyloetyloketon, metyloizobutyloketon",
         "examinations": [
           {
             "name": "wstępne",
@@ -1326,7 +1326,7 @@
       },
       {
         "id": 47,
-        "text": "CT:Ketony - diaceton, tlenek mezytylu",
+        "text": "Ketony - diaceton, tlenek mezytylu",
         "examinations": [
           {
             "name": "wstępne",
@@ -1354,7 +1354,7 @@
       },
       {
         "id": 124,
-        "text": "CT:Ketony - keton etylowo-butylowy",
+        "text": "Ketony - keton etylowo-butylowy",
         "examinations": [
           {
             "name": "wstępne",
@@ -1370,7 +1370,7 @@
       },
       {
         "id": 125,
-        "text": "CT:Ketony - keton dipropylowy",
+        "text": "Ketony - keton dipropylowy",
         "examinations": [
           {
             "name": "wstępne",
@@ -1386,7 +1386,7 @@
       },
       {
         "id": 48,
-        "text": "CT:Kobalt",
+        "text": "Kobalt",
         "examinations": [
           {
             "name": "wstępne",
@@ -1410,7 +1410,7 @@
       },
       {
         "id": 49,
-        "text": "CT:Ksylen",
+        "text": "Ksylen",
         "examinations": [
           {
             "name": "wstępne",
@@ -1426,7 +1426,7 @@
       },
       {
         "id": 50,
-        "text": "CT:Mangan i jego związki",
+        "text": "Mangan i jego związki",
         "examinations": [
           {
             "name": "wstępne",
@@ -1456,7 +1456,7 @@
       },
       {
         "id": 126,
-        "text": "CT:Nafta i jej produkty - benzyna ekstrakcyjna, nafta",
+        "text": "Nafta i jej produkty - benzyna ekstrakcyjna, nafta",
         "examinations": [
           {
             "name": "wstępne",
@@ -1475,7 +1475,7 @@
       },
       {
         "id": 127,
-        "text": "CT:Nafta i jej produkty - mieszaniny zawierające wielopierścieniowe węglowodory aromatyczne np. Smoła, asfalty",
+        "text": "Nafta i jej produkty - mieszaniny zawierające wielopierścieniowe węglowodory aromatyczne np. Smoła, asfalty",
         "examinations": [
           {
             "name": "wstępne",
@@ -1498,7 +1498,7 @@
       },
       {
         "id": 128,
-        "text": "CT:Naftalen i pochodne",
+        "text": "Naftalen i pochodne",
         "examinations": [
           {
             "name": "wstępne",
@@ -1527,7 +1527,7 @@
       },
       {
         "id": 129,
-        "text": "CT:Nikiel i jego związki",
+        "text": "Nikiel i jego związki",
         "examinations": [
           {
             "name": "wstępne",
@@ -1542,7 +1542,7 @@
       },
       {
         "id": 130,
-        "text": "CT:Ołów i jego związki",
+        "text": "Ołów i jego związki",
         "examinations": [
           {
             "name": "wstępne",
@@ -1569,7 +1569,7 @@
       },
       {
         "id": 57,
-        "text": "Pestycydy (P):Hamujące aktywność cholinesterazy",
+        "text": "Hamujące aktywność cholinesterazy",
         "examinations": [
           {
             "name": "wstępne",
@@ -1588,7 +1588,7 @@
       },
       {
         "id": 58,
-        "text": "P:Hamujące aktywność cholinesterazy - karbaminiany",
+        "text": "Hamujące aktywność cholinesterazy - karbaminiany",
         "examinations": [
           {
             "name": "wstępne",
@@ -1604,7 +1604,7 @@
       },
       {
         "id": 59,
-        "text": "P:Węglowodory chlorowane ",
+        "text": "Węglowodory chlorowane ",
         "examinations": [
           {
             "name": "wstępne",
@@ -1628,7 +1628,7 @@
       },
       {
         "id": 60,
-        "text": "P:Związki kwasu dwuchlorofenoksyoctowego",
+        "text": "Związki kwasu dwuchlorofenoksyoctowego",
         "examinations": [
           {
             "name": "wstępne",
@@ -1656,7 +1656,7 @@
       },
       {
         "id": 61,
-        "text": "P:Pestycydy dwutiokarbaminianowe",
+        "text": "Pestycydy dwutiokarbaminianowe",
         "examinations": [
           {
             "name": "wstępne",
@@ -1684,7 +1684,7 @@
       },
       {
         "id": 62,
-        "text": "P:Związki dipirydylowe",
+        "text": "Związki dipirydylowe",
         "examinations": [
           {
             "name": "wstępne",
@@ -1702,7 +1702,7 @@
       },
       {
         "id": 63,
-        "text": "P:Dinitroalkilofenole",
+        "text": "Dinitroalkilofenole",
         "examinations": [
           {
             "name": "wstępne",
@@ -1736,7 +1736,7 @@
       },
       {
         "id": 64,
-        "text": "P:Pyretroidy",
+        "text": "Pyretroidy",
         "examinations": [
           {
             "name": "wstępne",
@@ -1756,7 +1756,7 @@
       },
       {
         "id": 65,
-        "text": "P:Pirydyna",
+        "text": "Pirydyna",
         "examinations": [
           {
             "name": "wstępne",
@@ -1780,7 +1780,7 @@
       },
       {
         "id": 66,
-        "text": "P:Rtęć - metaliczna i jej związki nieorganiczne",
+        "text": "Rtęć - metaliczna i jej związki nieorganiczne",
         "examinations": [
           {
             "name": "wstępne",
@@ -1802,7 +1802,7 @@
       },
       {
         "id": 67,
-        "text": "P:Rtęć - związki organiczne",
+        "text": "Rtęć - związki organiczne",
         "examinations": [
           {
             "name": "wstępne",
@@ -1830,7 +1830,7 @@
       },
       {
         "id": 68,
-        "text": "P:Siarkowodór",
+        "text": "Siarkowodór",
         "examinations": [
           {
             "name": "wstępne",
@@ -1848,7 +1848,7 @@
       },
       {
         "id": 69,
-        "text": "P:Siarki tlenki",
+        "text": "Siarki tlenki",
         "examinations": [
           {
             "name": "wstępne",
@@ -1870,7 +1870,7 @@
       },
       {
         "id": 70,
-        "text": "P:Terpentyna",
+        "text": "Terpentyna",
         "examinations": [
           {
             "name": "wstępne",
@@ -1894,7 +1894,7 @@
       },
       {
         "id": 131,
-        "text": "P:Wanad i jego zwiazki",
+        "text": "Wanad i jego zwiazki",
         "examinations": [
           {
             "name": "wstępne",
@@ -1916,7 +1916,7 @@
       },
       {
         "id": 71,
-        "text": "P:Toluen",
+        "text": "Toluen",
         "examinations": [
           {
             "name": "wstępne",
@@ -1932,7 +1932,7 @@
       },
       {
         "id": 72,
-        "text": "P:Trójchloroetylen",
+        "text": "Trójchloroetylen",
         "examinations": [
           {
             "name": "wstępne",
@@ -1948,7 +1948,7 @@
       },
       {
         "id": 73,
-        "text": "P:Wanadu pięciotlenek",
+        "text": "Wanadu pięciotlenek",
         "examinations": [
           {
             "name": "wstępne",
@@ -1964,7 +1964,7 @@
       },
       {
         "id": 132,
-        "text": "P:Węgla disiarczek",
+        "text": "Węgla disiarczek",
         "examinations": [
           {
             "name": "wstępne",
@@ -1994,7 +1994,7 @@
       },
       {
         "id": 74,
-        "text": "P:Węgla tlenek (II)",
+        "text": "Węgla tlenek (II)",
         "examinations": [
           {
             "name": "wstępne",
@@ -2016,7 +2016,7 @@
       },
       {
         "id": 133,
-        "text": "P:Węgla tlenek (IV)",
+        "text": "Węgla tlenek (IV)",
         "examinations": [
           {
             "name": "wstępne",
@@ -2036,7 +2036,7 @@
       },
       {
         "id": 75,
-        "text": "P:Węglowodorów alifatycznych związki - związki aminowe",
+        "text": "Węglowodorów alifatycznych związki - związki aminowe",
         "examinations": [
           {
             "name": "wstępne",
@@ -2056,7 +2056,7 @@
       },
       {
         "id": 76,
-        "text": "P:Węglowodorów alifatycznych związki - związki nitrowe",
+        "text": "Węglowodorów alifatycznych związki - związki nitrowe",
         "examinations": [
           {
             "name": "wstępne",
@@ -2080,7 +2080,7 @@
       },
       {
         "id": 134,
-        "text": "P:Węglowodorów alifatycznych związki - chlorowcopodobne węglowodorów alifatycznych lub alicyklicznych",
+        "text": "Węglowodorów alifatycznych związki - chlorowcopodobne węglowodorów alifatycznych lub alicyklicznych",
         "examinations": [
           {
             "name": "wstępne",
@@ -2104,7 +2104,7 @@
       },
       {
         "id": 135,
-        "text": "P:Chlorek metylu",
+        "text": "Chlorek metylu",
         "examinations": [
           {
             "name": "wstępne",
@@ -2128,7 +2128,7 @@
       },
       {
         "id": 136,
-        "text": "P:Bromek metylu",
+        "text": "Bromek metylu",
         "examinations": [
           {
             "name": "wstępne",
@@ -2152,7 +2152,7 @@
       },
       {
         "id": 137,
-        "text": "P:Chlorek metylenu",
+        "text": "Chlorek metylenu",
         "examinations": [
           {
             "name": "wstępne",
@@ -2180,7 +2180,7 @@
       },
       {
         "id": 138,
-        "text": "P:Chloroform",
+        "text": "Chloroform",
         "examinations": [
           {
             "name": "wstępne",
@@ -2208,7 +2208,7 @@
       },
       {
         "id": 139,
-        "text": "P:Dichloroetan",
+        "text": "Dichloroetan",
         "examinations": [
           {
             "name": "wstępne",
@@ -2232,7 +2232,7 @@
       },
       {
         "id": 140,
-        "text": "P:Czterochlorek węgla",
+        "text": "Czterochlorek węgla",
         "examinations": [
           {
             "name": "wstępne",
@@ -2260,7 +2260,7 @@
       },
       {
         "id": 141,
-        "text": "P:Dibromek etylenu, trichloroetylen, tetrachloroetylen",
+        "text": "Dibromek etylenu, trichloroetylen, tetrachloroetylen",
         "examinations": [
           {
             "name": "wstępne",
@@ -2292,7 +2292,7 @@
       },
       {
         "id": 77,
-        "text": "P:Węglowodorów aromatycznych związki nitrowe",
+        "text": "Węglowodorów aromatycznych związki nitrowe",
         "examinations": [
           {
             "name": "wstępne",
@@ -2320,7 +2320,7 @@
       },
       {
         "id": 78,
-        "text": "P:Węglowodorów aromatycznych związki aminowe",
+        "text": "Węglowodorów aromatycznych związki aminowe",
         "examinations": [
           {
             "name": "wstępne",
@@ -2348,7 +2348,7 @@
       },
       {
         "id": 142,
-        "text": "P:Węglowodorów aromatycznych związki chlorowcopodobne - pochodne benzenu",
+        "text": "Węglowodorów aromatycznych związki chlorowcopodobne - pochodne benzenu",
         "examinations": [
           {
             "name": "wstępne",
@@ -2374,7 +2374,7 @@
       },
       {
         "id": 143,
-        "text": "P:Węglowodorów aromatycznych związki chlorowcopodobne - pochodne bifenyli",
+        "text": "Węglowodorów aromatycznych związki chlorowcopodobne - pochodne bifenyli",
         "examinations": [
           {
             "name": "wstępne",
@@ -2402,7 +2402,7 @@
       },
       {
         "id": 144,
-        "text": "P:Węglowodorów aromatycznych związki chlorowcopodobne - pochodne naftalenu",
+        "text": "Węglowodorów aromatycznych związki chlorowcopodobne - pochodne naftalenu",
         "examinations": [
           {
             "name": "wstępne",
@@ -2438,7 +2438,7 @@
       },
       {
         "id": 79,
-        "text": "P:Winylobenzen",
+        "text": "Winylobenzen",
         "examinations": [
           {
             "name": "wstępne",
@@ -2466,7 +2466,7 @@
       },
       {
         "id": 80,
-        "text": "P:Winylu chlorek",
+        "text": "Winylu chlorek",
         "examinations": [
           {
             "name": "wstępne",
@@ -2498,7 +2498,7 @@
       },
       {
         "id": 81,
-        "text": "P:Żywice epoksydowe",
+        "text": "Żywice epoksydowe",
         "examinations": [
           {
             "name": "wstępne",
@@ -2518,7 +2518,7 @@
       },
       {
         "id": 82,
-        "text": "P:Mieszaniny rozpuszczalników organicznych",
+        "text": "Mieszaniny rozpuszczalników organicznych",
         "examinations": [
           {
             "name": "wstępne",
@@ -2544,7 +2544,7 @@
       },
       {
         "id": 83,
-        "text": "P:Cytostatyki",
+        "text": "Cytostatyki",
         "examinations": [
           {
             "name": "wstępne",
@@ -2574,7 +2574,7 @@
       },
       {
         "id": 84,
-        "text": "Czynniki biologiczne (CB): Wirus zapalenia wątroby - typ B",
+        "text": "Wirus zapalenia wątroby - typ B",
         "examinations": [
           {
             "name": "wstępne",
@@ -2597,7 +2597,7 @@
       },
       {
         "id": 85,
-        "text": "CB:Wirus zapalenia wątroby - typ C",
+        "text": "Wirus zapalenia wątroby - typ C",
         "examinations": [
           {
             "name": "wstępne",
@@ -2620,7 +2620,7 @@
       },
       {
         "id": 86,
-        "text": "CB:Ludzki wirus niedoboru odporności nabytej (HIV)",
+        "text": "Ludzki wirus niedoboru odporności nabytej (HIV)",
         "examinations": [
           {
             "name": "wstępne",
@@ -2639,7 +2639,7 @@
       },
       {
         "id": 87,
-        "text": "CB:Pąłeczki Brucella abortus bovis",
+        "text": "Pąłeczki Brucella abortus bovis",
         "examinations": [
           {
             "name": "wstępne",
@@ -2654,7 +2654,7 @@
       },
       {
         "id": 88,
-        "text": "CB:Promieniowanie termofilne, grzyby pleśniowe i inne",
+        "text": "Promieniowanie termofilne, grzyby pleśniowe i inne",
         "examinations": [
           {
             "name": "wstępne",
@@ -2674,7 +2674,7 @@
       },
       {
         "id": 89,
-        "text": "CB:Prątek gróźlicy, wirus kleszczowego zapalenia mózgu, Borrelia",
+        "text": "Prątek gróźlicy, wirus kleszczowego zapalenia mózgu, Borrelia",
         "examinations": [
           {
             "name": "wstępne",
@@ -2689,7 +2689,7 @@
       },
       {
         "id": 145,
-        "text": "CB:Wirus kleszczowego zapalenia mózgu",
+        "text": "Wirus kleszczowego zapalenia mózgu",
         "examinations": [
           {
             "name": "wstępne",
@@ -2704,7 +2704,7 @@
       },
       {
         "id": 146,
-        "text": "CB:Borrelia burgdorferi",
+        "text": "Borrelia burgdorferi",
         "examinations": [
           {
             "name": "wstępne",
@@ -2719,7 +2719,7 @@
       },
       {
         "id": 90,
-        "text": "Niekorzystne czynniki psychospołeczne (CPS) - Stały duży dopływ informacji i gotowość do odpowiedzi",
+        "text": "Stały duży dopływ informacji i gotowość do odpowiedzi",
         "examinations": [
           {
             "name": "wstępne",
@@ -2740,7 +2740,7 @@
       },
       {
         "id": 91,
-        "text": "CPS:Stanowiska decyzyjne i odpowiedzialność",
+        "text": "Stanowiska decyzyjne i odpowiedzialność",
         "examinations": [
           {
             "name": "wstępne",
@@ -2761,7 +2761,7 @@
       },
       {
         "id": 92,
-        "text": "CPS:Zagrożenia wynikające z narażenia życia",
+        "text": "Zagrożenia wynikające z narażenia życia",
         "examinations": [
           {
             "name": "wstępne",
@@ -2782,7 +2782,7 @@
       },
       {
         "id": 93,
-        "text": "CPS:Zagrożenia wynikające z monotonii pracy",
+        "text": "Zagrożenia wynikające z monotonii pracy",
         "examinations": [
           {
             "name": "wstępne",
@@ -2803,7 +2803,7 @@
       },
       {
         "id": 147,
-        "text": "CPS:Zagrożenia wynikające z organizacji pracy (praca pod presją czasu, nierównomierne obłożenie pracą, inne)",
+        "text": "Zagrożenia wynikające z organizacji pracy (praca pod presją czasu, nierównomierne obłożenie pracą, inne)",
         "examinations": [
           {
             "name": "wstępne",
@@ -3427,7 +3427,7 @@
       },
       {
         "id": 16,
-        "text": "Pyły i włókna (PW): Pyły nieorganiczne zawierające krzemionkę",
+        "text": "Pyły nieorganiczne zawierające krzemionkę",
         "disabled": true,
         "examinations": [
           {
@@ -3453,7 +3453,7 @@
       },
       {
         "id": 151,
-        "text": "PW:Pyły i włókna - dowolne",
+        "text": "Pyły i włókna - dowolne",
         "disabled": true,
         "examinations": [
           {
@@ -3479,7 +3479,7 @@
       },
       {
         "id": 111,
-        "text": "PW:Pyły węgla kamiennego, brunatnego",
+        "text": "Pyły węgla kamiennego, brunatnego",
         "disabled": true,
         "examinations": [
           {
@@ -3505,7 +3505,7 @@
       },
       {
         "id": 112,
-        "text": "PW:Pyły grafitu",
+        "text": "Pyły grafitu",
         "disabled": true,
         "examinations": [
           {
@@ -3531,7 +3531,7 @@
       },
       {
         "id": 113,
-        "text": "PW:Pyły nieorganiczne zawieające włókna azbestu",
+        "text": "Pyły nieorganiczne zawieające włókna azbestu",
         "disabled": true,
         "examinations": [
           {
@@ -3557,7 +3557,7 @@
       },
       {
         "id": 114,
-        "text": "PW:Pył talku ",
+        "text": "Pył talku ",
         "disabled": true,
         "examinations": [
           {
@@ -3583,7 +3583,7 @@
       },
       {
         "id": 115,
-        "text": "PW:Pył zawierający metale twarde",
+        "text": "Pył zawierający metale twarde",
         "disabled": true,
         "examinations": [
           {
@@ -3609,7 +3609,7 @@
       },
       {
         "id": 116,
-        "text": "PW:Pył zawierający tworzywa sztuczne w tym sztuczne włókna mineralne",
+        "text": "Pył zawierający tworzywa sztuczne w tym sztuczne włókna mineralne",
         "disabled": true,
         "examinations": [
           {
@@ -3635,7 +3635,7 @@
       },
       {
         "id": 117,
-        "text": "PW:Pył organiczny pochodzenia roślinnego i zwierzęcego, z wyjątkiem pyłów drewna i mąki",
+        "text": "Pył organiczny pochodzenia roślinnego i zwierzęcego, z wyjątkiem pyłów drewna i mąki",
         "disabled": true,
         "examinations": [
           {
@@ -3659,7 +3659,7 @@
       },
       {
         "id": 118,
-        "text": "PW:Pył drewna",
+        "text": "Pył drewna",
         "disabled": true,
         "examinations": [
           {
@@ -3683,7 +3683,7 @@
       },
       {
         "id": 119,
-        "text": "PW:Pył mąki",
+        "text": "Pył mąki",
         "disabled": true,
         "examinations": [
           {
@@ -3707,7 +3707,7 @@
       },
       {
         "id": 17,
-        "text": "Czynniki toksyczne (CT): Związki akrylowe - akrylonitryl",
+        "text": "Związki akrylowe - akrylonitryl",
         "examinations": [
           {
             "name": "wstępne",
@@ -3726,7 +3726,7 @@
       },
       {
         "id": 18,
-        "text": "CT:Związki akrylowe - akrylany",
+        "text": "Związki akrylowe - akrylany",
         "examinations": [
           {
             "name": "wstępne",
@@ -3746,7 +3746,7 @@
       },
       {
         "id": 19,
-        "text": "CT:Aldehydy - akrylowy",
+        "text": "Aldehydy - akrylowy",
         "examinations": [
           {
             "name": "wstępne",
@@ -3766,7 +3766,7 @@
       },
       {
         "id": 120,
-        "text": "CT:Aldehydy - formaldehyd",
+        "text": "Aldehydy - formaldehyd",
         "examinations": [
           {
             "name": "wstępne",
@@ -3790,7 +3790,7 @@
       },
       {
         "id": 20,
-        "text": "CT:Aldehydy - mrówkowy",
+        "text": "Aldehydy - mrówkowy",
         "examinations": [
           {
             "name": "wstępne",
@@ -3810,7 +3810,7 @@
       },
       {
         "id": 21,
-        "text": "CT:Amoniak",
+        "text": "Amoniak",
         "examinations": [
           {
             "name": "wstępne",
@@ -3830,7 +3830,7 @@
       },
       {
         "id": 22,
-        "text": "CT:Arsen i jego związki",
+        "text": "Arsen i jego związki",
         "examinations": [
           {
             "name": "wstępne",
@@ -3850,7 +3850,7 @@
       },
       {
         "id": 23,
-        "text": "CT:Arsenowodór",
+        "text": "Arsenowodór",
         "examinations": [
           {
             "name": "wstępne",
@@ -3870,7 +3870,7 @@
       },
       {
         "id": 24,
-        "text": "CT:Tlenki azotu",
+        "text": "Tlenki azotu",
         "examinations": [
           {
             "name": "wstępne",
@@ -3890,7 +3890,7 @@
       },
       {
         "id": 25,
-        "text": "CT:Bar i jego związki nierozpuszczalne w wodzie",
+        "text": "Bar i jego związki nierozpuszczalne w wodzie",
         "examinations": [
           {
             "name": "wstępne",
@@ -3910,7 +3910,7 @@
       },
       {
         "id": 121,
-        "text": "CT:Bar i jego związki rozpuszczalne w wodzie",
+        "text": "Bar i jego związki rozpuszczalne w wodzie",
         "examinations": [
           {
             "name": "wstępne",
@@ -3930,7 +3930,7 @@
       },
       {
         "id": 153,
-        "text": "CT:Bar i jego związki",
+        "text": "Bar i jego związki",
         "examinations": [
           {
             "name": "wstępne",
@@ -3950,7 +3950,7 @@
       },
       {
         "id": 26,
-        "text": "CT:Benzen",
+        "text": "Benzen",
         "examinations": [
           {
             "name": "wstępne",
@@ -3970,7 +3970,7 @@
       },
       {
         "id": 27,
-        "text": "CT:Benzoapiren",
+        "text": "Benzoapiren",
         "examinations": [
           {
             "name": "wstępne",
@@ -3990,7 +3990,7 @@
       },
       {
         "id": 28,
-        "text": "CT:Beryl i jego związki",
+        "text": "Beryl i jego związki",
         "examinations": [
           {
             "name": "wstępne",
@@ -4010,7 +4010,7 @@
       },
       {
         "id": 29,
-        "text": "CT:Brom i jego związki",
+        "text": "Brom i jego związki",
         "examinations": [
           {
             "name": "wstępne",
@@ -4030,7 +4030,7 @@
       },
       {
         "id": 30,
-        "text": "CT:Chlor, chlorowodór i tlenki chloru",
+        "text": "Chlor, chlorowodór i tlenki chloru",
         "examinations": [
           {
             "name": "wstępne",
@@ -4050,7 +4050,7 @@
       },
       {
         "id": 31,
-        "text": "CT:Chrom i chromiany",
+        "text": "Chrom i chromiany",
         "examinations": [
           {
             "name": "wstępne",
@@ -4070,7 +4070,7 @@
       },
       {
         "id": 32,
-        "text": "CT:Czterochlorek węgla",
+        "text": "Czterochlorek węgla",
         "examinations": [
           {
             "name": "wstępne",
@@ -4090,7 +4090,7 @@
       },
       {
         "id": 33,
-        "text": "CT:Czterochloroetylen (PER)",
+        "text": "Czterochloroetylen (PER)",
         "examinations": [
           {
             "name": "wstępne",
@@ -4110,7 +4110,7 @@
       },
       {
         "id": 34,
-        "text": "CT:Czteroetylek ołowiu",
+        "text": "Czteroetylek ołowiu",
         "examinations": [
           {
             "name": "wstępne",
@@ -4130,7 +4130,7 @@
       },
       {
         "id": 35,
-        "text": "CT:Dwumetyloformamid",
+        "text": "Dwumetyloformamid",
         "examinations": [
           {
             "name": "wstępne",
@@ -4150,7 +4150,7 @@
       },
       {
         "id": 36,
-        "text": "CT:Epichlorhydryna",
+        "text": "Epichlorhydryna",
         "examinations": [
           {
             "name": "wstępne",
@@ -4170,7 +4170,7 @@
       },
       {
         "id": 37,
-        "text": "CT:Fenol i polifenole",
+        "text": "Fenol i polifenole",
         "examinations": [
           {
             "name": "wstępne",
@@ -4190,7 +4190,7 @@
       },
       {
         "id": 38,
-        "text": "CT:Fluor i fluorki",
+        "text": "Fluor i fluorki",
         "examinations": [
           {
             "name": "wstępne",
@@ -4210,7 +4210,7 @@
       },
       {
         "id": 39,
-        "text": "CT:Fosfor biały",
+        "text": "Fosfor biały",
         "examinations": [
           {
             "name": "wstępne",
@@ -4230,7 +4230,7 @@
       },
       {
         "id": 40,
-        "text": "CT:Fosforu związki chlorowe ",
+        "text": "Fosforu związki chlorowe ",
         "examinations": [
           {
             "name": "wstępne",
@@ -4250,7 +4250,7 @@
       },
       {
         "id": 41,
-        "text": "CT:Ftalowy bezwodnik",
+        "text": "Ftalowy bezwodnik",
         "examinations": [
           {
             "name": "wstępne",
@@ -4270,7 +4270,7 @@
       },
       {
         "id": 42,
-        "text": "CT:Furfurol",
+        "text": "Furfurol",
         "examinations": [
           {
             "name": "wstępne",
@@ -4290,7 +4290,7 @@
       },
       {
         "id": 43,
-        "text": "CT:Glinu tlenek",
+        "text": "Glinu tlenek",
         "examinations": [
           {
             "name": "wstępne",
@@ -4310,7 +4310,7 @@
       },
       {
         "id": 122,
-        "text": "CT:Glikole - etylenowy, dietylenowy, butano 1,4-diol, glicerol",
+        "text": "Glikole - etylenowy, dietylenowy, butano 1,4-diol, glicerol",
         "examinations": [
           {
             "name": "wstępne",
@@ -4334,7 +4334,7 @@
       },
       {
         "id": 123,
-        "text": "CT:Glikole - nitrylowe pochodne glikoli lub gliceryny, nitrogliceryna, nirtoglikol",
+        "text": "Glikole - nitrylowe pochodne glikoli lub gliceryny, nitrogliceryna, nirtoglikol",
         "examinations": [
           {
             "name": "wstępne",
@@ -4360,7 +4360,7 @@
       },
       {
         "id": 44,
-        "text": "CT:Izocyjanianowe związki",
+        "text": "Izocyjanianowe związki",
         "examinations": [
           {
             "name": "wstępne",
@@ -4380,7 +4380,7 @@
       },
       {
         "id": 45,
-        "text": "CT:Ketony - aceton",
+        "text": "Ketony - aceton",
         "examinations": [
           {
             "name": "wstępne",
@@ -4400,7 +4400,7 @@
       },
       {
         "id": 46,
-        "text": "CT:Ketony - metyloetyloketon, metyloizobutyloketon",
+        "text": "Ketony - metyloetyloketon, metyloizobutyloketon",
         "examinations": [
           {
             "name": "wstępne",
@@ -4420,7 +4420,7 @@
       },
       {
         "id": 47,
-        "text": "CT:Ketony - diaceton, tlenek mezytylu",
+        "text": "Ketony - diaceton, tlenek mezytylu",
         "examinations": [
           {
             "name": "wstępne",
@@ -4440,7 +4440,7 @@
       },
       {
         "id": 124,
-        "text": "CT:Ketony - keton etylowo-butylowy",
+        "text": "Ketony - keton etylowo-butylowy",
         "examinations": [
           {
             "name": "wstępne",
@@ -4460,7 +4460,7 @@
       },
       {
         "id": 125,
-        "text": "CT:Ketony - keton dipropylowy",
+        "text": "Ketony - keton dipropylowy",
         "examinations": [
           {
             "name": "wstępne",
@@ -4480,7 +4480,7 @@
       },
       {
         "id": 48,
-        "text": "CT:Kobalt",
+        "text": "Kobalt",
         "examinations": [
           {
             "name": "wstępne",
@@ -4500,7 +4500,7 @@
       },
       {
         "id": 49,
-        "text": "CT:Ksylen",
+        "text": "Ksylen",
         "examinations": [
           {
             "name": "wstępne",
@@ -4520,7 +4520,7 @@
       },
       {
         "id": 50,
-        "text": "CT:Mangan i jego związki",
+        "text": "Mangan i jego związki",
         "examinations": [
           {
             "name": "wstępne",
@@ -4540,7 +4540,7 @@
       },
       {
         "id": 126,
-        "text": "CT:Nafta i jej produkty - benzyna ekstrakcyjna, nafta",
+        "text": "Nafta i jej produkty - benzyna ekstrakcyjna, nafta",
         "examinations": [
           {
             "name": "wstępne",
@@ -4559,7 +4559,7 @@
       },
       {
         "id": 127,
-        "text": "CT:Nafta i jej produkty - mieszaniny zawierające wielopierścieniowe węglowodory aromatyczne np. Smoła, asfalty",
+        "text": "Nafta i jej produkty - mieszaniny zawierające wielopierścieniowe węglowodory aromatyczne np. Smoła, asfalty",
         "examinations": [
           {
             "name": "wstępne",
@@ -4578,7 +4578,7 @@
       },
       {
         "id": 128,
-        "text": "CT:Naftalen i pochodne",
+        "text": "Naftalen i pochodne",
         "examinations": [
           {
             "name": "wstępne",
@@ -4597,7 +4597,7 @@
       },
       {
         "id": 129,
-        "text": "CT:Nikiel i jego związki",
+        "text": "Nikiel i jego związki",
         "examinations": [
           {
             "name": "wstępne",
@@ -4616,7 +4616,7 @@
       },
       {
         "id": 153,
-        "text": "CT:Nitrogliceryna i nitroglikol",
+        "text": "Nitrogliceryna i nitroglikol",
         "examinations": [
           {
             "name": "wstępne",
@@ -4635,7 +4635,7 @@
       },
       {
         "id": 130,
-        "text": "CT:Ołów i jego związki",
+        "text": "Ołów i jego związki",
         "examinations": [
           {
             "name": "wstępne",
@@ -4654,7 +4654,7 @@
       },
       {
         "id": 57,
-        "text": "Pestycydy (P):Hamujące aktywność cholinesterazy - związki fosforoorganiczne",
+        "text": "Hamujące aktywność cholinesterazy - związki fosforoorganiczne",
         "examinations": [
           {
             "name": "wstępne",
@@ -4673,7 +4673,7 @@
       },
       {
         "id": 58,
-        "text": "P:Hamujące aktywność cholinesterazy - karbaminiany",
+        "text": "Hamujące aktywność cholinesterazy - karbaminiany",
         "examinations": [
           {
             "name": "wstępne",
@@ -4693,7 +4693,7 @@
       },
       {
         "id": 59,
-        "text": "P:Węglowodory chlorowane ",
+        "text": "Węglowodory chlorowane ",
         "examinations": [
           {
             "name": "wstępne",
@@ -4713,7 +4713,7 @@
       },
       {
         "id": 60,
-        "text": "P:Związki kwasu dwuchlorofenoksyoctowego",
+        "text": "Związki kwasu dwuchlorofenoksyoctowego",
         "examinations": [
           {
             "name": "wstępne",
@@ -4733,7 +4733,7 @@
       },
       {
         "id": 61,
-        "text": "P:Pestycydy dwutiokarbaminianowe",
+        "text": "Pestycydy dwutiokarbaminianowe",
         "examinations": [
           {
             "name": "wstępne",
@@ -4753,7 +4753,7 @@
       },
       {
         "id": 62,
-        "text": "P:Związki dipirydylowe",
+        "text": "Związki dipirydylowe",
         "examinations": [
           {
             "name": "wstępne",
@@ -4773,7 +4773,7 @@
       },
       {
         "id": 154,
-        "text": "P:Dwunitroalkilofenole",
+        "text": "Dwunitroalkilofenole",
         "examinations": [
           {
             "name": "wstępne",
@@ -4793,7 +4793,7 @@
       },
       {
         "id": 63,
-        "text": "P:Dinitroalkilofenole",
+        "text": "Dinitroalkilofenole",
         "examinations": [
           {
             "name": "wstępne",
@@ -4831,7 +4831,7 @@
       },
       {
         "id": 155,
-        "text": "P:Piretroidy",
+        "text": "Piretroidy",
         "examinations": [
           {
             "name": "wstępne",
@@ -4851,7 +4851,7 @@
       },
       {
         "id": 64,
-        "text": "P:Pyretroidy",
+        "text": "Pyretroidy",
         "examinations": [
           {
             "name": "wstępne",
@@ -4875,7 +4875,7 @@
       },
       {
         "id": 65,
-        "text": "P:Pirydyna",
+        "text": "Pirydyna",
         "examinations": [
           {
             "name": "wstępne",
@@ -4895,7 +4895,7 @@
       },
       {
         "id": 66,
-        "text": "P:Rtęć - metaliczna i jej związki nieorganiczne",
+        "text": "Rtęć - metaliczna i jej związki nieorganiczne",
         "examinations": [
           {
             "name": "wstępne",
@@ -4915,7 +4915,7 @@
       },
       {
         "id": 67,
-        "text": "P:Rtęć - związki organiczne",
+        "text": "Rtęć - związki organiczne",
         "examinations": [
           {
             "name": "wstępne",
@@ -4935,7 +4935,7 @@
       },
       {
         "id": 68,
-        "text": "P:Siarkowodór",
+        "text": "Siarkowodór",
         "examinations": [
           {
             "name": "wstępne",
@@ -4955,7 +4955,7 @@
       },
       {
         "id": 69,
-        "text": "P:Siarki tlenki",
+        "text": "Siarki tlenki",
         "examinations": [
           {
             "name": "wstępne",
@@ -4975,7 +4975,7 @@
       },
       {
         "id": 70,
-        "text": "P:Terpentyna",
+        "text": "Terpentyna",
         "examinations": [
           {
             "name": "wstępne",
@@ -4995,7 +4995,7 @@
       },
       {
         "id": 131,
-        "text": "P:Wanad i jego zwiazki",
+        "text": "Wanad i jego zwiazki",
         "examinations": [
           {
             "name": "wstępne",
@@ -5021,7 +5021,7 @@
       },
       {
         "id": 71,
-        "text": "P:Toluen",
+        "text": "Toluen",
         "examinations": [
           {
             "name": "wstępne",
@@ -5041,7 +5041,7 @@
       },
       {
         "id": 72,
-        "text": "P:Trójchloroetylen",
+        "text": "Trójchloroetylen",
         "examinations": [
           {
             "name": "wstępne",
@@ -5061,7 +5061,7 @@
       },
       {
         "id": 73,
-        "text": "P:Wanadu pięciotlenek",
+        "text": "Wanadu pięciotlenek",
         "examinations": [
           {
             "name": "wstępne",
@@ -5081,7 +5081,7 @@
       },
       {
         "id": 132,
-        "text": "P:Węgla disiarczek",
+        "text": "Węgla disiarczek",
         "examinations": [
           {
             "name": "wstępne",
@@ -5115,7 +5115,7 @@
       },
       {
         "id": 74,
-        "text": "P:Węgla tlenek (II)",
+        "text": "Węgla tlenek (II)",
         "examinations": [
           {
             "name": "wstępne",
@@ -5135,7 +5135,7 @@
       },
       {
         "id": 133,
-        "text": "P:Węgla tlenek (IV)",
+        "text": "Węgla tlenek (IV)",
         "examinations": [
           {
             "name": "wstępne",
@@ -5159,7 +5159,7 @@
       },
       {
         "id": 156,
-        "text": "P:Węgla tlenek",
+        "text": "Węgla tlenek",
         "examinations": [
           {
             "name": "wstępne",
@@ -5179,7 +5179,7 @@
       },
       {
         "id": 75,
-        "text": "P:Węglowodorów alifatycznych związki - związki aminowe",
+        "text": "Węglowodorów alifatycznych związki - związki aminowe",
         "examinations": [
           {
             "name": "wstępne",
@@ -5199,7 +5199,7 @@
       },
       {
         "id": 76,
-        "text": "P:Węglowodorów alifatycznych związki - związki nitrowe",
+        "text": "Węglowodorów alifatycznych związki - związki nitrowe",
         "examinations": [
           {
             "name": "wstępne",
@@ -5219,7 +5219,7 @@
       },
       {
         "id": 134,
-        "text": "P:Węglowodorów alifatycznych związki - chlorowcopodobne węglowodorów alifatycznych lub alicyklicznych",
+        "text": "Węglowodorów alifatycznych związki - chlorowcopodobne węglowodorów alifatycznych lub alicyklicznych",
         "examinations": [
           {
             "name": "wstępne",
@@ -5247,7 +5247,7 @@
       },
       {
         "id": 135,
-        "text": "P:Chlorek metylu",
+        "text": "Chlorek metylu",
         "examinations": [
           {
             "name": "wstępne",
@@ -5275,7 +5275,7 @@
       },
       {
         "id": 136,
-        "text": "P:Bromek metylu",
+        "text": "Bromek metylu",
         "examinations": [
           {
             "name": "wstępne",
@@ -5303,7 +5303,7 @@
       },
       {
         "id": 137,
-        "text": "P:Chlorek metylenu",
+        "text": "Chlorek metylenu",
         "examinations": [
           {
             "name": "wstępne",
@@ -5335,7 +5335,7 @@
       },
       {
         "id": 138,
-        "text": "P:Chloroform",
+        "text": "Chloroform",
         "examinations": [
           {
             "name": "wstępne",
@@ -5367,7 +5367,7 @@
       },
       {
         "id": 139,
-        "text": "P:Dichloroetan",
+        "text": "Dichloroetan",
         "examinations": [
           {
             "name": "wstępne",
@@ -5395,7 +5395,7 @@
       },
       {
         "id": 140,
-        "text": "P:Czterochlorek węgla",
+        "text": "Czterochlorek węgla",
         "examinations": [
           {
             "name": "wstępne",
@@ -5427,7 +5427,7 @@
       },
       {
         "id": 141,
-        "text": "P:Dibromek etylenu, trichloroetylen, tetrachloroetylen",
+        "text": "Dibromek etylenu, trichloroetylen, tetrachloroetylen",
         "examinations": [
           {
             "name": "wstępne",
@@ -5463,7 +5463,7 @@
       },
       {
         "id": 77,
-        "text": "P:Węglowodorów aromatycznych związki nitrowe",
+        "text": "Węglowodorów aromatycznych związki nitrowe",
         "examinations": [
           {
             "name": "wstępne",
@@ -5483,7 +5483,7 @@
       },
       {
         "id": 78,
-        "text": "P:Węglowodorów aromatycznych związki aminowe",
+        "text": "Węglowodorów aromatycznych związki aminowe",
         "examinations": [
           {
             "name": "wstępne",
@@ -5503,7 +5503,7 @@
       },
       {
         "id": 142,
-        "text": "P:Węglowodorów aromatycznych związki chlorowcopodobne - pochodne benzenu",
+        "text": "Węglowodorów aromatycznych związki chlorowcopodobne - pochodne benzenu",
         "examinations": [
           {
             "name": "wstępne",
@@ -5533,7 +5533,7 @@
       },
       {
         "id": 143,
-        "text": "P:Węglowodorów aromatycznych związki chlorowcopodobne - pochodne bifenyli",
+        "text": "Węglowodorów aromatycznych związki chlorowcopodobne - pochodne bifenyli",
         "examinations": [
           {
             "name": "wstępne",
@@ -5565,7 +5565,7 @@
       },
       {
         "id": 144,
-        "text": "P:Węglowodorów aromatycznych związki chlorowcopodobne - pochodne naftalenu",
+        "text": "Węglowodorów aromatycznych związki chlorowcopodobne - pochodne naftalenu",
         "examinations": [
           {
             "name": "wstępne",
@@ -5605,7 +5605,7 @@
       },
       {
         "id": 79,
-        "text": "P:Winylobenzen",
+        "text": "Winylobenzen",
         "examinations": [
           {
             "name": "wstępne",
@@ -5625,7 +5625,7 @@
       },
       {
         "id": 80,
-        "text": "P:Winylu chlorek",
+        "text": "Winylu chlorek",
         "examinations": [
           {
             "name": "wstępne",
@@ -5645,7 +5645,7 @@
       },
       {
         "id": 81,
-        "text": "P:Żywice epoksydowe",
+        "text": "Żywice epoksydowe",
         "examinations": [
           {
             "name": "wstępne",
@@ -5665,7 +5665,7 @@
       },
       {
         "id": 82,
-        "text": "P:Mieszaniny rozpuszczalników organicznych",
+        "text": "Mieszaniny rozpuszczalników organicznych",
         "examinations": [
           {
             "name": "wstępne",
@@ -5685,7 +5685,7 @@
       },
       {
         "id": 83,
-        "text": "P:Cytostatyki",
+        "text": "Cytostatyki",
         "examinations": [
           {
             "name": "wstępne",
@@ -5705,7 +5705,7 @@
       },
       {
         "id": 84,
-        "text": "Czynniki biologiczne (CB): Wirus zapalenia wątroby - typ B",
+        "text": "Wirus zapalenia wątroby - typ B",
         "examinations": [
           {
             "name": "wstępne",
@@ -5730,7 +5730,7 @@
       },
       {
         "id": 85,
-        "text": "CB:Wirus zapalenia wątroby - typ C",
+        "text": "Wirus zapalenia wątroby - typ C",
         "examinations": [
           {
             "name": "wstępne",
@@ -5755,7 +5755,7 @@
       },
       {
         "id": 86,
-        "text": "CB:Ludzki wirus niedoboru odporności nabytej (HIV)",
+        "text": "Ludzki wirus niedoboru odporności nabytej (HIV)",
         "examinations": [
           {
             "name": "wstępne",
@@ -5774,7 +5774,7 @@
       },
       {
         "id": 87,
-        "text": "CB:Pąłeczki Brucella abortus bovis",
+        "text": "Pąłeczki Brucella abortus bovis",
         "examinations": [
           {
             "name": "wstępne",
@@ -5799,7 +5799,7 @@
       },
       {
         "id": 88,
-        "text": "CB:Promieniowanie termofilne, grzyby pleśniowe i inne",
+        "text": "Promieniowanie termofilne, grzyby pleśniowe i inne",
         "examinations": [
           {
             "name": "wstępne",
@@ -5823,7 +5823,7 @@
       },
       {
         "id": 89,
-        "text": "CB:Prątek gróźlicy, wirus kleszczowego zapalenia mózgu, Borrelia",
+        "text": "Prątek gróźlicy, wirus kleszczowego zapalenia mózgu, Borrelia",
         "examinations": [
           {
             "name": "wstępne",
@@ -5842,7 +5842,7 @@
       },
       {
         "id": 145,
-        "text": "CB:Wirus kleszczowego zapalenia mózgu",
+        "text": "Wirus kleszczowego zapalenia mózgu",
         "examinations": [
           {
             "name": "wstępne",
@@ -5862,7 +5862,7 @@
       },
       {
         "id": 146,
-        "text": "CB:Borrelia burgdorferi",
+        "text": "Borrelia burgdorferi",
         "examinations": [
           {
             "name": "wstępne",
@@ -5882,7 +5882,7 @@
       },
       {
         "id": 90,
-        "text": "Niekorzystne czynniki psychospołeczne (CPS) - Stały duży dopływ informacji i gotowość do odpowiedzi",
+        "text": "Stały duży dopływ informacji i gotowość do odpowiedzi",
         "examinations": [
           {
             "name": "wstępne",
@@ -5907,7 +5907,7 @@
       },
       {
         "id": 91,
-        "text": "CPS:Stanowiska decyzyjne i odpowiedzialność",
+        "text": "Stanowiska decyzyjne i odpowiedzialność",
         "examinations": [
           {
             "name": "wstępne",
@@ -5932,7 +5932,7 @@
       },
       {
         "id": 92,
-        "text": "CPS:Zagrożenia wynikające z narażenia życia",
+        "text": "Zagrożenia wynikające z narażenia życia",
         "examinations": [
           {
             "name": "wstępne",
@@ -5957,7 +5957,7 @@
       },
       {
         "id": 93,
-        "text": "CPS:Zagrożenia wynikające z monotonii pracy",
+        "text": "Zagrożenia wynikające z monotonii pracy",
         "examinations": [
           {
             "name": "wstępne",
@@ -5976,7 +5976,7 @@
       },
       {
         "id": 147,
-        "text": "CPS:Zagrożenia wynikające z organizacji pracy (praca pod presją czasu, nierównomierne obłożenie pracą, inne)",
+        "text": "Zagrożenia wynikające z organizacji pracy (praca pod presją czasu, nierównomierne obłożenie pracą, inne)",
         "disabled": true,
         "examinations": [
           {
